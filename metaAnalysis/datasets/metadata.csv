@@ -1,0 +1,1710 @@
+,dataset,species,organ,type,subtype
+AAACCTGAGCACCGCT-1,lush et al,D. rerio,neuromast,sc,central sc
+AAACCTGCACATTCGA-1,lush et al,D. rerio,neuromast,sc,central sc
+AAACCTGCAGGGTTAG-1,lush et al,D. rerio,neuromast,sc,central sc
+AAACCTGGTTGAACTC-1,lush et al,D. rerio,neuromast,mc,
+AAACCTGTCACCTTAT-1,lush et al,D. rerio,neuromast,sc,central sc
+AAACGGGTCCACGTGG-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+AAAGATGCAAGGACTG-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+AAAGATGCACGAAATA-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+AAAGATGCATCGATTG-1,lush et al,D. rerio,neuromast,sc,central sc
+AAAGATGGTACACCGC-1,lush et al,D. rerio,neuromast,sc,central sc
+AAAGATGGTCTTTCAT-1,lush et al,D. rerio,neuromast,sc,central sc
+AAAGCAAAGATGCCAG-1,lush et al,D. rerio,neuromast,sc,central sc
+AAAGCAACACAGATTC-1,lush et al,D. rerio,neuromast,mc,
+AAAGCAATCGTAGATC-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+AAAGTAGAGAATAGGG-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+AAAGTAGGTAAGTGGC-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+AAATGCCGTATTCGTG-1,lush et al,D. rerio,neuromast,sc,differentiating sc
+AACACGTCAAGCGATG-1,lush et al,D. rerio,neuromast,sc,central sc
+AACACGTGTATCAGTC-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+AACCATGTCACCCTCA-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+AACCGCGAGTGTTGAA-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+AACGTTGAGGTGCTTT-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+AACGTTGGTTCGGCAC-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+AACTCAGCACAGACAG-1,lush et al,D. rerio,neuromast,sc,central sc
+AACTCAGGTAAGGGCT-1,lush et al,D. rerio,neuromast,sc,central sc
+AACTCCCAGCGCTCCA-1,lush et al,D. rerio,neuromast,sc,central sc
+AACTCTTAGTAGTGCG-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+AACTCTTGTCTTCGTC-1,lush et al,D. rerio,neuromast,sc,central sc
+AACTGGTCAGCCAGAA-1,lush et al,D. rerio,neuromast,sc,central sc
+AACTGGTCAGGTCGTC-1,lush et al,D. rerio,neuromast,sc,central sc
+AACTTTCGTTTACTCT-1,lush et al,D. rerio,neuromast,mc,
+AACTTTCTCAGAGCTT-1,lush et al,D. rerio,neuromast,sc,central sc
+AACTTTCTCGTACCGG-1,lush et al,D. rerio,neuromast,mc,
+AAGACCTAGGAGCGAG-1,lush et al,D. rerio,neuromast,sc,differentiating sc
+AAGACCTCAGAGCCAA-1,lush et al,D. rerio,neuromast,sc,differentiating sc
+AAGCCGCAGGAGCGAG-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+AAGCCGCCACATGGGA-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+AAGCCGCGTTCGCTAA-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+AAGGAGCAGCGAGAAA-1,lush et al,D. rerio,neuromast,mc,
+AAGGAGCCACCTCGGA-1,lush et al,D. rerio,neuromast,sc,central sc
+AAGGAGCCATCGGAAG-1,lush et al,D. rerio,neuromast,sc,central sc
+AAGGCAGCAGGCTCAC-1,lush et al,D. rerio,neuromast,sc,central sc
+AAGGCAGGTAAGTGGC-1,lush et al,D. rerio,neuromast,sc,central sc
+AAGGTTCAGCGTCTAT-1,lush et al,D. rerio,neuromast,sc,central sc
+AAGGTTCGTTTGACAC-1,lush et al,D. rerio,neuromast,sc,central sc
+AAGGTTCTCAACGAAA-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+AAGTCTGAGCAAATCA-1,lush et al,D. rerio,neuromast,sc,central sc
+AAGTCTGCACCATCCT-1,lush et al,D. rerio,neuromast,sc,central sc
+AATCCAGCACGAAATA-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+AATCCAGTCACTCCTG-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+AATCCAGTCCTTAATC-1,lush et al,D. rerio,neuromast,sc,differentiating sc
+AATCGGTAGCCAACAG-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+AATCGGTGTAGAAGGA-1,lush et al,D. rerio,neuromast,sc,central sc
+AATCGGTTCACTCCTG-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+ACACCCTAGGCAATTA-1,lush et al,D. rerio,neuromast,sc,central sc
+ACACCCTGTCTGATTG-1,lush et al,D. rerio,neuromast,sc,central sc
+ACACCGGAGATCCCGC-1,lush et al,D. rerio,neuromast,sc,central sc
+ACACCGGTCCTCTAGC-1,lush et al,D. rerio,neuromast,sc,central sc
+ACAGCCGAGCCATCGC-1,lush et al,D. rerio,neuromast,mc,
+ACAGCCGAGCCTTGAT-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+ACAGCCGCAGCGAACA-1,lush et al,D. rerio,neuromast,sc,central sc
+ACAGCCGTCGGACAAG-1,lush et al,D. rerio,neuromast,mc,
+ACAGCTAAGATATGCA-1,lush et al,D. rerio,neuromast,sc,central sc
+ACAGCTAAGCACGCCT-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+ACAGCTAAGCTAAGAT-1,lush et al,D. rerio,neuromast,mc,
+ACAGCTAAGGATGCGT-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+ACAGCTAGTAAGTGGC-1,lush et al,D. rerio,neuromast,sc,differentiating sc
+ACAGCTAGTGGTGTAG-1,lush et al,D. rerio,neuromast,mc,
+ACAGCTATCAATCTCT-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+ACATACGCACCGATAT-1,lush et al,D. rerio,neuromast,sc,differentiating sc
+ACATACGTCGCTGATA-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+ACATCAGCAAGGTTTC-1,lush et al,D. rerio,neuromast,sc,central sc
+ACATCAGCATTTCACT-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+ACATGGTAGCGTTTAC-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+ACATGGTAGGAATGGA-1,lush et al,D. rerio,neuromast,sc,central sc
+ACATGGTGTAAGGATT-1,lush et al,D. rerio,neuromast,sc,central sc
+ACCAGTACATGCGCAC-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+ACCAGTACATGGTCAT-1,lush et al,D. rerio,neuromast,sc,central sc
+ACCAGTAGTTTGTGTG-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+ACCCACTGTCTGGTCG-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+ACCGTAAAGTCCGTAT-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+ACCTTTAAGCTTTGGT-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+ACCTTTAGTAGGCATG-1,lush et al,D. rerio,neuromast,sc,central sc
+ACCTTTAGTATAGTAG-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+ACGAGCCAGATATGCA-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+ACGAGCCGTAGAGTGC-1,lush et al,D. rerio,neuromast,sc,central sc
+ACGAGCCGTCTAGCCG-1,lush et al,D. rerio,neuromast,mc,
+ACGAGGACATAACCTG-1,lush et al,D. rerio,neuromast,sc,central sc
+ACGAGGAGTAGTACCT-1,lush et al,D. rerio,neuromast,sc,central sc
+ACGAGGATCACTATTC-1,lush et al,D. rerio,neuromast,sc,central sc
+ACGATACAGATATGCA-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+ACGATACAGGTACTCT-1,lush et al,D. rerio,neuromast,sc,central sc
+ACGATGTAGCGTTGCC-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+ACGATGTGTATGGTTC-1,lush et al,D. rerio,neuromast,mc,
+ACGATGTGTTCCACAA-1,lush et al,D. rerio,neuromast,sc,central sc
+ACGATGTTCCTAAGTG-1,lush et al,D. rerio,neuromast,mc,
+ACGCAGCCAGATCCAT-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+ACGCAGCGTCATGCCG-1,lush et al,D. rerio,neuromast,mc,
+ACGCCAGGTTGATTGC-1,lush et al,D. rerio,neuromast,sc,central sc
+ACGCCAGTCTTCAACT-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+ACGCCGAAGGCTAGAC-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+ACGCCGAAGTTGTCGT-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+ACGCCGACAAAGCAAT-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+ACGGAGAAGGGAACGG-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+ACGGAGAAGTGTACTC-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+ACGGAGACAGCTCGCA-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+ACGGAGATCCGTTGCT-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+ACGGCCAGTGACCAAG-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+ACGGCCATCCACGTTC-1,lush et al,D. rerio,neuromast,mc,
+ACGGGCTCAATCTACG-1,lush et al,D. rerio,neuromast,sc,central sc
+ACGGGCTTCCCTAACC-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+ACGGGCTTCCGTAGGC-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+ACGGGTCAGCGTTTAC-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+ACGGGTCGTAAGGATT-1,lush et al,D. rerio,neuromast,mc,
+ACGGGTCGTAATCACC-1,lush et al,D. rerio,neuromast,sc,central sc
+ACGGGTCGTCTCACCT-1,lush et al,D. rerio,neuromast,sc,central sc
+ACGTCAACACGCTTTC-1,lush et al,D. rerio,neuromast,sc,central sc
+ACGTCAACATCGACGC-1,lush et al,D. rerio,neuromast,sc,differentiating sc
+ACGTCAAGTCACCTAA-1,lush et al,D. rerio,neuromast,mc,
+ACGTCAAGTGTTTGGT-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+ACTATCTTCAACCAAC-1,lush et al,D. rerio,neuromast,sc,central sc
+ACTGAACAGACAGGCT-1,lush et al,D. rerio,neuromast,sc,central sc
+ACTGAACAGGACAGAA-1,lush et al,D. rerio,neuromast,sc,central sc
+ACTGAGTGTAAGGGAA-1,lush et al,D. rerio,neuromast,sc,central sc
+ACTGATGAGTGACTCT-1,lush et al,D. rerio,neuromast,sc,central sc
+ACTGATGCACGCTTTC-1,lush et al,D. rerio,neuromast,sc,central sc
+ACTGATGTCAGAGGTG-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+ACTGCTCCACAGGTTT-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+ACTGCTCCATCACCCT-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+ACTGTCCAGATGTGGC-1,lush et al,D. rerio,neuromast,sc,central sc
+ACTGTCCAGTCAAGCG-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+ACTGTCCAGTTCGCAT-1,lush et al,D. rerio,neuromast,sc,central sc
+ACTGTCCCAGTAAGAT-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+ACTGTCCCATCCGGGT-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+ACTGTCCTCTAGAGTC-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+ACTTACTAGTGTCCAT-1,lush et al,D. rerio,neuromast,sc,central sc
+ACTTACTCAGGTCGTC-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+ACTTACTGTTGTGGCC-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+ACTTACTTCGAATGGG-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+ACTTGTTTCCTTTCTC-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+ACTTTCACAAGGCTCC-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+AGAATAGGTGCCTGCA-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+AGACGTTGTTCCACTC-1,lush et al,D. rerio,neuromast,sc,central sc
+AGACGTTGTTGTACAC-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+AGAGCTTAGGTGGGTT-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+AGAGCTTTCGCGTAGC-1,lush et al,D. rerio,neuromast,sc,central sc
+AGAGCTTTCTAACCGA-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+AGATCTGGTAAGTGTA-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+AGATCTGTCCAAGTAC-1,lush et al,D. rerio,neuromast,sc,central sc
+AGATCTGTCTTGGGTA-1,lush et al,D. rerio,neuromast,sc,central sc
+AGATTGCTCTGCCAGG-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+AGCAGCCGTAGGGTAC-1,lush et al,D. rerio,neuromast,mc,
+AGCAGCCGTATAGTAG-1,lush et al,D. rerio,neuromast,sc,central sc
+AGCAGCCGTATCACCA-1,lush et al,D. rerio,neuromast,mc,
+AGCAGCCTCACAACGT-1,lush et al,D. rerio,neuromast,sc,central sc
+AGCAGCCTCATACGGT-1,lush et al,D. rerio,neuromast,sc,central sc
+AGCATACAGCGGCTTC-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+AGCATACGTACCAGTT-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+AGCATACGTTAAGGGC-1,lush et al,D. rerio,neuromast,sc,central sc
+AGCCTAATCTGATACG-1,lush et al,D. rerio,neuromast,sc,central sc
+AGCGGTCGTACTCGCG-1,lush et al,D. rerio,neuromast,sc,central sc
+AGCGTATGTCAAACTC-1,lush et al,D. rerio,neuromast,mc,
+AGCGTATGTGCAGGTA-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+AGCTCCTCAGGTTTCA-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+AGCTCCTGTAGCACGA-1,lush et al,D. rerio,neuromast,sc,central sc
+AGCTCCTGTCCGTCAG-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+AGCTCCTGTCTCTCGT-1,lush et al,D. rerio,neuromast,sc,central sc
+AGCTCCTTCCTAGTGA-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+AGCTCTCAGAGGACGG-1,lush et al,D. rerio,neuromast,sc,central sc
+AGCTCTCAGCCGTCGT-1,lush et al,D. rerio,neuromast,sc,central sc
+AGCTCTCAGGTGACCA-1,lush et al,D. rerio,neuromast,mc,
+AGCTCTCCATCCAACA-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+AGCTCTCCATCTGGTA-1,lush et al,D. rerio,neuromast,sc,central sc
+AGCTCTCGTCGAATCT-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+AGCTTGACATTTGCTT-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+AGCTTGATCTTAACCT-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+AGGCCACAGCAGGTCA-1,lush et al,D. rerio,neuromast,sc,central sc
+AGGCCACCACCACGTG-1,lush et al,D. rerio,neuromast,sc,central sc
+AGGCCACGTGATGCCC-1,lush et al,D. rerio,neuromast,mc,
+AGGCCACGTTCAGGCC-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+AGGCCACTCAATCACG-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+AGGCCGTAGTGTACGG-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+AGGCCGTGTTCAGACT-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+AGGCCGTGTTGCGTTA-1,lush et al,D. rerio,neuromast,mc,
+AGGGAGTAGAACTGTA-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+AGGGAGTAGCCGTCGT-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+AGGGAGTAGTGGTAAT-1,lush et al,D. rerio,neuromast,mc,
+AGGGAGTCATCGATTG-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+AGGGAGTGTCGACTGC-1,lush et al,D. rerio,neuromast,sc,central sc
+AGGGAGTGTTGCGTTA-1,lush et al,D. rerio,neuromast,sc,central sc
+AGGGATGGTTACGGAG-1,lush et al,D. rerio,neuromast,sc,central sc
+AGGGATGTCTGGCGAC-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+AGGGTGAAGCTAGTCT-1,lush et al,D. rerio,neuromast,sc,central sc
+AGGGTGATCTCTGAGA-1,lush et al,D. rerio,neuromast,sc,central sc
+AGGTCATAGATCTGCT-1,lush et al,D. rerio,neuromast,sc,differentiating sc
+AGGTCATCAAAGGTGC-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+AGGTCATGTTGATTGC-1,lush et al,D. rerio,neuromast,mc,
+AGGTCCGCACGGACAA-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+AGGTCCGTCAAGGTAA-1,lush et al,D. rerio,neuromast,mc,
+AGTAGTCAGTAAGTAC-1,lush et al,D. rerio,neuromast,sc,central sc
+AGTAGTCAGTGATCGG-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+AGTAGTCCATGTTGAC-1,lush et al,D. rerio,neuromast,sc,central sc
+AGTCTTTGTCGAATCT-1,lush et al,D. rerio,neuromast,sc,central sc
+AGTCTTTGTCTTCAAG-1,lush et al,D. rerio,neuromast,sc,central sc
+AGTCTTTGTGACAAAT-1,lush et al,D. rerio,neuromast,mc,
+AGTGAGGGTCCGAATT-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+AGTGAGGGTCGAGTTT-1,lush et al,D. rerio,neuromast,mc,
+AGTGAGGTCCGCTGTT-1,lush et al,D. rerio,neuromast,sc,central sc
+AGTGGGAAGAACAATC-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+AGTGGGAAGATACACA-1,lush et al,D. rerio,neuromast,sc,central sc
+AGTGGGACAGTTCCCT-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+AGTGGGATCTTGACGA-1,lush et al,D. rerio,neuromast,sc,central sc
+AGTGTCAAGATCGGGT-1,lush et al,D. rerio,neuromast,sc,central sc
+AGTGTCATCAGCGACC-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+AGTGTCATCAGGTAAA-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+AGTTGGTAGCTACCGC-1,lush et al,D. rerio,neuromast,sc,central sc
+AGTTGGTAGGAGTTGC-1,lush et al,D. rerio,neuromast,sc,central sc
+AGTTGGTTCCAGAAGG-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+ATAACGCGTAAATGAC-1,lush et al,D. rerio,neuromast,mc,
+ATAACGCGTGTAAGTA-1,lush et al,D. rerio,neuromast,sc,central sc
+ATAACGCTCTTCCTTC-1,lush et al,D. rerio,neuromast,sc,central sc
+ATAAGAGAGCGTGTCC-1,lush et al,D. rerio,neuromast,sc,central sc
+ATAAGAGCACACGCTG-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+ATAAGAGGTGCAGTAG-1,lush et al,D. rerio,neuromast,mc,
+ATAAGAGTCTGATACG-1,lush et al,D. rerio,neuromast,sc,central sc
+ATAGACCCAACACCTA-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+ATCACGACACAGCCCA-1,lush et al,D. rerio,neuromast,sc,central sc
+ATCATCTCAATGGATA-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+ATCATCTCAGACGTAG-1,lush et al,D. rerio,neuromast,sc,central sc
+ATCATCTGTAACGTTC-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+ATCATCTGTTGCGTTA-1,lush et al,D. rerio,neuromast,sc,central sc
+ATCATCTTCCACGAAT-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+ATCCACCAGACTGGGT-1,lush et al,D. rerio,neuromast,mc,
+ATCCACCAGGAGTCTG-1,lush et al,D. rerio,neuromast,sc,central sc
+ATCCACCCAAACCCAT-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+ATCCGAAAGCCAGAAC-1,lush et al,D. rerio,neuromast,sc,central sc
+ATCCGAACAGTAAGCG-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+ATCCGAACAGTGGGAT-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+ATCGAGTCATCTACGA-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+ATCGAGTGTGCAGGTA-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+ATCTACTCAGGTCGTC-1,lush et al,D. rerio,neuromast,mc,
+ATCTACTGTGTCCTCT-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+ATCTACTGTGTCGCTG-1,lush et al,D. rerio,neuromast,sc,central sc
+ATCTACTTCAGGTTCA-1,lush et al,D. rerio,neuromast,mc,
+ATCTACTTCGCCATAA-1,lush et al,D. rerio,neuromast,sc,central sc
+ATCTGCCCACCACGTG-1,lush et al,D. rerio,neuromast,sc,central sc
+ATCTGCCGTCTTGCGG-1,lush et al,D. rerio,neuromast,sc,central sc
+ATGAGGGGTTCATGGT-1,lush et al,D. rerio,neuromast,sc,central sc
+ATGAGGGGTTGATTGC-1,lush et al,D. rerio,neuromast,mc,
+ATGAGGGGTTGGTGGA-1,lush et al,D. rerio,neuromast,sc,central sc
+ATGAGGGTCCGCATCT-1,lush et al,D. rerio,neuromast,mc,
+ATGCGATAGATATACG-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+ATGCGATAGCAGCCTC-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+ATGCGATGTGTTGGGA-1,lush et al,D. rerio,neuromast,sc,central sc
+ATGTGTGCATCCGGGT-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+ATGTGTGTCTGCGGCA-1,lush et al,D. rerio,neuromast,sc,central sc
+ATTACTCAGTAGCCGA-1,lush et al,D. rerio,neuromast,sc,central sc
+ATTATCCCAAGTTAAG-1,lush et al,D. rerio,neuromast,sc,central sc
+ATTATCCCACGGATAG-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+ATTATCCGTTGCGCAC-1,lush et al,D. rerio,neuromast,sc,differentiating sc
+ATTATCCTCTACTATC-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+ATTCTACAGAGTAATC-1,lush et al,D. rerio,neuromast,mc,
+ATTCTACAGTCCTCCT-1,lush et al,D. rerio,neuromast,sc,central sc
+ATTCTACCATGCAATC-1,lush et al,D. rerio,neuromast,mc,
+ATTCTACTCAGCACAT-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+ATTGGACAGGAATGGA-1,lush et al,D. rerio,neuromast,sc,central sc
+ATTGGACTCTAACTGG-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+ATTGGTGGTCATCGGC-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+ATTGGTGGTGTGGCTC-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+ATTGGTGTCATAAAGG-1,lush et al,D. rerio,neuromast,sc,differentiating sc
+ATTGGTGTCCAAATGC-1,lush et al,D. rerio,neuromast,sc,central sc
+ATTGGTGTCTCAAGTG-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+ATTGGTGTCTTGGGTA-1,lush et al,D. rerio,neuromast,sc,central sc
+ATTTCTGCAAATTGCC-1,lush et al,D. rerio,neuromast,mc,
+ATTTCTGCACAGGAGT-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+ATTTCTGTCGAGAACG-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+ATTTCTGTCGTACGGC-1,lush et al,D. rerio,neuromast,sc,differentiating sc
+CAACCAAAGGCATGTG-1,lush et al,D. rerio,neuromast,mc,
+CAACCAACAAATACAG-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+CAACCAAGTGTGCCTG-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+CAACCAATCCATTCTA-1,lush et al,D. rerio,neuromast,mc,
+CAACCAATCGCCAAAT-1,lush et al,D. rerio,neuromast,sc,central sc
+CAACCTCCAAATACAG-1,lush et al,D. rerio,neuromast,sc,central sc
+CAACTAGAGGCATTGG-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+CAACTAGGTAAGGATT-1,lush et al,D. rerio,neuromast,mc,
+CAACTAGTCTACGAGT-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+CAAGAAAAGAAGCCCA-1,lush et al,D. rerio,neuromast,mc,
+CAAGAAAAGTGCCATT-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+CAAGAAACATGCCTAA-1,lush et al,D. rerio,neuromast,sc,central sc
+CAAGATCCACCAACCG-1,lush et al,D. rerio,neuromast,mc,
+CAAGATCGTAAGTAGT-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+CAAGATCGTCGGCATC-1,lush et al,D. rerio,neuromast,sc,differentiating sc
+CAAGATCTCATCTGTT-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+CAAGGCCCATACTACG-1,lush et al,D. rerio,neuromast,sc,central sc
+CAAGGCCGTCGCGAAA-1,lush et al,D. rerio,neuromast,sc,differentiating sc
+CAAGGCCGTTGTTTGG-1,lush et al,D. rerio,neuromast,mc,
+CAAGGCCTCTAACTCT-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+CAAGGCCTCTCCCTGA-1,lush et al,D. rerio,neuromast,sc,central sc
+CAAGTTGCAGACACTT-1,lush et al,D. rerio,neuromast,sc,central sc
+CAAGTTGCATTATCTC-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+CAAGTTGTCGACCAGC-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+CACAAACAGCCTATGT-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+CACAAACAGTTAGCGG-1,lush et al,D. rerio,neuromast,sc,central sc
+CACAAACTCTGTGCAA-1,lush et al,D. rerio,neuromast,mc,
+CACACAAAGACTCGGA-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+CACACAAAGCTTCGCG-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+CACACAACACCTATCC-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+CACACCTCACAGCCCA-1,lush et al,D. rerio,neuromast,sc,central sc
+CACACCTCACTATCTT-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+CACACCTTCTACTATC-1,lush et al,D. rerio,neuromast,mc,
+CACACTCTCTAACTCT-1,lush et al,D. rerio,neuromast,mc,
+CACAGGCAGCTGCAAG-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+CACAGGCCATGCCTAA-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+CACAGGCCATGTTGAC-1,lush et al,D. rerio,neuromast,mc,
+CACAGGCGTTCGCGAC-1,lush et al,D. rerio,neuromast,mc,
+CACATAGCAAGCGATG-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+CACATAGGTCTACCTC-1,lush et al,D. rerio,neuromast,sc,central sc
+CACATAGTCTCGCATC-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+CACATTTAGTGGAGTC-1,lush et al,D. rerio,neuromast,sc,central sc
+CACATTTCAATGTAAG-1,lush et al,D. rerio,neuromast,sc,central sc
+CACATTTGTTCATGGT-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+CACCACTAGGCGCTCT-1,lush et al,D. rerio,neuromast,sc,central sc
+CACCACTTCATGGTCA-1,lush et al,D. rerio,neuromast,sc,central sc
+CACTCCAAGAATTGTG-1,lush et al,D. rerio,neuromast,sc,central sc
+CACTCCACAATCTACG-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+CACTCCAGTCAGAATA-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+CAGAATCAGGCAAAGA-1,lush et al,D. rerio,neuromast,sc,central sc
+CAGAATCGTCAGTGGA-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+CAGAATCGTGCCTGGT-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+CAGAATCTCAAGGTAA-1,lush et al,D. rerio,neuromast,sc,central sc
+CAGAGAGGTCGCGAAA-1,lush et al,D. rerio,neuromast,mc,
+CAGAGAGGTCTCAACA-1,lush et al,D. rerio,neuromast,sc,central sc
+CAGAGAGGTGTGAAAT-1,lush et al,D. rerio,neuromast,sc,central sc
+CAGATCAGTCGCTTCT-1,lush et al,D. rerio,neuromast,mc,
+CAGATCATCAACGGGA-1,lush et al,D. rerio,neuromast,mc,
+CAGATCATCAATAAGG-1,lush et al,D. rerio,neuromast,sc,differentiating sc
+CAGCAGCCACCCATGG-1,lush et al,D. rerio,neuromast,sc,central sc
+CAGCAGCGTTAAGATG-1,lush et al,D. rerio,neuromast,mc,
+CAGCAGCTCACGAAGG-1,lush et al,D. rerio,neuromast,sc,central sc
+CAGCAGCTCTACTCAT-1,lush et al,D. rerio,neuromast,sc,central sc
+CAGCAGCTCTGGCGAC-1,lush et al,D. rerio,neuromast,sc,central sc
+CAGCATAAGCTATGCT-1,lush et al,D. rerio,neuromast,sc,central sc
+CAGCATAAGGCCATAG-1,lush et al,D. rerio,neuromast,sc,differentiating sc
+CAGCATAAGTATCTCG-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+CAGCATATCTGTCAAG-1,lush et al,D. rerio,neuromast,sc,central sc
+CAGCCGAAGGCCCTCA-1,lush et al,D. rerio,neuromast,sc,central sc
+CAGCCGAAGTACGACG-1,lush et al,D. rerio,neuromast,sc,differentiating sc
+CAGCCGACAATGGAAT-1,lush et al,D. rerio,neuromast,sc,central sc
+CAGCCGAGTGATAAAC-1,lush et al,D. rerio,neuromast,sc,differentiating sc
+CAGCCGATCCGTTGTC-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+CAGCGACCAGGTGGAT-1,lush et al,D. rerio,neuromast,mc,
+CAGCGACGTCCAGTAT-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+CAGCTAAAGCGTAGTG-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+CAGCTAACAGTATGCT-1,lush et al,D. rerio,neuromast,sc,central sc
+CAGCTAAGTTCGGGCT-1,lush et al,D. rerio,neuromast,sc,central sc
+CAGCTAATCCAGGGCT-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+CAGCTAATCCTCAATT-1,lush et al,D. rerio,neuromast,sc,differentiating sc
+CAGCTGGAGCCAGTTT-1,lush et al,D. rerio,neuromast,sc,central sc
+CAGCTGGAGGTGCACA-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+CAGCTGGAGTCGATAA-1,lush et al,D. rerio,neuromast,sc,central sc
+CAGCTGGCAATGAATG-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+CAGCTGGCAATGTTGC-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+CAGCTGGGTAGAGGAA-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+CAGCTGGGTGGGTATG-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+CAGCTGGTCTCTAGGA-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+CAGGTGCCACATCCAA-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+CAGTAACAGACACTAA-1,lush et al,D. rerio,neuromast,sc,central sc
+CAGTAACAGAGCCCAA-1,lush et al,D. rerio,neuromast,sc,central sc
+CAGTAACAGTGACTCT-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+CAGTAACGTATATGAG-1,lush et al,D. rerio,neuromast,sc,central sc
+CAGTAACGTCTACCTC-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+CAGTCCTGTCTGCAAT-1,lush et al,D. rerio,neuromast,mc,
+CATATGGGTGCACGAA-1,lush et al,D. rerio,neuromast,mc,
+CATATTCAGACGCACA-1,lush et al,D. rerio,neuromast,mc,
+CATATTCAGATATACG-1,lush et al,D. rerio,neuromast,sc,central sc
+CATATTCCAGACAAAT-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+CATATTCCAGCCACCA-1,lush et al,D. rerio,neuromast,sc,central sc
+CATATTCGTTCCATGA-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+CATCCACTCATAACCG-1,lush et al,D. rerio,neuromast,mc,
+CATCGAAAGCCAGGAT-1,lush et al,D. rerio,neuromast,sc,central sc
+CATCGAAGTGGGTATG-1,lush et al,D. rerio,neuromast,sc,central sc
+CATCGGGTCCGCGGTA-1,lush et al,D. rerio,neuromast,sc,central sc
+CATCGGGTCGAGAGCA-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+CATCGGGTCTACCTGC-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+CATGACAAGAACAATC-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+CATGCCTCACTCAGGC-1,lush et al,D. rerio,neuromast,sc,central sc
+CATGGCGCACTACAGT-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+CATGGCGGTGAGTGAC-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+CATGGCGTCGAGAACG-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+CATTATCAGGTCGGAT-1,lush et al,D. rerio,neuromast,sc,central sc
+CATTATCGTCCGAACC-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+CATTATCGTTAAAGTG-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+CATTATCTCTTCATGT-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+CATTCGCAGATATGGT-1,lush et al,D. rerio,neuromast,sc,central sc
+CATTCGCAGTACGTTC-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+CCAATCCAGATCGGGT-1,lush et al,D. rerio,neuromast,sc,central sc
+CCAATCCTCGGCGGTT-1,lush et al,D. rerio,neuromast,sc,central sc
+CCAATCCTCGGTCTAA-1,lush et al,D. rerio,neuromast,sc,central sc
+CCAATCCTCTACCTGC-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+CCACCTAAGAGTAATC-1,lush et al,D. rerio,neuromast,sc,central sc
+CCACCTATCATCGATG-1,lush et al,D. rerio,neuromast,sc,central sc
+CCACCTATCCTCATTA-1,lush et al,D. rerio,neuromast,sc,central sc
+CCACGGATCATTTGGG-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+CCACGGATCCGTACAA-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+CCACGGATCTTCCTTC-1,lush et al,D. rerio,neuromast,sc,central sc
+CCACTACCAAGGACTG-1,lush et al,D. rerio,neuromast,sc,central sc
+CCAGCGAAGAAACCTA-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+CCAGCGAAGAGTACAT-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+CCAGCGAAGTGGACGT-1,lush et al,D. rerio,neuromast,mc,
+CCATGTCAGGAATTAC-1,lush et al,D. rerio,neuromast,sc,central sc
+CCATGTCCAGCATACT-1,lush et al,D. rerio,neuromast,sc,central sc
+CCATGTCGTGTCGCTG-1,lush et al,D. rerio,neuromast,mc,
+CCATGTCTCCACTCCA-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+CCATGTCTCCATTCTA-1,lush et al,D. rerio,neuromast,mc,
+CCATGTCTCTGATTCT-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+CCATGTCTCTGGTTCC-1,lush et al,D. rerio,neuromast,sc,central sc
+CCATGTCTCTGTCTAT-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+CCATTCGAGTCGCCGT-1,lush et al,D. rerio,neuromast,mc,
+CCCAATCAGGAGTAGA-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+CCCAATCAGTTCGCGC-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+CCCAATCCATCGGACC-1,lush et al,D. rerio,neuromast,sc,central sc
+CCCAATCTCTGGCGAC-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+CCCAATCTCTGTTTGT-1,lush et al,D. rerio,neuromast,sc,central sc
+CCCAGTTAGGTCGGAT-1,lush et al,D. rerio,neuromast,sc,central sc
+CCCAGTTCACGGATAG-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+CCCAGTTCAGCTGTGC-1,lush et al,D. rerio,neuromast,sc,central sc
+CCCATACAGAGAACAG-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+CCCATACCAAGGTGTG-1,lush et al,D. rerio,neuromast,sc,central sc
+CCCATACCAATGCCAT-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+CCCTCCTAGCTCAACT-1,lush et al,D. rerio,neuromast,sc,central sc
+CCCTCCTCATACAGCT-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+CCCTCCTGTGATAAAC-1,lush et al,D. rerio,neuromast,sc,central sc
+CCCTCCTGTGCGGTAA-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+CCCTCCTTCAGAGGTG-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+CCGGGATAGTGTGGCA-1,lush et al,D. rerio,neuromast,sc,central sc
+CCGGGATCAATGGAAT-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+CCGGTAGAGAAGGCCT-1,lush et al,D. rerio,neuromast,sc,differentiating sc
+CCGGTAGAGACAGACC-1,lush et al,D. rerio,neuromast,sc,central sc
+CCGGTAGTCCTGCTTG-1,lush et al,D. rerio,neuromast,mc,
+CCGTACTAGGACATTA-1,lush et al,D. rerio,neuromast,sc,central sc
+CCGTACTCAGGCTCAC-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+CCGTGGAAGTTATCGC-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+CCGTGGACAAGTCATC-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+CCGTGGACATCCGTGG-1,lush et al,D. rerio,neuromast,sc,central sc
+CCGTGGAGTGATGATA-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+CCGTTCAAGATCCTGT-1,lush et al,D. rerio,neuromast,sc,central sc
+CCGTTCAGTAGCGTGA-1,lush et al,D. rerio,neuromast,sc,differentiating sc
+CCTAAAGTCCTTGGTC-1,lush et al,D. rerio,neuromast,sc,central sc
+CCTAAAGTCTCTTGAT-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+CCTACACCATGGATGG-1,lush et al,D. rerio,neuromast,sc,differentiating sc
+CCTACACTCGGAAATA-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+CCTACCATCAGCTGGC-1,lush et al,D. rerio,neuromast,sc,central sc
+CCTACCATCCTGTACC-1,lush et al,D. rerio,neuromast,mc,
+CCTAGCTGTCCGTGAC-1,lush et al,D. rerio,neuromast,mc,
+CCTAGCTGTTCACCTC-1,lush et al,D. rerio,neuromast,mc,
+CCTATTATCAAACCAC-1,lush et al,D. rerio,neuromast,mc,
+CCTATTATCCCAACGG-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+CCTCAGTTCCTGCTTG-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+CCTCTGAAGCGCTTAT-1,lush et al,D. rerio,neuromast,sc,central sc
+CCTTACGAGGCCCTTG-1,lush et al,D. rerio,neuromast,sc,central sc
+CCTTCCCAGAGCCCAA-1,lush et al,D. rerio,neuromast,sc,differentiating sc
+CCTTCCCCACCAGATT-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+CCTTCCCCATAAAGGT-1,lush et al,D. rerio,neuromast,sc,central sc
+CCTTCCCTCGCGTAGC-1,lush et al,D. rerio,neuromast,sc,central sc
+CCTTCGACAGCTCCGA-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+CCTTCGAGTTTGTTTC-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+CCTTTCTCATCTCCCA-1,lush et al,D. rerio,neuromast,mc,
+CGAACATTCGCGTAGC-1,lush et al,D. rerio,neuromast,mc,
+CGAATGTAGTCCCACG-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+CGAATGTAGTTCGATC-1,lush et al,D. rerio,neuromast,sc,central sc
+CGAATGTCAATTGCTG-1,lush et al,D. rerio,neuromast,mc,
+CGAATGTCATGCCCGA-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+CGACCTTCATGCTGGC-1,lush et al,D. rerio,neuromast,sc,differentiating sc
+CGACTTCAGCAGATCG-1,lush et al,D. rerio,neuromast,mc,
+CGACTTCAGTACACCT-1,lush et al,D. rerio,neuromast,sc,central sc
+CGACTTCAGTGTACCT-1,lush et al,D. rerio,neuromast,sc,central sc
+CGACTTCCACAGACTT-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+CGACTTCCAGATTGCT-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+CGACTTCTCGGAGGTA-1,lush et al,D. rerio,neuromast,mc,
+CGACTTCTCGTGGACC-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+CGAGAAGCACAACGCC-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+CGAGAAGTCAAAGTAG-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+CGAGAAGTCGGAAACG-1,lush et al,D. rerio,neuromast,sc,central sc
+CGAGAAGTCGTGGGAA-1,lush et al,D. rerio,neuromast,mc,
+CGAGCACCATCGATTG-1,lush et al,D. rerio,neuromast,mc,
+CGAGCACTCCGTTGCT-1,lush et al,D. rerio,neuromast,sc,central sc
+CGAGCCAAGTTAAGTG-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+CGAGCCACAGGTGCCT-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+CGAGCCAGTCGCGAAA-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+CGAGCCAGTCTAGGTT-1,lush et al,D. rerio,neuromast,sc,central sc
+CGAGCCATCGTAGGAG-1,lush et al,D. rerio,neuromast,sc,central sc
+CGAGCCATCTTACCTA-1,lush et al,D. rerio,neuromast,mc,
+CGATGGCCAGGGTATG-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+CGATGGCGTACATGTC-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+CGATGGCGTGCGGTAA-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+CGATGTACATTCGACA-1,lush et al,D. rerio,neuromast,mc,
+CGATGTATCGAATGGG-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+CGATTGAAGACCTTTG-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+CGATTGACATCCTAGA-1,lush et al,D. rerio,neuromast,sc,central sc
+CGATTGACATCGATGT-1,lush et al,D. rerio,neuromast,sc,central sc
+CGATTGAGTGCGATAG-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+CGATTGATCAAGCCTA-1,lush et al,D. rerio,neuromast,sc,central sc
+CGCCAAGAGAGTACCG-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+CGCCAAGAGGCCCTTG-1,lush et al,D. rerio,neuromast,sc,central sc
+CGCCAAGCAACACCCG-1,lush et al,D. rerio,neuromast,mc,
+CGCCAAGCAAGCTGTT-1,lush et al,D. rerio,neuromast,sc,central sc
+CGCCAAGCATGTCGAT-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+CGCCAAGGTTATTCTC-1,lush et al,D. rerio,neuromast,sc,central sc
+CGCGGTAAGCTACCTA-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+CGCGGTAGTTGTGGCC-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+CGCGTTTCACTTACGA-1,lush et al,D. rerio,neuromast,sc,differentiating sc
+CGCGTTTGTTCCGGCA-1,lush et al,D. rerio,neuromast,mc,
+CGCTATCAGTAATCCC-1,lush et al,D. rerio,neuromast,sc,central sc
+CGCTATCCAGCCAATT-1,lush et al,D. rerio,neuromast,sc,central sc
+CGCTATCGTCAGCTAT-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+CGCTGGACATCCGCGA-1,lush et al,D. rerio,neuromast,sc,central sc
+CGCTGGAGTAAATGTG-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+CGCTGGAGTGACGGTA-1,lush et al,D. rerio,neuromast,sc,central sc
+CGCTTCAAGACAATAC-1,lush et al,D. rerio,neuromast,sc,central sc
+CGCTTCAAGTAGGTGC-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+CGCTTCATCTTTACGT-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+CGGACACCAAGCGCTC-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+CGGACACCAGTCTTCC-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+CGGACACTCGGATGGA-1,lush et al,D. rerio,neuromast,sc,central sc
+CGGACACTCGGCGGTT-1,lush et al,D. rerio,neuromast,mc,
+CGGACGTAGGCATGGT-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+CGGACGTAGTTACGGG-1,lush et al,D. rerio,neuromast,sc,central sc
+CGGACTGGTGGTCTCG-1,lush et al,D. rerio,neuromast,sc,central sc
+CGGACTGTCAATAAGG-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+CGGAGCTCAAGACACG-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+CGGAGCTCATTCTTAC-1,lush et al,D. rerio,neuromast,sc,central sc
+CGGAGTCAGCGACGTA-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+CGGAGTCCATCACAAC-1,lush et al,D. rerio,neuromast,sc,central sc
+CGGCTAGAGCGAGAAA-1,lush et al,D. rerio,neuromast,mc,
+CGGCTAGAGTAGATGT-1,lush et al,D. rerio,neuromast,mc,
+CGGCTAGCACGCATCG-1,lush et al,D. rerio,neuromast,sc,central sc
+CGGGTCAAGAAACCGC-1,lush et al,D. rerio,neuromast,mc,
+CGGGTCAAGGTGCTTT-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+CGGTTAAAGCGATATA-1,lush et al,D. rerio,neuromast,mc,
+CGGTTAACACGGATAG-1,lush et al,D. rerio,neuromast,mc,
+CGTAGCGCAACTGCGC-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+CGTAGCGCACCCATGG-1,lush et al,D. rerio,neuromast,sc,central sc
+CGTAGCGGTCATTAGC-1,lush et al,D. rerio,neuromast,sc,central sc
+CGTAGCGGTTACGCGC-1,lush et al,D. rerio,neuromast,sc,central sc
+CGTAGGCAGGAACTGC-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+CGTAGGCAGGTGCACA-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+CGTAGGCCACGGCGTT-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+CGTAGGCGTTCACGGC-1,lush et al,D. rerio,neuromast,sc,central sc
+CGTAGGCTCACTGGGC-1,lush et al,D. rerio,neuromast,sc,central sc
+CGTAGGCTCCACGTTC-1,lush et al,D. rerio,neuromast,mc,
+CGTCACTAGCTCCTCT-1,lush et al,D. rerio,neuromast,sc,central sc
+CGTCACTCATGCTGGC-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+CGTCACTGTATCGCAT-1,lush et al,D. rerio,neuromast,sc,central sc
+CGTCACTTCTAACTCT-1,lush et al,D. rerio,neuromast,sc,differentiating sc
+CGTCAGGAGAGTGACC-1,lush et al,D. rerio,neuromast,sc,central sc
+CGTCAGGAGGGCATGT-1,lush et al,D. rerio,neuromast,sc,central sc
+CGTCCATAGGTGATTA-1,lush et al,D. rerio,neuromast,sc,central sc
+CGTCCATCACGCTTTC-1,lush et al,D. rerio,neuromast,sc,central sc
+CGTCCATCATTCACTT-1,lush et al,D. rerio,neuromast,sc,central sc
+CGTCCATGTGCAGACA-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+CGTCCATTCTATCCCG-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+CGTCTACAGGCTAGGT-1,lush et al,D. rerio,neuromast,sc,central sc
+CGTCTACAGTGGTAGC-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+CGTCTACCAGCGTCCA-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+CGTCTACCATGCTAGT-1,lush et al,D. rerio,neuromast,mc,
+CGTGAGCAGGAGTTGC-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+CGTGAGCCAGGGAGAG-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+CGTGAGCCAGTATAAG-1,lush et al,D. rerio,neuromast,sc,central sc
+CGTGTAAAGTTGTAGA-1,lush et al,D. rerio,neuromast,sc,central sc
+CGTGTCTCACAACGCC-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+CGTGTCTCACATTTCT-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+CGTGTCTCATCCGCGA-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+CGTGTCTGTTAAGTAG-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+CGTGTCTTCGTCTGAA-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+CGTTAGAAGGAGCGTT-1,lush et al,D. rerio,neuromast,sc,central sc
+CGTTAGACAATAGCGG-1,lush et al,D. rerio,neuromast,mc,
+CGTTCTGAGTAAGTAC-1,lush et al,D. rerio,neuromast,mc,
+CGTTCTGCACCGAAAG-1,lush et al,D. rerio,neuromast,sc,central sc
+CGTTCTGCACGTGAGA-1,lush et al,D. rerio,neuromast,sc,differentiating sc
+CGTTCTGGTATGAAAC-1,lush et al,D. rerio,neuromast,sc,central sc
+CGTTCTGTCGCCTGTT-1,lush et al,D. rerio,neuromast,sc,central sc
+CGTTCTGTCTTGCAAG-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+CGTTGGGAGCAATCTC-1,lush et al,D. rerio,neuromast,sc,central sc
+CGTTGGGAGGCTAGGT-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+CGTTGGGAGTATTGGA-1,lush et al,D. rerio,neuromast,sc,central sc
+CGTTGGGCACAACTGT-1,lush et al,D. rerio,neuromast,mc,
+CGTTGGGCATTCTTAC-1,lush et al,D. rerio,neuromast,sc,central sc
+CTAACTTAGGATCGCA-1,lush et al,D. rerio,neuromast,sc,central sc
+CTAACTTCAAGTAATG-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+CTAACTTCACGCATCG-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+CTAAGACAGCCAACAG-1,lush et al,D. rerio,neuromast,sc,central sc
+CTAAGACTCAATACCG-1,lush et al,D. rerio,neuromast,sc,central sc
+CTAAGACTCGCATGAT-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+CTAATGGCATCACGTA-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+CTAATGGTCAGTTGAC-1,lush et al,D. rerio,neuromast,sc,central sc
+CTAATGGTCGTTGCCT-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+CTACACCAGGGCTCTC-1,lush et al,D. rerio,neuromast,sc,central sc
+CTACACCCAATGGAGC-1,lush et al,D. rerio,neuromast,sc,central sc
+CTACACCCAGTATGCT-1,lush et al,D. rerio,neuromast,sc,central sc
+CTACACCGTGCAACGA-1,lush et al,D. rerio,neuromast,mc,
+CTACACCGTGGTGTAG-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+CTACCCAGTCCGAGTC-1,lush et al,D. rerio,neuromast,sc,central sc
+CTACGTCAGGAGCGTT-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+CTACGTCGTACACCGC-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+CTACGTCGTGTGTGCC-1,lush et al,D. rerio,neuromast,sc,central sc
+CTACGTCTCGAATCCA-1,lush et al,D. rerio,neuromast,sc,central sc
+CTAGAGTAGAAGGTTT-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+CTAGAGTAGAGCTTCT-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+CTAGAGTTCCAAACAC-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+CTAGAGTTCTTCCTTC-1,lush et al,D. rerio,neuromast,sc,central sc
+CTAGCCTAGAGGACGG-1,lush et al,D. rerio,neuromast,mc,
+CTAGCCTCATACTCTT-1,lush et al,D. rerio,neuromast,sc,central sc
+CTAGTGAAGGATGCGT-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+CTAGTGAAGTTGAGAT-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+CTAGTGAGTCTAACGT-1,lush et al,D. rerio,neuromast,sc,central sc
+CTAGTGAGTGTGCGTC-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+CTCACACCACGTAAGG-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+CTCACACGTAATCACC-1,lush et al,D. rerio,neuromast,sc,central sc
+CTCAGAACACATCCGG-1,lush et al,D. rerio,neuromast,sc,central sc
+CTCATTACAATCACAC-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+CTCCTAGCAAACGCGA-1,lush et al,D. rerio,neuromast,mc,
+CTCCTAGCATCAGTCA-1,lush et al,D. rerio,neuromast,sc,central sc
+CTCGAAAAGGGCTTGA-1,lush et al,D. rerio,neuromast,sc,central sc
+CTCGAAACAGCCTATA-1,lush et al,D. rerio,neuromast,mc,
+CTCGAAAGTATATCCG-1,lush et al,D. rerio,neuromast,mc,
+CTCGAGGGTCTACCTC-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+CTCGGAGCAACGATGG-1,lush et al,D. rerio,neuromast,mc,
+CTCGGAGGTGCTGTAT-1,lush et al,D. rerio,neuromast,mc,
+CTCGGGATCAGTCCCT-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+CTCGTACAGATCTGAA-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+CTCGTACGTAATAGCA-1,lush et al,D. rerio,neuromast,sc,central sc
+CTCGTACGTAGCCTCG-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+CTCGTACTCCCTCAGT-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+CTCGTCAAGATATGGT-1,lush et al,D. rerio,neuromast,sc,central sc
+CTCGTCAAGGCTATCT-1,lush et al,D. rerio,neuromast,sc,central sc
+CTCGTCACAGGAATCG-1,lush et al,D. rerio,neuromast,mc,
+CTCGTCAGTGGAAAGA-1,lush et al,D. rerio,neuromast,sc,central sc
+CTCGTCAGTGTGAAAT-1,lush et al,D. rerio,neuromast,sc,central sc
+CTCGTCATCAACCATG-1,lush et al,D. rerio,neuromast,mc,
+CTCGTCATCAACGGGA-1,lush et al,D. rerio,neuromast,sc,central sc
+CTCGTCATCGCCTGAG-1,lush et al,D. rerio,neuromast,sc,central sc
+CTCTAATAGGTCATCT-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+CTCTAATAGTGCCAGA-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+CTCTAATGTAATCACC-1,lush et al,D. rerio,neuromast,mc,
+CTCTAATGTTGAGGTG-1,lush et al,D. rerio,neuromast,mc,
+CTCTAATTCTCTTGAT-1,lush et al,D. rerio,neuromast,sc,central sc
+CTCTACGAGATGTAAC-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+CTCTACGAGCAGCCTC-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+CTCTACGAGCGTTCCG-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+CTCTACGCAGGGTTAG-1,lush et al,D. rerio,neuromast,sc,central sc
+CTCTACGTCGAATGGG-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+CTGAAACAGTAGTGCG-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+CTGAAACCATCACGAT-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+CTGAAGTAGAAACGCC-1,lush et al,D. rerio,neuromast,mc,
+CTGAAGTCAAAGTCAA-1,lush et al,D. rerio,neuromast,mc,
+CTGAAGTCACCGAATT-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+CTGATAGGTATTACCG-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+CTGATAGGTCGGCTCA-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+CTGATCCAGCGTCTAT-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+CTGATCCCAATGAAAC-1,lush et al,D. rerio,neuromast,sc,differentiating sc
+CTGATCCTCTGGTATG-1,lush et al,D. rerio,neuromast,sc,central sc
+CTGCCTAAGCGTCAAG-1,lush et al,D. rerio,neuromast,sc,central sc
+CTGCCTACAGTGAGTG-1,lush et al,D. rerio,neuromast,sc,central sc
+CTGCCTATCCGCGTTT-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+CTGCGGAGTCGAGTTT-1,lush et al,D. rerio,neuromast,mc,
+CTGCGGATCTTAGCCC-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+CTGCTGTGTATTCGTG-1,lush et al,D. rerio,neuromast,sc,central sc
+CTGGTCTCATAGGATA-1,lush et al,D. rerio,neuromast,sc,central sc
+CTGGTCTCATCGATTG-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+CTGTGCTAGGAGTTTA-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+CTGTGCTAGTTGTAGA-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+CTGTTTAAGTGACTCT-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+CTTAACTAGGACTGGT-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+CTTAACTCAATGTAAG-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+CTTAACTGTAGGAGTC-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+CTTAACTTCGCGTAGC-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+CTTACCGCAAAGTGCG-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+CTTACCGCAGCGTTCG-1,lush et al,D. rerio,neuromast,sc,central sc
+CTTACCGGTACTCAAC-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+CTTACCGGTTAAGATG-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+CTTAGGACAGCCTGTG-1,lush et al,D. rerio,neuromast,sc,central sc
+CTTAGGATCGTCGTTC-1,lush et al,D. rerio,neuromast,mc,
+CTTCTCTAGATCGATA-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+CTTCTCTGTGCGATAG-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+CTTGGCTGTCCCTTGT-1,lush et al,D. rerio,neuromast,sc,central sc
+CTTGGCTGTGATAAGT-1,lush et al,D. rerio,neuromast,sc,central sc
+CTTGGCTTCGGAGGTA-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+CTTTGCGAGGAGCGTT-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+CTTTGCGGTAGGCTGA-1,lush et al,D. rerio,neuromast,sc,central sc
+GAAACTCAGACAGGCT-1,lush et al,D. rerio,neuromast,sc,central sc
+GAAACTCCACGGCTAC-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+GAAACTCTCTAACTTC-1,lush et al,D. rerio,neuromast,sc,central sc
+GAAATGACAATGGATA-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+GAAATGACACAGGAGT-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+GAAATGACATGGGAAC-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+GAAATGAGTCACTGGC-1,lush et al,D. rerio,neuromast,sc,central sc
+GAACATCAGGACTGGT-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+GAACCTAAGAGTAATC-1,lush et al,D. rerio,neuromast,sc,central sc
+GAACCTACAGCTGCAC-1,lush et al,D. rerio,neuromast,sc,central sc
+GAACCTAGTAGGACAC-1,lush et al,D. rerio,neuromast,mc,
+GAACGGACATGGTAGG-1,lush et al,D. rerio,neuromast,sc,central sc
+GAACGGACATGTCTCC-1,lush et al,D. rerio,neuromast,sc,central sc
+GAACGGATCTTGAGAC-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+GAAGCAGAGTGGACGT-1,lush et al,D. rerio,neuromast,sc,central sc
+GAAGCAGCATGACGGA-1,lush et al,D. rerio,neuromast,sc,central sc
+GAATAAGAGCTCCTCT-1,lush et al,D. rerio,neuromast,sc,central sc
+GAATAAGAGCTTTGGT-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+GAATAAGAGTGTACCT-1,lush et al,D. rerio,neuromast,sc,central sc
+GAATAAGGTTTAAGCC-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+GAATAAGTCTCAAACG-1,lush et al,D. rerio,neuromast,sc,central sc
+GAATAAGTCTTGCCGT-1,lush et al,D. rerio,neuromast,sc,central sc
+GAATGAAAGGGAACGG-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+GAATGAAAGGGAGTAA-1,lush et al,D. rerio,neuromast,sc,central sc
+GAATGAACAAGCTGGA-1,lush et al,D. rerio,neuromast,sc,central sc
+GAATGAATCTAACTCT-1,lush et al,D. rerio,neuromast,sc,central sc
+GACACGCCAAGCCGCT-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+GACACGCTCGTCCGTT-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+GACAGAGCAAGTCATC-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+GACAGAGGTGGACGAT-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+GACAGAGTCTGCAAGT-1,lush et al,D. rerio,neuromast,sc,central sc
+GACCAATAGTGTTTGC-1,lush et al,D. rerio,neuromast,sc,central sc
+GACCAATAGTTCCACA-1,lush et al,D. rerio,neuromast,mc,
+GACCAATCACCGTTGG-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+GACCAATCATCAGTAC-1,lush et al,D. rerio,neuromast,sc,central sc
+GACCAATGTAGCACGA-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+GACCAATTCATCACCC-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+GACCAATTCCGATATG-1,lush et al,D. rerio,neuromast,sc,differentiating sc
+GACGCGTAGGCCCGTT-1,lush et al,D. rerio,neuromast,sc,central sc
+GACGCGTGTCTTGATG-1,lush et al,D. rerio,neuromast,sc,central sc
+GACGGCTAGACGACGT-1,lush et al,D. rerio,neuromast,sc,central sc
+GACGGCTGTTTCGCTC-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+GACGTGCCAGTGACAG-1,lush et al,D. rerio,neuromast,sc,central sc
+GACGTTAAGAGCTGCA-1,lush et al,D. rerio,neuromast,mc,
+GACTAACAGCTCCTCT-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+GACTAACAGTCTTGCA-1,lush et al,D. rerio,neuromast,sc,differentiating sc
+GACTAACGTGACTCAT-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+GACTAACTCGGATGTT-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+GACTACAAGGGATCTG-1,lush et al,D. rerio,neuromast,mc,
+GACTACACAAAGAATC-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+GACTGCGGTAGCGTAG-1,lush et al,D. rerio,neuromast,mc,
+GACTGCGGTCACTTCC-1,lush et al,D. rerio,neuromast,sc,central sc
+GAGCAGAAGACTGGGT-1,lush et al,D. rerio,neuromast,mc,
+GAGCAGAGTTCTGAAC-1,lush et al,D. rerio,neuromast,sc,central sc
+GAGCAGATCATCGATG-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+GAGCAGATCTGTTTGT-1,lush et al,D. rerio,neuromast,mc,
+GAGGTGACAAGACGTG-1,lush et al,D. rerio,neuromast,mc,
+GAGGTGAGTGATGTGG-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+GAGTCCGCACCACGTG-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+GAGTCCGGTAGGCTGA-1,lush et al,D. rerio,neuromast,sc,central sc
+GAGTCCGGTGAAAGAG-1,lush et al,D. rerio,neuromast,sc,central sc
+GAGTCCGGTGCACGAA-1,lush et al,D. rerio,neuromast,mc,
+GAGTCCGTCACAAACC-1,lush et al,D. rerio,neuromast,mc,
+GATCAGTAGCTATGCT-1,lush et al,D. rerio,neuromast,sc,central sc
+GATCGATAGGGAAACA-1,lush et al,D. rerio,neuromast,sc,central sc
+GATCGATGTGTTGGGA-1,lush et al,D. rerio,neuromast,sc,differentiating sc
+GATCGATTCGGTTCGG-1,lush et al,D. rerio,neuromast,mc,
+GATCGCGAGACAGAGA-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+GATCGCGCAATGAATG-1,lush et al,D. rerio,neuromast,mc,
+GATCGCGCACCCATGG-1,lush et al,D. rerio,neuromast,sc,central sc
+GATCGCGTCTGATTCT-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+GATCGTATCCAGAGGA-1,lush et al,D. rerio,neuromast,sc,central sc
+GATCTAGCATTCGACA-1,lush et al,D. rerio,neuromast,sc,central sc
+GATGAAACAGCTCGAC-1,lush et al,D. rerio,neuromast,sc,central sc
+GATGAGGCAAGAAAGG-1,lush et al,D. rerio,neuromast,sc,central sc
+GATGAGGCACTAAGTC-1,lush et al,D. rerio,neuromast,sc,central sc
+GATGAGGCAGGAACGT-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+GATGAGGGTACACCGC-1,lush et al,D. rerio,neuromast,sc,central sc
+GATGAGGGTTACGACT-1,lush et al,D. rerio,neuromast,mc,
+GATGCTAAGGCTACGA-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+GATGCTATCACAGGCC-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+GATTCAGTCATTGCGA-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+GCAAACTAGTGTGGCA-1,lush et al,D. rerio,neuromast,sc,central sc
+GCACATAAGATATGGT-1,lush et al,D. rerio,neuromast,sc,central sc
+GCACATAAGCAATATG-1,lush et al,D. rerio,neuromast,sc,central sc
+GCACATAAGGGTCTCC-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+GCACATACATCAGTAC-1,lush et al,D. rerio,neuromast,sc,central sc
+GCACATACATCGGTTA-1,lush et al,D. rerio,neuromast,sc,central sc
+GCACATACATTGTGCA-1,lush et al,D. rerio,neuromast,sc,central sc
+GCACATATCCCAGGTG-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+GCACATATCCTTTACA-1,lush et al,D. rerio,neuromast,sc,central sc
+GCACTCTAGCTGTCTA-1,lush et al,D. rerio,neuromast,sc,central sc
+GCACTCTGTTCGAATC-1,lush et al,D. rerio,neuromast,sc,central sc
+GCAGCCATCACTTATC-1,lush et al,D. rerio,neuromast,sc,central sc
+GCAGTTAAGGATGGAA-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+GCAGTTAGTAAATACG-1,lush et al,D. rerio,neuromast,sc,central sc
+GCATACAGTGGTACAG-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+GCATACATCACTCTTA-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+GCATGATAGGACACCA-1,lush et al,D. rerio,neuromast,sc,central sc
+GCATGATAGTGGGATC-1,lush et al,D. rerio,neuromast,sc,central sc
+GCATGATCACCGAATT-1,lush et al,D. rerio,neuromast,mc,
+GCATGCGTCTTCGAGA-1,lush et al,D. rerio,neuromast,sc,central sc
+GCATGTACAGTTCCCT-1,lush et al,D. rerio,neuromast,sc,central sc
+GCATGTAGTAGCAAAT-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+GCATGTATCACCATAG-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+GCCAAATTCCTTCAAT-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+GCCTCTACACAAGTAA-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+GCCTCTAGTGACTACT-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+GCCTCTAGTGTGAAAT-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+GCGACCAAGAGTAATC-1,lush et al,D. rerio,neuromast,sc,central sc
+GCGACCACAAGAGTCG-1,lush et al,D. rerio,neuromast,sc,central sc
+GCGACCACACTGAAGG-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+GCGACCACAGTCAGAG-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+GCGACCAGTGGTACAG-1,lush et al,D. rerio,neuromast,mc,
+GCGACCATCAGGATCT-1,lush et al,D. rerio,neuromast,sc,central sc
+GCGACCATCGTCTGAA-1,lush et al,D. rerio,neuromast,sc,central sc
+GCGAGAAAGACAAAGG-1,lush et al,D. rerio,neuromast,sc,central sc
+GCGAGAAGTCCGTTAA-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+GCGAGAAGTTAAGATG-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+GCGCAACTCTCACATT-1,lush et al,D. rerio,neuromast,mc,
+GCGCAGTAGTCTCGGC-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+GCGCAGTCACTGTTAG-1,lush et al,D. rerio,neuromast,mc,
+GCGCAGTGTGATGATA-1,lush et al,D. rerio,neuromast,sc,central sc
+GCGCCAAAGGTCGGAT-1,lush et al,D. rerio,neuromast,sc,central sc
+GCGCCAAGTCTCCATC-1,lush et al,D. rerio,neuromast,mc,
+GCGCCAAGTGTCCTCT-1,lush et al,D. rerio,neuromast,sc,central sc
+GCGCCAATCAGTCAGT-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+GCGCCAATCGGTTCGG-1,lush et al,D. rerio,neuromast,sc,central sc
+GCGCGATGTTTGTGTG-1,lush et al,D. rerio,neuromast,sc,central sc
+GCGGGTTAGGCACATG-1,lush et al,D. rerio,neuromast,sc,central sc
+GCGGGTTCAAGTAATG-1,lush et al,D. rerio,neuromast,sc,central sc
+GCGGGTTCATTTGCTT-1,lush et al,D. rerio,neuromast,sc,central sc
+GCGGGTTTCAACGAAA-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+GCGGGTTTCTTGAGGT-1,lush et al,D. rerio,neuromast,sc,differentiating sc
+GCTCCTAAGACACTAA-1,lush et al,D. rerio,neuromast,sc,differentiating sc
+GCTCCTACACGGTGTC-1,lush et al,D. rerio,neuromast,mc,
+GCTCCTATCTCGTATT-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+GCTCCTATCTGTCTCG-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+GCTCTGTCAAGGACAC-1,lush et al,D. rerio,neuromast,sc,central sc
+GCTCTGTTCGTCACGG-1,lush et al,D. rerio,neuromast,sc,central sc
+GCTGCAGAGGGCATGT-1,lush et al,D. rerio,neuromast,mc,
+GCTGCAGGTCGTGGCT-1,lush et al,D. rerio,neuromast,mc,
+GCTGCGAAGACCTAGG-1,lush et al,D. rerio,neuromast,mc,
+GCTGCGAAGAGATGAG-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+GCTGCGACACAGCGTC-1,lush et al,D. rerio,neuromast,mc,
+GCTGCGACAGGCAGTA-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+GCTGCGATCTGTTTGT-1,lush et al,D. rerio,neuromast,sc,central sc
+GCTGCTTAGGGATCTG-1,lush et al,D. rerio,neuromast,sc,central sc
+GCTGCTTCAGATCGGA-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+GCTGCTTGTAGGGTAC-1,lush et al,D. rerio,neuromast,sc,central sc
+GCTGGGTCAAGGCTCC-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+GCTGGGTGTACCGGCT-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+GCTGGGTGTTGTCTTT-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+GCTTCCACAAAGGAAG-1,lush et al,D. rerio,neuromast,sc,central sc
+GCTTGAAAGGCTATCT-1,lush et al,D. rerio,neuromast,sc,central sc
+GCTTGAAGTGTGAATA-1,lush et al,D. rerio,neuromast,sc,central sc
+GCTTGAATCCGCATCT-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+GCTTGAATCCTTGACC-1,lush et al,D. rerio,neuromast,sc,central sc
+GCTTGAATCGCAAGCC-1,lush et al,D. rerio,neuromast,sc,central sc
+GGAAAGCTCACTGGGC-1,lush et al,D. rerio,neuromast,sc,central sc
+GGAACTTAGAGCAATT-1,lush et al,D. rerio,neuromast,sc,central sc
+GGAACTTCAGGTGCCT-1,lush et al,D. rerio,neuromast,sc,differentiating sc
+GGAACTTTCACGAAGG-1,lush et al,D. rerio,neuromast,sc,central sc
+GGAATAACAGGCAGTA-1,lush et al,D. rerio,neuromast,sc,central sc
+GGAATAATCATGCAAC-1,lush et al,D. rerio,neuromast,sc,central sc
+GGACAAGAGGGTATCG-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+GGACAAGGTATTCGTG-1,lush et al,D. rerio,neuromast,sc,central sc
+GGACAAGGTGGCTCCA-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+GGACAAGTCAACGGCC-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+GGACAGAAGGGAAACA-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+GGACAGACAATGGATA-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+GGACAGACACCGATAT-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+GGACAGACAGGTTTCA-1,lush et al,D. rerio,neuromast,sc,central sc
+GGACATTCATATACGC-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+GGACGTCAGAATAGGG-1,lush et al,D. rerio,neuromast,sc,central sc
+GGACGTCAGAGTTGGC-1,lush et al,D. rerio,neuromast,sc,central sc
+GGACGTCAGCGACGTA-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+GGACGTCAGTATCTCG-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+GGACGTCCATTAGCCA-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+GGACGTCGTGAGGGTT-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+GGAGCAATCATTGCCC-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+GGATGTTAGCTATGCT-1,lush et al,D. rerio,neuromast,sc,central sc
+GGATGTTCAATCGGTT-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+GGATGTTCACGCCAGT-1,lush et al,D. rerio,neuromast,mc,
+GGATGTTGTATAATGG-1,lush et al,D. rerio,neuromast,sc,differentiating sc
+GGATTACAGTGATCGG-1,lush et al,D. rerio,neuromast,sc,central sc
+GGCAATTCACCAGCAC-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+GGCAATTCATTGAGCT-1,lush et al,D. rerio,neuromast,sc,differentiating sc
+GGCAATTTCCAGTAGT-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+GGCCGATAGGACCACA-1,lush et al,D. rerio,neuromast,sc,central sc
+GGCCGATCAATGGTCT-1,lush et al,D. rerio,neuromast,mc,
+GGCCGATCAGGTGGAT-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+GGCGACTTCTTGAGGT-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+GGCGTGTCAGTATAAG-1,lush et al,D. rerio,neuromast,mc,
+GGCGTGTCATTTGCCC-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+GGCGTGTGTATTCTCT-1,lush et al,D. rerio,neuromast,sc,central sc
+GGCGTGTTCATGTGGT-1,lush et al,D. rerio,neuromast,sc,differentiating sc
+GGCTCGAGTCTAGTGT-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+GGCTGGTAGCGTGTCC-1,lush et al,D. rerio,neuromast,sc,central sc
+GGCTGGTGTAGAGGAA-1,lush et al,D. rerio,neuromast,sc,central sc
+GGCTGGTGTTAGAACA-1,lush et al,D. rerio,neuromast,sc,central sc
+GGGACCTAGCCTATGT-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+GGGACCTCACCCAGTG-1,lush et al,D. rerio,neuromast,sc,central sc
+GGGACCTGTCAGGACA-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+GGGACCTGTGTGACGA-1,lush et al,D. rerio,neuromast,sc,central sc
+GGGAGATCAGTATCTG-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+GGGATGAGTTCCACTC-1,lush et al,D. rerio,neuromast,mc,
+GGGCACTGTGGTCTCG-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+GGGCATCCAACGCACC-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+GGGCATCCACCAGGCT-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+GGGCATCCAGTGAGTG-1,lush et al,D. rerio,neuromast,mc,
+GGGCATCTCCTCAATT-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+GGGTCTGAGATACACA-1,lush et al,D. rerio,neuromast,mc,
+GGGTCTGAGGAATTAC-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+GGGTCTGAGTCTCAAC-1,lush et al,D. rerio,neuromast,sc,central sc
+GGGTCTGGTCGGCACT-1,lush et al,D. rerio,neuromast,sc,differentiating sc
+GGGTTGCCAATGAATG-1,lush et al,D. rerio,neuromast,sc,central sc
+GGTATTGTCTTGAGAC-1,lush et al,D. rerio,neuromast,sc,central sc
+GGTGAAGCAACGATCT-1,lush et al,D. rerio,neuromast,sc,central sc
+GGTGAAGGTAAAGGAG-1,lush et al,D. rerio,neuromast,sc,central sc
+GGTGAAGGTTTGTTTC-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+GGTGCGTAGTCGAGTG-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+GGTGCGTGTGGGTCAA-1,lush et al,D. rerio,neuromast,sc,differentiating sc
+GGTGCGTGTTCACGGC-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+GGTGCGTTCATCGGAT-1,lush et al,D. rerio,neuromast,sc,central sc
+GGTGCGTTCCCTCAGT-1,lush et al,D. rerio,neuromast,sc,central sc
+GGTGCGTTCTGGAGCC-1,lush et al,D. rerio,neuromast,sc,central sc
+GGTGTTACACAGAGGT-1,lush et al,D. rerio,neuromast,sc,central sc
+GGTGTTATCCAACCAA-1,lush et al,D. rerio,neuromast,sc,central sc
+GTAACGTAGACTAAGT-1,lush et al,D. rerio,neuromast,sc,central sc
+GTAACGTCAATCCGAT-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+GTAACGTCAGTCAGCC-1,lush et al,D. rerio,neuromast,mc,
+GTAACTGCAAGTTCTG-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+GTAACTGCACACAGAG-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+GTAACTGTCAACGCTA-1,lush et al,D. rerio,neuromast,sc,central sc
+GTAACTGTCGATGAGG-1,lush et al,D. rerio,neuromast,sc,central sc
+GTACGTAAGACTTTCG-1,lush et al,D. rerio,neuromast,sc,central sc
+GTACGTAGTCTTCGTC-1,lush et al,D. rerio,neuromast,sc,central sc
+GTACTCCTCTGGTATG-1,lush et al,D. rerio,neuromast,sc,central sc
+GTACTTTAGCCAACAG-1,lush et al,D. rerio,neuromast,mc,
+GTACTTTAGGTTACCT-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+GTAGGCCGTGAAGGCT-1,lush et al,D. rerio,neuromast,sc,central sc
+GTAGGCCTCTCTAAGG-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+GTAGGCCTCTTGCAAG-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+GTAGTCAAGATCGGGT-1,lush et al,D. rerio,neuromast,sc,central sc
+GTAGTCACAGAGTGTG-1,lush et al,D. rerio,neuromast,sc,central sc
+GTATCTTAGAGTTGGC-1,lush et al,D. rerio,neuromast,sc,central sc
+GTATCTTAGTCATCCA-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+GTATCTTCAAGGCTCC-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+GTATCTTCATGCATGT-1,lush et al,D. rerio,neuromast,mc,
+GTATCTTGTCTTTCAT-1,lush et al,D. rerio,neuromast,sc,central sc
+GTATTCTAGCTGCGAA-1,lush et al,D. rerio,neuromast,sc,central sc
+GTATTCTAGTGTACTC-1,lush et al,D. rerio,neuromast,mc,
+GTATTCTCACATCCGG-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+GTCACAATCTCAAACG-1,lush et al,D. rerio,neuromast,sc,central sc
+GTCACGGAGTGAAGAG-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+GTCACGGTCATCTGCC-1,lush et al,D. rerio,neuromast,mc,
+GTCATTTGTAAACACA-1,lush et al,D. rerio,neuromast,sc,central sc
+GTCATTTTCACGACTA-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+GTCCTCACACAGGTTT-1,lush et al,D. rerio,neuromast,sc,central sc
+GTCGGGTAGGCTATCT-1,lush et al,D. rerio,neuromast,sc,central sc
+GTCGGGTAGTCGTTTG-1,lush et al,D. rerio,neuromast,sc,central sc
+GTCGGGTCACCAGTTA-1,lush et al,D. rerio,neuromast,sc,differentiating sc
+GTCGGGTCATGCCCGA-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+GTCGGGTGTTTGACTG-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+GTCGTAAAGAATTGTG-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+GTCGTAAGTATCTGCA-1,lush et al,D. rerio,neuromast,sc,central sc
+GTCTCGTCACCTCGGA-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+GTCTCGTGTAAGGGCT-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+GTCTCGTGTCAATGTC-1,lush et al,D. rerio,neuromast,sc,central sc
+GTCTTCGAGATTACCC-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+GTCTTCGGTGCAGTAG-1,lush et al,D. rerio,neuromast,sc,central sc
+GTCTTCGGTGTTAAGA-1,lush et al,D. rerio,neuromast,sc,central sc
+GTGAAGGAGCTATGCT-1,lush et al,D. rerio,neuromast,sc,central sc
+GTGCAGCCAAGCGATG-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+GTGCAGCTCGAGCCCA-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+GTGCATAAGAAGATTC-1,lush et al,D. rerio,neuromast,sc,central sc
+GTGCATACACAAGTAA-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+GTGCGGTGTCGGGTCT-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+GTGGGTCAGGACACCA-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+GTGGGTCCAAGGACAC-1,lush et al,D. rerio,neuromast,sc,central sc
+GTGTGCGAGCTTTGGT-1,lush et al,D. rerio,neuromast,sc,central sc
+GTGTGCGCAATCAGAA-1,lush et al,D. rerio,neuromast,sc,differentiating sc
+GTGTGCGGTCGCATCG-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+GTGTTAGGTAAGGGCT-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+GTGTTAGTCCACGACG-1,lush et al,D. rerio,neuromast,sc,central sc
+GTGTTAGTCGAATGGG-1,lush et al,D. rerio,neuromast,sc,central sc
+GTTAAGCCAGATCGGA-1,lush et al,D. rerio,neuromast,mc,
+GTTAAGCCATGCCCGA-1,lush et al,D. rerio,neuromast,mc,
+GTTAAGCTCCGCATCT-1,lush et al,D. rerio,neuromast,sc,central sc
+GTTAAGCTCTCCTATA-1,lush et al,D. rerio,neuromast,sc,central sc
+GTTACAGCACGTTGGC-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+GTTACAGGTCGTGGCT-1,lush et al,D. rerio,neuromast,sc,central sc
+GTTACAGTCTACTTAC-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+GTTCATTAGCAGGTCA-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+GTTCATTAGTCATCCA-1,lush et al,D. rerio,neuromast,mc,
+GTTCATTAGTGTCCCG-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+GTTCATTGTAGTGAAT-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+GTTCATTTCTGATACG-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+GTTCATTTCTTCATGT-1,lush et al,D. rerio,neuromast,sc,central sc
+GTTCGGGGTGGCTCCA-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+GTTCGGGTCCACGAAT-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+GTTCGGGTCCTGCTTG-1,lush et al,D. rerio,neuromast,sc,central sc
+GTTCTCGAGTAGCCGA-1,lush et al,D. rerio,neuromast,sc,central sc
+GTTCTCGGTGTGAATA-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+GTTCTCGTCTCGAGTA-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+GTTCTCGTCTGTTGAG-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+GTTTCTAGTGAGCGAT-1,lush et al,D. rerio,neuromast,sc,central sc
+TAAACCGTCGTAGGTT-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+TAAACCGTCGTGGACC-1,lush et al,D. rerio,neuromast,sc,central sc
+TAAGAGACATATACGC-1,lush et al,D. rerio,neuromast,sc,central sc
+TAAGAGATCCGTCAAA-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+TAAGCGTGTAAATGTG-1,lush et al,D. rerio,neuromast,sc,central sc
+TAAGCGTTCTGCAAGT-1,lush et al,D. rerio,neuromast,sc,central sc
+TAAGTGCCAACACCCG-1,lush et al,D. rerio,neuromast,mc,
+TAAGTGCTCGAATGGG-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+TACACGAGTGTAAGTA-1,lush et al,D. rerio,neuromast,sc,central sc
+TACAGTGCAACTGGCC-1,lush et al,D. rerio,neuromast,mc,
+TACAGTGCACATGTGT-1,lush et al,D. rerio,neuromast,mc,
+TACAGTGCAGCGTTCG-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+TACAGTGGTCGAGTTT-1,lush et al,D. rerio,neuromast,mc,
+TACAGTGGTCTCTTTA-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+TACAGTGTCACGATGT-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+TACCTATAGTCGATAA-1,lush et al,D. rerio,neuromast,sc,central sc
+TACCTATGTCAGCTAT-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+TACCTATGTTTACTCT-1,lush et al,D. rerio,neuromast,sc,central sc
+TACCTTATCACTTACT-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+TACGGATAGCACAGGT-1,lush et al,D. rerio,neuromast,sc,central sc
+TACGGGCAGTCGTACT-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+TACGGGCCAGGTTTCA-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+TACGGGCGTTAAAGTG-1,lush et al,D. rerio,neuromast,sc,central sc
+TACGGTAAGAACAATC-1,lush et al,D. rerio,neuromast,mc,
+TACGGTAAGATCCCAT-1,lush et al,D. rerio,neuromast,sc,central sc
+TACGGTAAGCACCGTC-1,lush et al,D. rerio,neuromast,sc,central sc
+TACGGTACACGTCAGC-1,lush et al,D. rerio,neuromast,sc,central sc
+TACGGTAGTTGTTTGG-1,lush et al,D. rerio,neuromast,mc,
+TACGGTATCTGGGCCA-1,lush et al,D. rerio,neuromast,sc,central sc
+TACTCATAGATGCCAG-1,lush et al,D. rerio,neuromast,sc,central sc
+TACTCATAGGGATGGG-1,lush et al,D. rerio,neuromast,sc,central sc
+TACTCATAGTTCGATC-1,lush et al,D. rerio,neuromast,sc,central sc
+TACTCATGTCTAGTCA-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+TACTCATTCACGCATA-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+TACTCGCAGAGTACAT-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+TACTCGCCAGCTCGCA-1,lush et al,D. rerio,neuromast,sc,central sc
+TACTCGCTCTAAGCCA-1,lush et al,D. rerio,neuromast,mc,
+TACTCGCTCTGTCCGT-1,lush et al,D. rerio,neuromast,sc,central sc
+TACTTACAGTCAAGCG-1,lush et al,D. rerio,neuromast,mc,
+TACTTGTCAAGGACAC-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+TACTTGTCACACCGAC-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+TACTTGTGTCTCGTTC-1,lush et al,D. rerio,neuromast,sc,central sc
+TACTTGTTCACAACGT-1,lush et al,D. rerio,neuromast,sc,central sc
+TACTTGTTCTTCAACT-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+TAGACCACAAACAACA-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+TAGACCACACAGCCCA-1,lush et al,D. rerio,neuromast,sc,central sc
+TAGAGCTAGCTGCCCA-1,lush et al,D. rerio,neuromast,mc,
+TAGAGCTCAGCGTTCG-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+TAGCCGGAGCATCATC-1,lush et al,D. rerio,neuromast,mc,
+TAGCCGGCAGACTCGC-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+TAGCCGGCAGGAATCG-1,lush et al,D. rerio,neuromast,sc,central sc
+TAGGCATGTCTCTTTA-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+TAGGCATTCAAGAAGT-1,lush et al,D. rerio,neuromast,sc,central sc
+TAGTGGTAGGCCCTTG-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+TAGTGGTAGTTTAGGA-1,lush et al,D. rerio,neuromast,sc,differentiating sc
+TAGTGGTCAAGCTGGA-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+TAGTGGTTCCCGGATG-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+TAGTTGGGTGAACCTT-1,lush et al,D. rerio,neuromast,sc,central sc
+TATCAGGAGAGTCGGT-1,lush et al,D. rerio,neuromast,sc,central sc
+TATCAGGCATTGGCGC-1,lush et al,D. rerio,neuromast,sc,central sc
+TATCAGGGTTCTCATT-1,lush et al,D. rerio,neuromast,mc,
+TATCAGGTCGGCATCG-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+TATCAGGTCTTCATGT-1,lush et al,D. rerio,neuromast,mc,
+TATCTCAGTTAAGACA-1,lush et al,D. rerio,neuromast,sc,central sc
+TATGCCCCAGGCGATA-1,lush et al,D. rerio,neuromast,sc,central sc
+TATGCCCGTGACCAAG-1,lush et al,D. rerio,neuromast,sc,central sc
+TATTACCTCGGACAAG-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+TCAACGAAGCCAGGAT-1,lush et al,D. rerio,neuromast,sc,differentiating sc
+TCAACGAAGGGATGGG-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+TCAACGAGTCTGGTCG-1,lush et al,D. rerio,neuromast,mc,
+TCAATCTCATTGTGCA-1,lush et al,D. rerio,neuromast,mc,
+TCAATCTGTACAGACG-1,lush et al,D. rerio,neuromast,sc,central sc
+TCAATCTTCAAAGTAG-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+TCACAAGAGGCCGAAT-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+TCACAAGAGTGGACGT-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+TCACAAGGTGAAAGAG-1,lush et al,D. rerio,neuromast,mc,
+TCACGAATCCACGAAT-1,lush et al,D. rerio,neuromast,mc,
+TCACGAATCCTCAACC-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+TCAGATGAGCGTAATA-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+TCAGATGAGGCAAAGA-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+TCAGATGCACCACGTG-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+TCAGATGGTGATGTCT-1,lush et al,D. rerio,neuromast,sc,central sc
+TCAGCAAAGGAATCGC-1,lush et al,D. rerio,neuromast,sc,central sc
+TCAGCAATCACCATAG-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+TCAGCTCCAAGTTGTC-1,lush et al,D. rerio,neuromast,sc,central sc
+TCAGGATAGCTGGAAC-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+TCAGGATGTAGTACCT-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+TCAGGTACATCGATGT-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+TCATTACAGGGCATGT-1,lush et al,D. rerio,neuromast,sc,central sc
+TCATTACGTACGAAAT-1,lush et al,D. rerio,neuromast,sc,central sc
+TCATTACGTCCGCTGA-1,lush et al,D. rerio,neuromast,sc,differentiating sc
+TCATTACTCTGGTTCC-1,lush et al,D. rerio,neuromast,mc,
+TCATTTGAGTGTACTC-1,lush et al,D. rerio,neuromast,sc,central sc
+TCATTTGTCACTCCTG-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+TCATTTGTCTCCCTGA-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+TCCACACAGTACGTTC-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+TCCACACAGTCTCGGC-1,lush et al,D. rerio,neuromast,sc,central sc
+TCCACACGTGGGTCAA-1,lush et al,D. rerio,neuromast,sc,central sc
+TCCACACGTTTCGCTC-1,lush et al,D. rerio,neuromast,sc,central sc
+TCCCGATAGCCACCTG-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+TCCCGATCAGTTCATG-1,lush et al,D. rerio,neuromast,mc,
+TCCCGATGTGCAGACA-1,lush et al,D. rerio,neuromast,sc,central sc
+TCGAGGCAGAAGGTGA-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+TCGAGGCAGAATTCCC-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+TCGAGGCGTAGCGCTC-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+TCGAGGCGTGTAAGTA-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+TCGAGGCTCCGTCAAA-1,lush et al,D. rerio,neuromast,mc,
+TCGCGAGCACCACCAG-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+TCGCGAGCAGGACGTA-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+TCGCGAGCATTGGCGC-1,lush et al,D. rerio,neuromast,sc,differentiating sc
+TCGCGTTAGGAGTAGA-1,lush et al,D. rerio,neuromast,mc,
+TCGCGTTCATCGTCGG-1,lush et al,D. rerio,neuromast,mc,
+TCGGGACAGAGCAATT-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+TCGGGACCACTTACGA-1,lush et al,D. rerio,neuromast,sc,central sc
+TCGGGACGTGTTCTTT-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+TCGGGACTCACGCATA-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+TCGGTAATCTCAACTT-1,lush et al,D. rerio,neuromast,sc,central sc
+TCGGTAATCTCTGAGA-1,lush et al,D. rerio,neuromast,sc,central sc
+TCGTACCCACAGCCCA-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+TCGTACCGTGCACGAA-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+TCGTACCGTTCGTTGA-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+TCGTAGAAGAGGTAGA-1,lush et al,D. rerio,neuromast,sc,central sc
+TCGTAGAAGTGAATTG-1,lush et al,D. rerio,neuromast,sc,central sc
+TCGTAGACAAAGTGCG-1,lush et al,D. rerio,neuromast,mc,
+TCTATTGAGAGATGAG-1,lush et al,D. rerio,neuromast,sc,central sc
+TCTATTGAGCGGATCA-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+TCTATTGTCAGGTAAA-1,lush et al,D. rerio,neuromast,mc,
+TCTCATACAAAGGTGC-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+TCTCATAGTATAGTAG-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+TCTCATATCTCGATGA-1,lush et al,D. rerio,neuromast,sc,central sc
+TCTCTAACAATGGAGC-1,lush et al,D. rerio,neuromast,sc,central sc
+TCTCTAACAGGTTTCA-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+TCTGAGAAGTTACCCA-1,lush et al,D. rerio,neuromast,sc,central sc
+TCTGAGAGTACGAAAT-1,lush et al,D. rerio,neuromast,sc,central sc
+TCTGAGAGTCACTGGC-1,lush et al,D. rerio,neuromast,sc,central sc
+TCTGGAACACAGACAG-1,lush et al,D. rerio,neuromast,sc,central sc
+TCTGGAACACGACGAA-1,lush et al,D. rerio,neuromast,mc,
+TCTGGAACAGCTGGCT-1,lush et al,D. rerio,neuromast,sc,differentiating sc
+TCTTCGGAGGCGTACA-1,lush et al,D. rerio,neuromast,sc,central sc
+TCTTCGGCATGAGCGA-1,lush et al,D. rerio,neuromast,mc,
+TCTTTCCCAAGCCGCT-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+TCTTTCCTCGCGCCAA-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+TGAAAGAAGGAACTGC-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+TGACAACAGCGTGTCC-1,lush et al,D. rerio,neuromast,mc,
+TGACAACCAAGCGTAG-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+TGACAACTCTTACCGC-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+TGACGGCAGCTACCTA-1,lush et al,D. rerio,neuromast,sc,central sc
+TGACGGCAGGAATCGC-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+TGACGGCGTACGAAAT-1,lush et al,D. rerio,neuromast,sc,differentiating sc
+TGACGGCTCATGCTCC-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+TGACTAGGTCGAAAGC-1,lush et al,D. rerio,neuromast,sc,central sc
+TGACTTTGTAGAGCTG-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+TGAGAGGAGCGTAGTG-1,lush et al,D. rerio,neuromast,sc,central sc
+TGAGAGGAGGCGATAC-1,lush et al,D. rerio,neuromast,mc,
+TGAGAGGCACAACGTT-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+TGAGAGGCAGACACTT-1,lush et al,D. rerio,neuromast,sc,central sc
+TGAGAGGCAGACTCGC-1,lush et al,D. rerio,neuromast,mc,
+TGAGAGGGTTTAAGCC-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+TGAGCATAGCTAGGCA-1,lush et al,D. rerio,neuromast,sc,central sc
+TGAGCATAGCTGTCTA-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+TGAGGGACAGTTAACC-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+TGATTTCAGCGTCTAT-1,lush et al,D. rerio,neuromast,mc,
+TGATTTCTCCAACCAA-1,lush et al,D. rerio,neuromast,sc,central sc
+TGCACCTAGACAATAC-1,lush et al,D. rerio,neuromast,sc,central sc
+TGCCAAAAGAATCTCC-1,lush et al,D. rerio,neuromast,sc,central sc
+TGCCAAAGTTCCACTC-1,lush et al,D. rerio,neuromast,sc,central sc
+TGCCCATAGCATGGCA-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+TGCCCATCACAGACTT-1,lush et al,D. rerio,neuromast,sc,central sc
+TGCCCATTCAGAGGTG-1,lush et al,D. rerio,neuromast,mc,
+TGCCCATTCCTGTAGA-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+TGCCCATTCGGTCTAA-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+TGCCCTAGTACGAAAT-1,lush et al,D. rerio,neuromast,sc,central sc
+TGCCCTATCAACGGGA-1,lush et al,D. rerio,neuromast,sc,central sc
+TGCGCAGCATCTCCCA-1,lush et al,D. rerio,neuromast,sc,central sc
+TGCGCAGGTCGGCTCA-1,lush et al,D. rerio,neuromast,sc,central sc
+TGCGCAGTCTCGTATT-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+TGCGCAGTCTTACCGC-1,lush et al,D. rerio,neuromast,sc,central sc
+TGCGGGTAGTGATCGG-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+TGCGGGTGTAGCGTAG-1,lush et al,D. rerio,neuromast,sc,central sc
+TGCGGGTTCTGGTGTA-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+TGCGTGGCAGAAGCAC-1,lush et al,D. rerio,neuromast,sc,central sc
+TGCGTGGCATGCCCGA-1,lush et al,D. rerio,neuromast,sc,central sc
+TGCGTGGGTATTCGTG-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+TGCGTGGTCGATAGAA-1,lush et al,D. rerio,neuromast,sc,central sc
+TGCTACCAGGATATAC-1,lush et al,D. rerio,neuromast,sc,central sc
+TGCTACCCACCAGGTC-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+TGCTACCGTACATCCA-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+TGCTACCGTCGAACAG-1,lush et al,D. rerio,neuromast,sc,central sc
+TGCTGCTCAGTATAAG-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+TGGACGCAGACGCACA-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+TGGACGCAGGACTGGT-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+TGGACGCCACCGAAAG-1,lush et al,D. rerio,neuromast,sc,central sc
+TGGACGCGTAGCCTAT-1,lush et al,D. rerio,neuromast,sc,central sc
+TGGACGCGTCACTTCC-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+TGGACGCGTCCAACTA-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+TGGACGCTCATCGGAT-1,lush et al,D. rerio,neuromast,sc,central sc
+TGGCCAGAGATGAGAG-1,lush et al,D. rerio,neuromast,sc,central sc
+TGGCGCACACGGTAGA-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+TGGCGCACAGCCTTGG-1,lush et al,D. rerio,neuromast,mc,
+TGGCGCACATGTTGAC-1,lush et al,D. rerio,neuromast,sc,central sc
+TGGCTGGGTCCCTTGT-1,lush et al,D. rerio,neuromast,mc,
+TGGCTGGTCCGCATCT-1,lush et al,D. rerio,neuromast,mc,
+TGGGAAGGTCAATACC-1,lush et al,D. rerio,neuromast,mc,
+TGGGAAGGTCACTTCC-1,lush et al,D. rerio,neuromast,mc,
+TGGGCGTCACAAGTAA-1,lush et al,D. rerio,neuromast,mc,
+TGGTTAGAGGGCTTCC-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+TGGTTAGAGTCCTCCT-1,lush et al,D. rerio,neuromast,sc,central sc
+TGGTTAGCAGGGTTAG-1,lush et al,D. rerio,neuromast,sc,central sc
+TGGTTAGCAGTAGAGC-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+TGGTTCCCAGTAGAGC-1,lush et al,D. rerio,neuromast,sc,central sc
+TGGTTCCGTGTGGTTT-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+TGTATTCAGAGCAATT-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+TGTCCCAAGAGCCCAA-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+TGTCCCAGTCAATGTC-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+TGTCCCAGTTCGTTGA-1,lush et al,D. rerio,neuromast,sc,central sc
+TGTCCCATCTATCCCG-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+TGTGGTACAGAGCCAA-1,lush et al,D. rerio,neuromast,mc,
+TGTGGTACATCCAACA-1,lush et al,D. rerio,neuromast,sc,central sc
+TGTGGTAGTCGCGTGT-1,lush et al,D. rerio,neuromast,sc,central sc
+TGTGGTATCATCGCTC-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+TGTGGTATCGAGGTAG-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+TGTGGTATCGGCGGTT-1,lush et al,D. rerio,neuromast,sc,central sc
+TGTGTTTAGGCCCTTG-1,lush et al,D. rerio,neuromast,sc,differentiating sc
+TGTGTTTCAGGCGATA-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+TGTGTTTCATGGGACA-1,lush et al,D. rerio,neuromast,sc,central sc
+TGTGTTTTCCCAAGTA-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+TGTGTTTTCGGGAGTA-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+TGTTCCGAGCCCAATT-1,lush et al,D. rerio,neuromast,sc,central sc
+TTAACTCCACTGTGTA-1,lush et al,D. rerio,neuromast,sc,central sc
+TTAACTCTCGCGGATC-1,lush et al,D. rerio,neuromast,sc,central sc
+TTAGGACCATCGTCGG-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+TTAGGACGTATGCTTG-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+TTAGGACTCTCAAACG-1,lush et al,D. rerio,neuromast,sc,central sc
+TTATGCTCATGTAGTC-1,lush et al,D. rerio,neuromast,sc,central sc
+TTATGCTGTCAGAATA-1,lush et al,D. rerio,neuromast,sc,differentiating sc
+TTATGCTGTTACGTCA-1,lush et al,D. rerio,neuromast,sc,central sc
+TTATGCTTCGGCGCAT-1,lush et al,D. rerio,neuromast,mc,
+TTCCCAGCAGCTTAAC-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+TTCCCAGCATAAGACA-1,lush et al,D. rerio,neuromast,sc,central sc
+TTCCCAGGTGAGTATA-1,lush et al,D. rerio,neuromast,sc,central sc
+TTCCCAGGTGCAGTAG-1,lush et al,D. rerio,neuromast,sc,central sc
+TTCGAAGAGACAATAC-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+TTCGAAGGTAACGCGA-1,lush et al,D. rerio,neuromast,sc,central sc
+TTCGAAGTCTACCAGA-1,lush et al,D. rerio,neuromast,sc,central sc
+TTCGGTCAGGAGTTTA-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+TTCGGTCGTGTATGGG-1,lush et al,D. rerio,neuromast,sc,central sc
+TTCGGTCTCCCTGACT-1,lush et al,D. rerio,neuromast,sc,differentiating sc
+TTCTACAAGATGAGAG-1,lush et al,D. rerio,neuromast,sc,central sc
+TTCTACACAAGCCCAC-1,lush et al,D. rerio,neuromast,mc,
+TTCTACATCAAGAAGT-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+TTCTCAAGTGACGCCT-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+TTCTCCTAGACAATAC-1,lush et al,D. rerio,neuromast,mc,
+TTCTCCTCAGACAAAT-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+TTCTCCTCATTCACTT-1,lush et al,D. rerio,neuromast,sc,central sc
+TTCTCCTGTAGAGGAA-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+TTCTCCTTCTAAGCCA-1,lush et al,D. rerio,neuromast,sc,central sc
+TTCTCCTTCTACCAGA-1,lush et al,D. rerio,neuromast,sc,central sc
+TTCTTAGAGCCAGGAT-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+TTCTTAGTCACCATAG-1,lush et al,D. rerio,neuromast,sc,central sc
+TTCTTAGTCCGCATAA-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+TTGAACGCAAGTCTGT-1,lush et al,D. rerio,neuromast,sc,central sc
+TTGAACGCAAGTTGTC-1,lush et al,D. rerio,neuromast,mc,
+TTGAACGTCACCATAG-1,lush et al,D. rerio,neuromast,sc,central sc
+TTGACTTGTACTTGAC-1,lush et al,D. rerio,neuromast,mc,
+TTGCCGTCACATGGGA-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+TTGCCGTCAGACGCTC-1,lush et al,D. rerio,neuromast,sc,differentiating sc
+TTGTAGGGTTTGTGTG-1,lush et al,D. rerio,neuromast,sc,central sc
+TTGTAGGTCAGCATGT-1,lush et al,D. rerio,neuromast,sc,A/P pole sc
+TTGTAGGTCGCAGGCT-1,lush et al,D. rerio,neuromast,sc,central sc
+TTTCCTCAGCTAAACA-1,lush et al,D. rerio,neuromast,sc,central sc
+TTTCCTCAGCTTTGGT-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+TTTCCTCGTATGAAAC-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+TTTCCTCTCCTGTACC-1,lush et al,D. rerio,neuromast,sc,central sc
+TTTGCGCAGATGCGAC-1,lush et al,D. rerio,neuromast,sc,differentiating sc
+TTTGCGCAGCAGCGTA-1,lush et al,D. rerio,neuromast,sc,central sc
+TTTGCGCCAGTAAGAT-1,lush et al,D. rerio,neuromast,sc,central sc
+TTTGGTTAGATGCCTT-1,lush et al,D. rerio,neuromast,sc,central sc
+TTTGGTTCAGGACGTA-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+TTTGGTTCAGGGAGAG-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+TTTGTCAAGGCGATAC-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+TTTGTCACAGGTGGAT-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+TTTGTCATCGTCACGG-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+TTTGTCATCTGAAAGA-1,lush et al,D. rerio,neuromast,sc,D/V amplifying sc
+Co_P1_FA_GFP_0,burns et al,M. musculus,corti,sc,lateral sc
+Ute_P1_Neg_0,burns et al,M. musculus,utricle,tec,
+Ute_P1_Neg_5,burns et al,M. musculus,utricle,tec,
+Ute_P1_GFP_3,burns et al,M. musculus,utricle,sc,young sc
+Co_P1_FA_GFP_9,burns et al,M. musculus,corti,sc,lateral sc
+Ute_P1_GFP_0,burns et al,M. musculus,utricle,sc,mature sc
+Ute_P1_GFP_4,burns et al,M. musculus,utricle,sc,mature sc
+Co_P1_FA_GFP_2,burns et al,M. musculus,corti,sc,medial sc
+Ute_P1_Neg_2,burns et al,M. musculus,utricle,tec,
+Ute_P1_Neg_6,burns et al,M. musculus,utricle,tec,
+Co_P1_FA_GFP_3,burns et al,M. musculus,corti,sc,lateral sc
+Co_P1_FA_GFP_95,burns et al,M. musculus,corti,sc,medial sc
+Ute_P1_Neg_7,burns et al,M. musculus,utricle,tec,
+Co_P1_FA_GFP_4,burns et al,M. musculus,corti,sc,lateral sc
+Co_P1_FA_GFP_11,burns et al,M. musculus,corti,sc,lateral sc
+Co_P1_FA_GFP_5,burns et al,M. musculus,corti,sc,lateral sc
+Ute_P1_Neg_36,burns et al,M. musculus,utricle,tec,
+Ute_P1_GFP_1,burns et al,M. musculus,utricle,sc,young sc
+Ute_P1_Neg_3,burns et al,M. musculus,utricle,sc,young sc
+Ute_P1_Neg_8,burns et al,M. musculus,utricle,sc,mature sc
+Co_P1_FA_GFP_6,burns et al,M. musculus,corti,sc,lateral sc
+Ute_P1_Neg_1,burns et al,M. musculus,utricle,tec,
+Ute_P1_Neg_9,burns et al,M. musculus,utricle,tec,
+Ute_P1_Neg_4,burns et al,M. musculus,utricle,sc,mature sc
+Ute_P1_GFP_2,burns et al,M. musculus,utricle,sc,young sc
+Ute_P1_Neg_10,burns et al,M. musculus,utricle,tec,
+Ute_P1_GFP_6,burns et al,M. musculus,utricle,sc,mature sc
+Ute_P1_GFP_18,burns et al,M. musculus,utricle,sc,mature sc
+Ute_P1_Neg_11,burns et al,M. musculus,utricle,tec,
+Ute_P1_GFP_10,burns et al,M. musculus,utricle,sc,young sc
+Ute_P1_GFP_13,burns et al,M. musculus,utricle,sc,mature sc
+Ute_P1_GFP_16,burns et al,M. musculus,utricle,sc,mature sc
+Ute_P1_Neg_14,burns et al,M. musculus,utricle,tec,
+Ute_P1_GFP_14,burns et al,M. musculus,utricle,sc,mature sc
+Ute_P1_GFP_17,burns et al,M. musculus,utricle,sc,mature sc
+Ute_P1_GFP_19,burns et al,M. musculus,utricle,sc,mature sc
+Ute_P1_Neg_12,burns et al,M. musculus,utricle,tec,
+Ute_P1_Neg_15,burns et al,M. musculus,utricle,sc,young sc
+Ute_P1_GFP_11,burns et al,M. musculus,utricle,sc,mature sc
+Ute_P1_Neg_18,burns et al,M. musculus,utricle,tec,
+Ute_P1_Neg_20,burns et al,M. musculus,utricle,sc,young sc
+Ute_P1_Neg_13,burns et al,M. musculus,utricle,tec,
+Ute_P1_GFP_8,burns et al,M. musculus,utricle,sc,mature sc
+Ute_P1_Neg_21,burns et al,M. musculus,utricle,sc,mature sc
+Ute_P1_GFP_20,burns et al,M. musculus,utricle,sc,mature sc
+Ute_P1_GFP_7,burns et al,M. musculus,utricle,sc,mature sc
+Ute_P1_Neg_16,burns et al,M. musculus,utricle,tec,
+Ute_P1_GFP_12,burns et al,M. musculus,utricle,sc,mature sc
+Ute_P1_Neg_19,burns et al,M. musculus,utricle,sc,young sc
+Ute_P1_GFP_9,burns et al,M. musculus,utricle,sc,young sc
+Ute_P1_GFP_15,burns et al,M. musculus,utricle,sc,mature sc
+Ute_P1_GFP_22,burns et al,M. musculus,utricle,sc,mature sc
+Ute_P1_Neg_24,burns et al,M. musculus,utricle,tec,
+Ute_P1_GFP_32,burns et al,M. musculus,utricle,sc,mature sc
+Ute_P1_GFP_23,burns et al,M. musculus,utricle,sc,mature sc
+Ute_P1_GFP_24,burns et al,M. musculus,utricle,sc,mature sc
+Ute_P1_GFP_25,burns et al,M. musculus,utricle,sc,mature sc
+Ute_P1_GFP_28,burns et al,M. musculus,utricle,sc,mature sc
+Ute_P1_GFP_33,burns et al,M. musculus,utricle,sc,mature sc
+Ute_P1_Neg_22,burns et al,M. musculus,utricle,tec,
+Ute_P1_GFP_26,burns et al,M. musculus,utricle,sc,young sc
+Ute_P1_Neg_27,burns et al,M. musculus,utricle,tec,
+Ute_P1_Neg_28,burns et al,M. musculus,utricle,tec,
+Ute_P1_Neg_23,burns et al,M. musculus,utricle,tec,
+Ute_P1_GFP_27,burns et al,M. musculus,utricle,sc,mature sc
+Ute_P1_GFP_29,burns et al,M. musculus,utricle,sc,mature sc
+Ute_P1_Neg_25,burns et al,M. musculus,utricle,tec,
+Ute_P1_GFP_30,burns et al,M. musculus,utricle,sc,mature sc
+Ute_P1_GFP_34,burns et al,M. musculus,utricle,sc,young sc
+Ute_P1_GFP_31,burns et al,M. musculus,utricle,sc,mature sc
+Ute_P1_GFP_37,burns et al,M. musculus,utricle,sc,young sc
+Ute_P1_GFP_41,burns et al,M. musculus,utricle,sc,mature sc
+Ute_P1_GFP_46,burns et al,M. musculus,utricle,sc,mature sc
+Ute_P1_GFP_35,burns et al,M. musculus,utricle,sc,young sc
+Ute_P1_Neg_34,burns et al,M. musculus,utricle,sc,young sc
+Ute_P1_Neg_30,burns et al,M. musculus,utricle,tec,
+Ute_P1_GFP_50,burns et al,M. musculus,utricle,tec,
+Ute_P1_GFP_36,burns et al,M. musculus,utricle,sc,mature sc
+Ute_P1_GFP_38,burns et al,M. musculus,utricle,sc,mature sc
+Ute_P1_Neg_32,burns et al,M. musculus,utricle,tec,
+Ute_P1_GFP_47,burns et al,M. musculus,utricle,sc,mature sc
+Ute_P1_GFP_51,burns et al,M. musculus,utricle,sc,mature sc
+Ute_P1_Neg_35,burns et al,M. musculus,utricle,tec,
+Ute_P1_GFP_48,burns et al,M. musculus,utricle,sc,young sc
+Ute_P1_GFP_39,burns et al,M. musculus,utricle,sc,young sc
+Ute_P1_GFP_42,burns et al,M. musculus,utricle,sc,mature sc
+Ute_P1_GFP_52,burns et al,M. musculus,utricle,sc,mature sc
+Ute_P1_GFP_40,burns et al,M. musculus,utricle,sc,young sc
+Ute_P1_Neg_33,burns et al,M. musculus,utricle,tec,
+Ute_P1_GFP_53,burns et al,M. musculus,utricle,sc,young sc
+Ute_P1_Neg_31,burns et al,M. musculus,utricle,tec,
+Ute_P1_GFP_43,burns et al,M. musculus,utricle,sc,mature sc
+Ute_P1_GFP_45,burns et al,M. musculus,utricle,sc,mature sc
+Ute_P1_GFP_49,burns et al,M. musculus,utricle,sc,mature sc
+Co_P1_Ep_Neg_3,burns et al,M. musculus,corti,nsc,
+Co_P1_Ep_GFP_6,burns et al,M. musculus,corti,nsc,
+Co_P1_Ep_GFP_14,burns et al,M. musculus,corti,nsc,
+Co_P1_Ep_GFP_0,burns et al,M. musculus,corti,nsc,
+Co_P1_Ep_Neg_0,burns et al,M. musculus,corti,nsc,
+Co_P1_Ep_GFP_3,burns et al,M. musculus,corti,nsc,
+Co_P1_Ep_GFP_13,burns et al,M. musculus,corti,nsc,
+Co_P1_Ep_GFP_15,burns et al,M. musculus,corti,nsc,
+Co_P1_Ep_Neg_4,burns et al,M. musculus,corti,nsc,
+Co_P1_Ep_GFP_7,burns et al,M. musculus,corti,nsc,
+Co_P1_Ep_GFP_1,burns et al,M. musculus,corti,nsc,
+Co_P1_Ep_Neg_5,burns et al,M. musculus,corti,nsc,
+Co_P1_Ep_GFP_11,burns et al,M. musculus,corti,sc,
+Co_P1_Ep_GFP_16,burns et al,M. musculus,corti,nsc,
+Co_P1_Ep_Neg_1,burns et al,M. musculus,corti,nsc,
+Co_P1_Ep_Neg_8,burns et al,M. musculus,corti,nsc,
+Co_P1_Ep_Neg_15,burns et al,M. musculus,corti,nsc,
+Co_P1_Ep_Neg_18,burns et al,M. musculus,corti,nsc,
+Co_P1_Ep_GFP_2,burns et al,M. musculus,corti,sc,
+Co_P1_Ep_Neg_6,burns et al,M. musculus,corti,nsc,
+Co_P1_Ep_GFP_9,burns et al,M. musculus,corti,sc,
+Co_P1_Ep_Neg_16,burns et al,M. musculus,corti,nsc,
+Co_P1_Ep_Neg_19,burns et al,M. musculus,corti,nsc,
+Co_P1_Ep_GFP_5,burns et al,M. musculus,corti,nsc,
+Co_P1_Ep_GFP_10,burns et al,M. musculus,corti,nsc,
+Co_P1_Ep_Neg_20,burns et al,M. musculus,corti,nsc,
+Co_P1_FA_GFP_62,burns et al,M. musculus,corti,sc,medial sc
+Co_P1_FA_GFP_70,burns et al,M. musculus,corti,sc,medial sc
+Co_P1_FA_GFP_78,burns et al,M. musculus,corti,sc,lateral sc
+Co_P1_FA_GFP_83,burns et al,M. musculus,corti,sc,lateral sc
+Co_P1_FA_GFP_47,burns et al,M. musculus,corti,sc,lateral sc
+Co_P1_FA_GFP_55,burns et al,M. musculus,corti,sc,lateral sc
+Co_P1_FA_GFP_63,burns et al,M. musculus,corti,sc,lateral sc
+Co_P1_FA_GFP_71,burns et al,M. musculus,corti,sc,lateral sc
+Co_P1_FA_GFP_79,burns et al,M. musculus,corti,sc,medial sc
+Co_P1_FA_GFP_84,burns et al,M. musculus,corti,sc,lateral sc
+Co_P1_FA_GFP_48,burns et al,M. musculus,corti,sc,lateral sc
+Co_P1_FA_GFP_56,burns et al,M. musculus,corti,sc,lateral sc
+Co_P1_FA_GFP_64,burns et al,M. musculus,corti,sc,lateral sc
+Co_P1_FA_GFP_72,burns et al,M. musculus,corti,sc,medial sc
+Co_P1_FA_GFP_85,burns et al,M. musculus,corti,sc,lateral sc
+Co_P1_FA_GFP_49,burns et al,M. musculus,corti,sc,lateral sc
+Co_P1_FA_GFP_57,burns et al,M. musculus,corti,sc,lateral sc
+Co_P1_FA_GFP_65,burns et al,M. musculus,corti,sc,lateral sc
+Co_P1_FA_GFP_73,burns et al,M. musculus,corti,sc,lateral sc
+Co_P1_FA_GFP_86,burns et al,M. musculus,corti,sc,medial sc
+Co_P1_FA_GFP_58,burns et al,M. musculus,corti,sc,medial sc
+Co_P1_FA_GFP_66,burns et al,M. musculus,corti,sc,lateral sc
+Co_P1_FA_GFP_74,burns et al,M. musculus,corti,sc,lateral sc
+Co_P1_FA_GFP_87,burns et al,M. musculus,corti,sc,medial sc
+Co_P1_FA_GFP_59,burns et al,M. musculus,corti,sc,medial sc
+Co_P1_FA_GFP_67,burns et al,M. musculus,corti,sc,lateral sc
+Co_P1_FA_GFP_75,burns et al,M. musculus,corti,sc,lateral sc
+Co_P1_FA_GFP_80,burns et al,M. musculus,corti,sc,lateral sc
+Co_P1_FA_GFP_88,burns et al,M. musculus,corti,sc,medial sc
+Co_P1_FA_GFP_52,burns et al,M. musculus,corti,sc,medial sc
+Co_P1_FA_GFP_60,burns et al,M. musculus,corti,sc,medial sc
+Co_P1_FA_GFP_68,burns et al,M. musculus,corti,sc,lateral sc
+Co_P1_FA_GFP_76,burns et al,M. musculus,corti,sc,lateral sc
+Co_P1_FA_GFP_81,burns et al,M. musculus,corti,sc,lateral sc
+Co_P1_FA_GFP_89,burns et al,M. musculus,corti,sc,medial sc
+Co_P1_FA_GFP_53,burns et al,M. musculus,corti,sc,lateral sc
+Co_P1_FA_GFP_69,burns et al,M. musculus,corti,sc,medial sc
+Co_P1_FA_GFP_77,burns et al,M. musculus,corti,sc,medial sc
+Co_P1_FA_GFP_82,burns et al,M. musculus,corti,sc,medial sc
+Co_P1_FA_GFP_90,burns et al,M. musculus,corti,sc,lateral sc
+Co_P1_FA_GFP_91,burns et al,M. musculus,corti,sc,lateral sc
+Co_P1_FA_GFP_92,burns et al,M. musculus,corti,sc,lateral sc
+Co_P1_FA_GFP_93,burns et al,M. musculus,corti,sc,medial sc
+Co_P1_Ep_Neg_26,burns et al,M. musculus,corti,nsc,
+Co_P1_Ep_Neg_31,burns et al,M. musculus,corti,nsc,
+Co_P1_Ep_GFP_25,burns et al,M. musculus,corti,sc,
+Co_P1_Ep_Neg_41,burns et al,M. musculus,corti,nsc,
+Co_P1_Ep_Neg_45,burns et al,M. musculus,corti,nsc,
+Co_P1_Ep_GFP_18,burns et al,M. musculus,corti,sc,
+Co_P1_Ep_Neg_27,burns et al,M. musculus,corti,nsc,
+Co_P1_Ep_GFP_23,burns et al,M. musculus,corti,sc,
+Co_P1_Ep_Neg_36,burns et al,M. musculus,corti,nsc,
+Co_P1_Ep_Neg_42,burns et al,M. musculus,corti,nsc,
+Co_P1_Ep_GFP_32,burns et al,M. musculus,corti,nsc,
+Co_P1_Ep_Neg_28,burns et al,M. musculus,corti,nsc,
+Co_P1_Ep_Neg_32,burns et al,M. musculus,corti,nsc,
+Co_P1_Ep_GFP_26,burns et al,M. musculus,corti,sc,
+Co_P1_Ep_GFP_28,burns et al,M. musculus,corti,sc,
+Co_P1_Ep_Neg_46,burns et al,M. musculus,corti,nsc,
+Co_P1_Ep_Neg_22,burns et al,M. musculus,corti,nsc,
+Co_P1_Ep_GFP_20,burns et al,M. musculus,corti,sc,
+Co_P1_Ep_GFP_24,burns et al,M. musculus,corti,nsc,
+Co_P1_Ep_Neg_37,burns et al,M. musculus,corti,nsc,
+Co_P1_Ep_GFP_29,burns et al,M. musculus,corti,nsc,
+Co_P1_Ep_Neg_23,burns et al,M. musculus,corti,nsc,
+Co_P1_Ep_GFP_21,burns et al,M. musculus,corti,nsc,
+Co_P1_Ep_Neg_38,burns et al,M. musculus,corti,nsc,
+Co_P1_Ep_Neg_43,burns et al,M. musculus,corti,nsc,
+Co_P1_Ep_Neg_47,burns et al,M. musculus,corti,nsc,
+Co_P1_Ep_GFP_19,burns et al,M. musculus,corti,nsc,
+Co_P1_Ep_Neg_29,burns et al,M. musculus,corti,nsc,
+Co_P1_Ep_Neg_39,burns et al,M. musculus,corti,nsc,
+Co_P1_Ep_Neg_44,burns et al,M. musculus,corti,nsc,
+Co_P1_Ep_Neg_48,burns et al,M. musculus,corti,nsc,
+Co_P1_Ep_Neg_24,burns et al,M. musculus,corti,nsc,
+Co_P1_Ep_Neg_30,burns et al,M. musculus,corti,nsc,
+Co_P1_Ep_Neg_34,burns et al,M. musculus,corti,nsc,
+Co_P1_Ep_GFP_27,burns et al,M. musculus,corti,nsc,
+Co_P1_Ep_GFP_30,burns et al,M. musculus,corti,nsc,
+Co_P1_Ep_GFP_33,burns et al,M. musculus,corti,nsc,
+Co_P1_Ep_Neg_25,burns et al,M. musculus,corti,nsc,
+Co_P1_Ep_GFP_22,burns et al,M. musculus,corti,sc,
+Co_P1_Ep_Neg_35,burns et al,M. musculus,corti,nsc,
+Co_P1_Ep_Neg_40,burns et al,M. musculus,corti,nsc,
+Co_P1_Ep_GFP_31,burns et al,M. musculus,corti,sc,
+Co_P1_Ep_GFP_34,burns et al,M. musculus,corti,sc,
+Co_P1_Ep_GFP_35,burns et al,M. musculus,corti,sc,
+Co_P1_Ep_Neg_53,burns et al,M. musculus,corti,nsc,
+Co_P1_Ep_GFP_36,burns et al,M. musculus,corti,sc,
+Co_P1_Ep_GFP_38,burns et al,M. musculus,corti,sc,
+Co_P1_Ep_GFP_37,burns et al,M. musculus,corti,sc,
+Co_P1_Ep_Neg_49,burns et al,M. musculus,corti,nsc,
+Co_P1_Ep_Neg_50,burns et al,M. musculus,corti,nsc,
+Co_P1_Ep_GFP_39,burns et al,M. musculus,corti,sc,
+Co_P1_Ep_Neg_51,burns et al,M. musculus,corti,nsc,
+Co_P1_Ep_Neg_54,burns et al,M. musculus,corti,nsc,
+Co_P1_Ep_Neg_52,burns et al,M. musculus,corti,nsc,
+Co_P1_Ep_GFP_40,burns et al,M. musculus,corti,sc,
+Cell_001,hoa et al,M. musculus,corti,sc,
+Cell_002,hoa et al,M. musculus,corti,sc,
+Cell_003,hoa et al,M. musculus,corti,sc,
+Cell_004,hoa et al,M. musculus,corti,sc,
+Cell_005,hoa et al,M. musculus,corti,sc,
+Cell_006,hoa et al,M. musculus,corti,sc,
+Cell_007,hoa et al,M. musculus,corti,sc,
+Cell_008,hoa et al,M. musculus,corti,sc,
+Cell_009,hoa et al,M. musculus,corti,sc,
+Cell_010,hoa et al,M. musculus,corti,sc,
+Cell_011,hoa et al,M. musculus,corti,sc,
+Cell_012,hoa et al,M. musculus,corti,sc,
+Cell_013,hoa et al,M. musculus,corti,sc,
+Cell_014,hoa et al,M. musculus,corti,sc,
+Cell_015,hoa et al,M. musculus,corti,sc,
+Cell_016,hoa et al,M. musculus,corti,sc,
+Cell_017,hoa et al,M. musculus,corti,sc,
+Cell_018,hoa et al,M. musculus,corti,sc,
+Cell_019,hoa et al,M. musculus,corti,sc,
+Cell_020,hoa et al,M. musculus,corti,sc,
+Cell_021,hoa et al,M. musculus,corti,sc,
+Cell_022,hoa et al,M. musculus,corti,sc,
+Cell_023,hoa et al,M. musculus,corti,sc,
+Cell_024,hoa et al,M. musculus,corti,sc,
+Cell_025,hoa et al,M. musculus,corti,sc,
+Cell_026,hoa et al,M. musculus,corti,sc,
+Cell_027,hoa et al,M. musculus,corti,sc,
+Cell_028,hoa et al,M. musculus,corti,sc,
+Cell_029,hoa et al,M. musculus,corti,sc,
+Cell_030,hoa et al,M. musculus,corti,sc,
+Cell_031,hoa et al,M. musculus,corti,sc,
+Cell_032,hoa et al,M. musculus,corti,sc,
+Cell_033,hoa et al,M. musculus,corti,sc,
+Cell_034,hoa et al,M. musculus,corti,sc,
+Cell_035,hoa et al,M. musculus,corti,sc,
+Cell_036,hoa et al,M. musculus,corti,sc,
+Cell_037,hoa et al,M. musculus,corti,sc,
+Cell_038,hoa et al,M. musculus,corti,sc,
+Cell_039,hoa et al,M. musculus,corti,sc,
+Cell_040,hoa et al,M. musculus,corti,sc,
+Cell_041,hoa et al,M. musculus,corti,sc,
+Cell_042,hoa et al,M. musculus,corti,sc,
+Cell_043,hoa et al,M. musculus,corti,sc,
+Cell_044,hoa et al,M. musculus,corti,sc,
+Cell_045,hoa et al,M. musculus,corti,sc,
+Cell_046,hoa et al,M. musculus,corti,sc,
+Cell_047,hoa et al,M. musculus,corti,sc,
+Cell_048,hoa et al,M. musculus,corti,sc,
+Cell_049,hoa et al,M. musculus,corti,sc,
+Cell_050,hoa et al,M. musculus,corti,sc,
+Cell_051,hoa et al,M. musculus,corti,sc,
+Cell_052,hoa et al,M. musculus,corti,sc,
+Cell_055,hoa et al,M. musculus,corti,sc,
+Cell_058,hoa et al,M. musculus,corti,sc,
+Cell_059,hoa et al,M. musculus,corti,sc,
+Cell_060,hoa et al,M. musculus,corti,sc,
+Cell_061,hoa et al,M. musculus,corti,sc,
+Cell_062,hoa et al,M. musculus,corti,sc,
+Cell_063,hoa et al,M. musculus,corti,sc,
+Cell_064,hoa et al,M. musculus,corti,sc,
+Cell_065,hoa et al,M. musculus,corti,sc,
+Cell_066,hoa et al,M. musculus,corti,sc,
+Cell_067,hoa et al,M. musculus,corti,sc,
+Cell_070,hoa et al,M. musculus,corti,sc,
+Cell_071,hoa et al,M. musculus,corti,sc,
+Cell_074,hoa et al,M. musculus,corti,sc,
+Cell_076,hoa et al,M. musculus,corti,sc,
+Cell_077,hoa et al,M. musculus,corti,sc,
+Cell_079,hoa et al,M. musculus,corti,sc,
+Cell_082,hoa et al,M. musculus,corti,sc,
+Cell_083,hoa et al,M. musculus,corti,sc,
+Cell_084,hoa et al,M. musculus,corti,sc,
+Cell_085,hoa et al,M. musculus,corti,sc,
+Cell_086,hoa et al,M. musculus,corti,sc,
+Cell_090,hoa et al,M. musculus,corti,sc,
+Cell_091,hoa et al,M. musculus,corti,sc,
+Cell_093,hoa et al,M. musculus,corti,sc,
+Cell_094,hoa et al,M. musculus,corti,sc,
+Cell_095,hoa et al,M. musculus,corti,sc,
+Cell_098,hoa et al,M. musculus,corti,sc,
+Cell_099,hoa et al,M. musculus,corti,sc,
+Cell_102,hoa et al,M. musculus,corti,sc,
+Cell_103,hoa et al,M. musculus,corti,sc,
+Cell_105,hoa et al,M. musculus,corti,sc,
+Cell_106,hoa et al,M. musculus,corti,sc,
+Cell_107,hoa et al,M. musculus,corti,sc,
+Cell_108,hoa et al,M. musculus,corti,sc,
+Cell_109,hoa et al,M. musculus,corti,sc,
+Cell_110,hoa et al,M. musculus,corti,sc,
+Cell_111,hoa et al,M. musculus,corti,sc,
+Cell_114,hoa et al,M. musculus,corti,sc,
+Cell_115,hoa et al,M. musculus,corti,sc,
+Cell_117,hoa et al,M. musculus,corti,sc,
+Cell_120,hoa et al,M. musculus,corti,sc,
+Cell_122,hoa et al,M. musculus,corti,sc,
+Cell_123,hoa et al,M. musculus,corti,sc,
+Cell_124,hoa et al,M. musculus,corti,sc,
+Cell_125,hoa et al,M. musculus,corti,sc,
+Cell_126,hoa et al,M. musculus,corti,sc,
+Cell_129,hoa et al,M. musculus,corti,sc,
+Cell_130,hoa et al,M. musculus,corti,sc,
+Cell_131,hoa et al,M. musculus,corti,sc,
+Cell_134,hoa et al,M. musculus,corti,sc,
+Cell_137,hoa et al,M. musculus,corti,sc,
+Cell_138,hoa et al,M. musculus,corti,sc,
+Cell_139,hoa et al,M. musculus,corti,sc,
+Cell_141,hoa et al,M. musculus,corti,sc,
+Cell_144,hoa et al,M. musculus,corti,sc,
+Cell_145,hoa et al,M. musculus,corti,sc,
+Cell_146,hoa et al,M. musculus,corti,sc,
+Cell_147,hoa et al,M. musculus,corti,sc,
+Cell_148,hoa et al,M. musculus,corti,sc,
+Cell_150,hoa et al,M. musculus,corti,sc,
+Cell_151,hoa et al,M. musculus,corti,sc,
+Cell_152,hoa et al,M. musculus,corti,sc,
+Cell_153,hoa et al,M. musculus,corti,sc,
+Cell_154,hoa et al,M. musculus,corti,sc,
+Cell_157,hoa et al,M. musculus,corti,sc,
+Cell_158,hoa et al,M. musculus,corti,sc,
+Cell_159,hoa et al,M. musculus,corti,sc,
+Cell_160,hoa et al,M. musculus,corti,sc,
+Cell_161,hoa et al,M. musculus,corti,sc,
+Cell_164,hoa et al,M. musculus,corti,sc,
+Cell_165,hoa et al,M. musculus,corti,sc,
+Cell_166,hoa et al,M. musculus,corti,sc,
+Cell_168,hoa et al,M. musculus,corti,sc,
+Cell_169,hoa et al,M. musculus,corti,sc,
+Cell_171,hoa et al,M. musculus,corti,sc,
+Cell_173,hoa et al,M. musculus,corti,sc,
+Cell_174,hoa et al,M. musculus,corti,sc,
+Cell_175,hoa et al,M. musculus,corti,sc,
+Cell_177,hoa et al,M. musculus,corti,sc,
+Cell_179,hoa et al,M. musculus,corti,sc,
+Cell_180,hoa et al,M. musculus,corti,sc,
+Cell_181,hoa et al,M. musculus,corti,sc,
+Cell_182,hoa et al,M. musculus,corti,sc,
+Cell_183,hoa et al,M. musculus,corti,sc,
+Cell_184,hoa et al,M. musculus,corti,sc,
+Cell_185,hoa et al,M. musculus,corti,sc,
+Cell_186,hoa et al,M. musculus,corti,sc,
+Cell_191,hoa et al,M. musculus,corti,sc,
+Cell_192,hoa et al,M. musculus,corti,sc,
+Cell_196,hoa et al,M. musculus,corti,sc,
+Cell_198,hoa et al,M. musculus,corti,sc,
+Cell_199,hoa et al,M. musculus,corti,sc,
+Cell_200,hoa et al,M. musculus,corti,sc,
+Cell_201,hoa et al,M. musculus,corti,sc,
+Cell_202,hoa et al,M. musculus,corti,sc,
+Cell_203,hoa et al,M. musculus,corti,sc,
+Cell_204,hoa et al,M. musculus,corti,sc,
+Cell_205,hoa et al,M. musculus,corti,sc,
+Cell_206,hoa et al,M. musculus,corti,sc,
+Cell_207,hoa et al,M. musculus,corti,sc,
+Cell_208,hoa et al,M. musculus,corti,sc,
+Cell_209,hoa et al,M. musculus,corti,sc,
+Cell_210,hoa et al,M. musculus,corti,sc,
+Cell_212,hoa et al,M. musculus,corti,sc,
+Cell_213,hoa et al,M. musculus,corti,sc,
+Cell_214,hoa et al,M. musculus,corti,sc,
+Cell_215,hoa et al,M. musculus,corti,sc,
+Cell_216,hoa et al,M. musculus,corti,sc,
+Cell_217,hoa et al,M. musculus,corti,sc,
+Cell_218,hoa et al,M. musculus,corti,sc,
+Cell_219,hoa et al,M. musculus,corti,sc,
+Cell_220,hoa et al,M. musculus,corti,sc,
+Cell_221,hoa et al,M. musculus,corti,sc,
+Cell_222,hoa et al,M. musculus,corti,sc,
+Cell_223,hoa et al,M. musculus,corti,sc,
+Cell_224,hoa et al,M. musculus,corti,sc,
+Cell_226,hoa et al,M. musculus,corti,sc,
+Cell_227,hoa et al,M. musculus,corti,sc,
+Cell_228,hoa et al,M. musculus,corti,sc,
+Cell_229,hoa et al,M. musculus,corti,sc,
+Cell_230,hoa et al,M. musculus,corti,sc,
+Cell_231,hoa et al,M. musculus,corti,sc,
+Cell_233,hoa et al,M. musculus,corti,sc,
+Cell_234,hoa et al,M. musculus,corti,sc,
+Cell_235,hoa et al,M. musculus,corti,sc,
+Cell_236,hoa et al,M. musculus,corti,sc,
+Cell_237,hoa et al,M. musculus,corti,sc,
+Cell_245,hoa et al,M. musculus,corti,sc,
+Cell_246,hoa et al,M. musculus,corti,sc,
+Cell_247,hoa et al,M. musculus,corti,sc,
+Cell_248,hoa et al,M. musculus,corti,sc,
+Cell_249,hoa et al,M. musculus,corti,sc,
+Cell_250,hoa et al,M. musculus,corti,sc,
+Cell_251,hoa et al,M. musculus,corti,sc,
+Cell_252,hoa et al,M. musculus,corti,sc,
+Cell_253,hoa et al,M. musculus,corti,sc,
+Cell_254,hoa et al,M. musculus,corti,sc,
+Cell_255,hoa et al,M. musculus,corti,sc,
+Cell_256,hoa et al,M. musculus,corti,sc,
+Cell_257,hoa et al,M. musculus,corti,sc,
+Cell_258,hoa et al,M. musculus,corti,sc,
+Cell_259,hoa et al,M. musculus,corti,sc,
+Cell_260,hoa et al,M. musculus,corti,sc,
+Cell_261,hoa et al,M. musculus,corti,sc,
+Cell_262,hoa et al,M. musculus,corti,sc,
+Cell_263,hoa et al,M. musculus,corti,sc,
+Cell_265,hoa et al,M. musculus,corti,sc,
+Cell_266,hoa et al,M. musculus,corti,sc,
+Cell_267,hoa et al,M. musculus,corti,sc,
+Cell_268,hoa et al,M. musculus,corti,sc,
+Cell_269,hoa et al,M. musculus,corti,sc,
+Cell_270,hoa et al,M. musculus,corti,sc,
+Cell_271,hoa et al,M. musculus,corti,sc,
+Cell_272,hoa et al,M. musculus,corti,sc,
+Cell_273,hoa et al,M. musculus,corti,sc,
+Cell_274,hoa et al,M. musculus,corti,sc,
+Cell_275,hoa et al,M. musculus,corti,sc,
+Cell_276,hoa et al,M. musculus,corti,sc,

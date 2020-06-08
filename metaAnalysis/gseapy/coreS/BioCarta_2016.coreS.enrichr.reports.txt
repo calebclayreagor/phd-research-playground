@@ -1,0 +1,59 @@
+Gene_set	Term	Overlap	P-value	Adjusted P-value	Old P-value	Old Adjusted P-value	Odds Ratio	Combined Score	Genes
+BioCarta_2016	CDK Regulation of DNA Replication Homo sapiens h mcmPathway	6/18	2.391092704773583e-07	5.6668897103133926e-05	0	0	21.030494216614088	320.6381743606377	ORC4;MCM7;MCM3;MCM5;MCM6;MCM2
+BioCarta_2016	Mechanism of Protein Import into the Nucleus Homo sapiens h npcPathway	4/12	2.772501968427149e-05	0.003285414832586172	0	0	21.030494216614088	220.6766627706699	RANBP1;NUP62;RCC1;KPNB1
+BioCarta_2016	Control of Gene Expression by Vitamin D Receptor Homo sapiens h vdrPathway	5/27	5.8750115054555115e-05	0.004641259089309854	0	0	11.68360789811894	113.8242487038967	SMARCE1;HDAC1;ACTL6A;BAZ1B;SMARCA4
+BioCarta_2016	Cycling of Ran in nucleocytoplasmic transport Homo sapiens h ranPathway	3/9	0.00030866439376415794	0.01828836533052636	0	0	21.030494216614088	169.99486804686342	RANBP1;NUP62;RCC1
+BioCarta_2016	Role of Ran in mitotic spindle regulation Homo sapiens h ranMSpathway	3/11	0.0005921810742381012	0.028069382918886002	0	0	17.20676799541153	127.87550503934219	RANBP1;RCC1;KPNB1
+BioCarta_2016	Skeletal muscle hypertrophy is regulated via AKT/mTOR pathway Homo sapiens h igf1mtorpathway	4/25	0.00060217238552948	0.02378580922841446	0	0	10.094637223974763	74.85139986318741	EIF4A1;PSMC4;RPS6;EIF2S2
+BioCarta_2016	Eukaryotic protein translation Homo sapiens h eifPathway	3/14	0.0012610897120060695	0.04269689453506265	0	0	13.5196034249662	90.25388572764645	EIF5B;EIF4A1;EIF2S2
+BioCarta_2016	The PRC2 Complex Sets Long-term Gene Silencing Through Modification of Histone Tails Homo sapiens h prc2Pathway	3/14	0.0012610897120060695	0.037359782718179815	0	0	13.5196034249662	90.25388572764645	RBBP4;HDAC1;RBBP7
+BioCarta_2016	Basic Mechanisms of SUMOylation Homo sapiens h sumoPathway	2/6	0.0036015505938098366	0.09484083230365906	0	0	21.030494216614088	118.32577930075266	UBE2I;UBA2
+BioCarta_2016	The information-processing pathway at the IFN-beta enhancer Homo sapiens h pcafpathway	3/29	0.010624941858346896	0.2518111220428214	0	0	6.5267051017078215	29.6609444338663	SMARCE1;HMGB1;SMARCA4
+BioCarta_2016	Sumoylation by RanBP2 Regulates Transcriptional Repression Homo sapiens h ranbp2Pathway	2/14	0.020096712652391317	0.4329928089651585	0	0	9.013068949977468	35.2158542309606	HDAC1;NUP62
+BioCarta_2016	Chromatin Remodeling by hSWI/SNF ATP-dependent Complexes Homo sapiens h hSWI-SNFpathway	2/16	0.02595651826896012	0.5126412358119624	0	0	7.886435331230284	28.79599775402482	SMARCE1;SMARCA4
+BioCarta_2016	Internal Ribosome entry pathway Homo sapiens h iresPathway	2/18	0.032416235743651316	0.59097291317272	0	0	7.010164738871364	24.038527013634912	EIF4A1;PTBP1
+BioCarta_2016	ATM Signaling Pathway Homo sapiens h atmPathway	2/18	0.032416235743651316	0.5487605622318115	0	0	7.010164738871364	24.038527013634912	RAD51;RPA1
+BioCarta_2016	ER?associated degradation (ERAD) Pathway Homo sapiens h eradPathway	2/19	0.03585745237899185	0.5665477475880712	0	0	6.641208699983398	22.103296409493502	UBE2I;CANX
+BioCarta_2016	Downregulated of MTA-3 in ER-negative Breast Tumors Homo sapiens h mta3Pathway	2/20	0.03943258379361895	0.5840951474429806	0	0	6.309148264984227	20.39850349915553	MBD3;HDAC1
+BioCarta_2016	Hypoxia and p53 in the Cardiovascular system Homo sapiens h p53hypoxiaPathway	2/21	0.043136549434716114	0.6013742480016304	0	0	6.0087126333183125	18.887694916672274	HSP90AA1;RPA1
+BioCarta_2016	Caspase Cascade in Apoptosis Homo sapiens h caspasePathway	2/23	0.05091129106145748	0.6703319989758567	0	0	5.48621588259498	16.336143473907686	PARP1;LMNB2
+BioCarta_2016	mTOR Signaling Pathway Homo sapiens h mTORPathway	2/24	0.05497252770098663	0.6857099507965174	0	0	5.257623554153524	15.251954336935961	EIF4A1;RPS6
+BioCarta_2016	Regulation of eIF4e and p70 S6 Kinase Homo sapiens h eif4Pathway	2/24	0.05497252770098663	0.6514244532566915	0	0	5.257623554153524	15.251954336935961	EIF4A1;PSMC4
+BioCarta_2016	Multi-step Regulation of Transcription by Pitx2 Homo sapiens h pitx2Pathway	2/27	0.06779695454836354	0.7651370584743885	0	0	4.673443159247576	12.577347836010599	CCND2;HDAC1
+BioCarta_2016	Neuroregulin receptor degredation protein-1 Controls ErbB3 receptor recycling Homo sapiens h ErbB3Pathway	1/6	0.0914210313838074	0.9848538380891978	0	0	10.515247108307047	25.155412453460716	UBE2D1
+BioCarta_2016	SUMOylation as a mechanism to modulate CtBP-dependent gene responses Homo sapiens h ctbp1Pathway	1/8	0.12000389833556176	1.0	0	0	7.886435331230284	16.72106506780814	UBA1
+BioCarta_2016	RNA polymerase III transcription Homo sapiens h RNApol3Pathway	1/8	0.12000389833556176	1.0	0	0	7.886435331230284	16.72106506780814	SSB
+BioCarta_2016	Spliceosomal Assembly Homo sapiens h smPathway	1/8	0.12000389833556176	1.0	0	0	7.886435331230284	16.72106506780814	SNRPB2
+BioCarta_2016	Overview of telomerase protein component gene hTert Transcriptional Regulation  Homo sapiens h tertpathway	1/10	0.14769033146960184	1.0	0	0	6.309148264984227	12.067113893917599	HDAC1
+BioCarta_2016	Regulation of Splicing through Sam68 Homo sapiens h sam68Pathway	1/10	0.14769033146960184	1.0	0	0	6.309148264984227	12.067113893917599	KHDRBS1
+BioCarta_2016	Regulation of eIF2 Homo sapiens h eif2Pathway	1/11	0.1612061780406288	1.0	0	0	5.735589331803843	10.467858470489997	EIF2S2
+BioCarta_2016	Apoptotic DNA fragmentation and tissue homeostasis Homo sapiens h DNAfragmentPathway	1/11	0.1612061780406288	1.0	0	0	5.735589331803843	10.467858470489997	HMGB1
+BioCarta_2016	How does salmonella hijack a cell Homo sapiens h salmonellaPathway	1/11	0.1612061780406288	1.0	0	0	5.735589331803843	10.467858470489997	ARPC3
+BioCarta_2016	Regulation of transcriptional activity by PML Homo sapiens h pmlPathway	1/11	0.1612061780406288	1.0	0	0	5.735589331803843	10.467858470489997	UBE2I
+BioCarta_2016	Granzyme A mediated Apoptosis Pathway Homo sapiens h setPathway	1/12	0.17450835725876654	1.0	0	0	5.257623554153524	9.178667959443157	SET
+BioCarta_2016	Antigen Processing and Presentation Homo sapiens h mhcPathway	1/12	0.17450835725876654	1.0	0	0	5.257623554153524	9.178667959443157	PSMB6
+BioCarta_2016	IL-2 Receptor Beta Chain in T cell Activation Homo sapiens h il2rbPathway	2/49	0.18208408759465888	1.0	0	0	2.575162557136419	4.386240079450797	CCND2;PCNA
+BioCarta_2016	B Cell Survival Pathway Homo sapiens h bcellsurvivalPathway	1/13	0.187600236285976	1.0	0	0	4.85319097306479	8.121533525312682	CCT4
+BioCarta_2016	p53 Signaling Pathway Homo sapiens h p53Pathway	1/13	0.187600236285976	1.0	0	0	4.85319097306479	8.121533525312682	PCNA
+BioCarta_2016	Mechanism of Gene Regulation by Peroxisome Proliferators via PPARa Homo sapiens h pparaPathway	2/52	0.1993212346338995	1.0	0	0	2.426595486532395	3.9137042255720416	HSP90AA1;DUT
+BioCarta_2016	Double Stranded RNA Induced Gene Expression Homo sapiens h rnaPathway	1/14	0.20048512941488955	1.0	0	0	4.506534474988734	7.242069411865003	EIF2S2
+BioCarta_2016	HIV-1 Nef: negative effector of Fas and TNF Homo sapiens h HivnefPathway	2/53	0.20511029483690474	1.0	0	0	2.3808106660317843	3.7716979249613063	PARP1;LMNB2
+BioCarta_2016	Fibrinolysis Pathway Homo sapiens h fibrinolysisPathway	1/15	0.21316629890593794	1.0	0	0	4.206098843322819	6.501294098250628	UBA1
+BioCarta_2016	Gamma-aminobutyric Acid Receptor Life Cycle Homo sapiens h gabaPathway	1/15	0.21316629890593794	1.0	0	0	4.206098843322819	6.501294098250628	UBA1
+BioCarta_2016	Role of PI3K subunit p85 in regulation of Actin Organization and Cell Migration Homo sapiens h cdc42racPathway	1/16	0.2256469557111145	1.0	0	0	3.943217665615142	5.8705979652933165	ARPC3
+BioCarta_2016	Y branching of actin filaments Homo sapiens h actinYPathway	1/16	0.2256469557111145	1.0	0	0	3.943217665615142	5.8705979652933165	ARPC3
+BioCarta_2016	Hypoxia-Inducible Factor in the Cardiovascular System Homo sapiens h hifPathway	1/16	0.2256469557111145	1.0	0	0	3.943217665615142	5.8705979652933165	HSP90AA1
+BioCarta_2016	TNFR1 Signaling Pathway Homo sapiens h tnfr1Pathway	1/17	0.2379302604460247	1.0	0	0	3.71126368528484	5.3285495327015004	LMNB2
+BioCarta_2016	AKT Signaling Pathway Homo sapiens h aktPathway	1/18	0.2500193240039598	1.0	0	0	3.505082369435682	4.858805005577408	HSP90AA1
+BioCarta_2016	Role of BRCA1,  BRCA2 and ATR in Cancer Susceptibility Homo sapiens h atrbrcaPathway	1/22	0.2964936893879897	1.0	0	0	2.8677946659019216	3.4864621292052207	RAD51
+BioCarta_2016	Induction of apoptosis through DR3 and DR4/5 Death Receptors  Homo sapiens h deathPathway	1/23	0.3076565262162307	1.0	0	0	2.74310794129749	3.23349689453046	PARP1
+BioCarta_2016	Cyclins and Cell Cycle Regulation Homo sapiens h cellcyclePathway	1/23	0.3076565262162307	1.0	0	0	2.74310794129749	3.23349689453046	CCND2
+BioCarta_2016	Tumor Suppressor Arf Inhibits Ribosomal Biogenesis Homo sapiens h arfPathway	1/23	0.3076565262162307	1.0	0	0	2.74310794129749	3.23349689453046	HSP90AA1
+BioCarta_2016	Corticosteroids and cardioprotection Homo sapiens h gcrPathway	1/25	0.3294552566033664	1.0	0	0	2.5236593059936907	2.802056090992216	HSP90AA1
+BioCarta_2016	Cell Cycle: G1/S Check Point  Homo sapiens h g1Pathway	1/26	0.3400966752015053	1.0	0	0	2.426595486532395	2.6171447778708963	HDAC1
+BioCarta_2016	ADP-Ribosylation Factor Homo sapiens h arapPathway	1/29	0.3710213899619185	1.0	0	0	2.1755683672359405	2.157066383450023	CLTA
+BioCarta_2016	VEGF, Hypoxia, and Angiogenesis Homo sapiens h vegfPathway	1/30	0.3810051598406185	1.0	0	0	2.1030494216614093	2.0293214743604158	HSP90AA1
+BioCarta_2016	WNT Signaling Pathway Homo sapiens h wntPathway	1/30	0.3810051598406185	1.0	0	0	2.1030494216614093	2.0293214743604158	HDAC1
+BioCarta_2016	Role of MEF2D in T-cell Apoptosis Homo sapiens h mef2dPathway	1/30	0.3810051598406185	1.0	0	0	2.1030494216614093	2.0293214743604158	HDAC1
+BioCarta_2016	Actions of Nitric Oxide in the Heart Homo sapiens h no1Pathway	1/42	0.4891733944207034	1.0	0	0	1.5021781583295781	1.0741148603605042	HSP90AA1
+BioCarta_2016	Ion Channels and Their Functional Role in Vascular Endothelium Homo sapiens h raccPathway	1/45	0.5131308728841566	1.0	0	0	1.4020329477742728	0.935470527181914	HSP90AA1
