@@ -1,0 +1,405 @@
+Zfin_id,Ensembl_id,gene_name,Source,Description
+ZDB-GENE-030616-400,ENSDARG00000001313,g2e3,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-050220-15,ENSDARG00000001767,slc29a2,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-040426-1446,ENSDARG00000001785,irx2a,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-090507-4,ENSDARG00000001889,tuba1a,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-000125-4,ENSDARG00000002336,dlc,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-030131-2193,ENSDARG00000002445,prdm1a,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-050720-2,ENSDARG00000002587,dpysl3,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-040426-977,ENSDARG00000002613,rpa3,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-031006-14,ENSDARG00000004169,stmn1a,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-980526-114,ENSDARG00000004232,dlb,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-030515-3,ENSDARG00000004713,mad2l1,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-000523-2,ENSDARG00000005559,pou4f1,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-040426-777,ENSDARG00000005993,prc1b,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-080917-55,ENSDARG00000006181,hif1aa,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-040718-92,ENSDARG00000006747,tmem178b,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-040801-112,ENSDARG00000007971,cks1b,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-050522-238,ENSDARG00000009727,twf2b,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-041026-4,ENSDARG00000010186,myo3a,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-990415-277,ENSDARG00000010591,foxn4,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-980526-29,ENSDARG00000010791,dla,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-020426-1,ENSDARG00000010948,kif11,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-020418-1,ENSDARG00000011094,ccna2,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-030925-29,ENSDARG00000012684,atp2b1a,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-030804-11,ENSDARG00000014013,lbr,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-050417-380,ENSDARG00000014209,odf3l2a,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-040426-1200,ENSDARG00000016038,hacd3,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-040426-2321,ENSDARG00000016725,gadd45gb.1,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-030128-3,ENSDARG00000016858,smad7,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-020419-13,ENSDARG00000017762,srrt,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-000412-1,ENSDARG00000018817,bdnf,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-040426-1473,ENSDARG00000019274,rasd1,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-021209-1,ENSDARG00000019507,mcm5,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-030821-1,ENSDARG00000019702,aldocb,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-990415-47,ENSDARG00000020219,dld,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-110406-5,ENSDARG00000020581,otofb,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-050522-534,ENSDARG00000020746,gfi1aa,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-050419-255,ENSDARG00000021462,daw1,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-030131-731,ENSDARG00000021794,hmmr,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-980526-104,ENSDARG00000021948,tnc,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-030131-6048,ENSDARG00000022456,eno1a,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-020419-4,ENSDARG00000024204,mcm3,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-030131-2453,ENSDARG00000024488,top2a,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-031001-3,ENSDARG00000024746,hsp90aa1.2,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-040319-2,ENSDARG00000025348,igfbp5b,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-050522-319,ENSDARG00000025855,camk2n1a,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-030825-2,ENSDARG00000026766,bcl2l10,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-990415-8,ENSDARG00000028148,pax2a,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-040426-987,ENSDARG00000029406,h2ax,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-060526-262,ENSDARG00000030311,tmc2b,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-070718-1,ENSDARG00000031248,enkur,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-990715-6,ENSDARG00000031664,sox21a,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-070912-181,ENSDARG00000032317,tox,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-001030-4,ENSDARG00000032578,pax2b,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-030131-5783,ENSDARG00000033614,rasgef1ba,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-030925-31,ENSDARG00000034138,shisa2a,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-040426-1121,ENSDARG00000034624,nuf2,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-060929-684,ENSDARG00000034855,ccnb3,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-030131-5561,ENSDARG00000034956,myclb,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-050417-212,ENSDARG00000035508,barhl1a,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-090313-35,ENSDARG00000037256,si:ch211-145b13.5,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-040310-2,ENSDARG00000037495,rtn4rl2b,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-020419-40,ENSDARG00000037640,aurkb,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-980605-16,ENSDARG00000037879,lfng,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-040718-22,ENSDARG00000038066,kpna2,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-020419-21,ENSDARG00000038882,smc4,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-050220-7,ENSDARG00000038898,zgc:113691,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-060728-1,ENSDARG00000039458,lhx4,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-990415-54,ENSDARG00000039701,emx2,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-091112-16,ENSDARG00000039729,asap1b,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-030131-9544,ENSDARG00000040041,mcm4,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-041130-1,ENSDARG00000042925,mfng,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-041014-83,ENSDARG00000042936,fam228a,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-041114-171,ENSDARG00000043137,cdca8,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-041024-3,ENSDARG00000044807,dck,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-080130-2,ENSDARG00000045038,tekt3,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-040912-160,ENSDARG00000045167,dlgap5,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-050320-33,ENSDARG00000045705,meig1,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-000406-10,ENSDARG00000051923,ccnb1,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-080804-1,ENSDARG00000052494,pcdh18b,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-060616-326,ENSDARG00000053074,gipc3,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-050522-218,ENSDARG00000053383,rprma,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-000210-8,ENSDARG00000054155,pcna,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-030707-2,ENSDARG00000054562,her15.1,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-050327-77,ENSDARG00000054929,zgc:110540,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-061114-1,ENSDARG00000055216,tuba1c,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-990415-17,ENSDARG00000055294,atoh1a,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-081031-7,ENSDARG00000055739,ribc1,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-980526-521,ENSDARG00000056732,her4.1,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-030131-9923,ENSDARG00000057738,hells,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-050413-1,ENSDARG00000058147,dnajc5b,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-021115-7,ENSDARG00000058471,plk1,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-060929-368,ENSDARG00000058528,cnot10,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-070705-158,ENSDARG00000059485,emb,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-060621-1,ENSDARG00000061736,ank3a,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-030131-5366,ENSDARG00000062152,chaf1a,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-050506-1,ENSDARG00000062630,dnah9l,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-070206-10,ENSDARG00000062693,nrxn3b,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-050419-195,ENSDARG00000062756,pllp,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-061013-547,ENSDARG00000063285,ube2t,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-060825-55,ENSDARG00000068168,hes2.2,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-080722-5,ENSDARG00000069030,skor1a,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-070330-1,ENSDARG00000069329,drgx,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-070424-166,ENSDARG00000069865,grxcr1b,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-041014-73,ENSDARG00000070425,dll4,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-041010-45,ENSDARG00000070479,tspan13b,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-141219-8,ENSDARG00000070601,RASSF5,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-050208-508,ENSDARG00000071410,cks2,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-030131-3885,ENSDARG00000074030,myt1a,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-081022-187,ENSDARG00000074379,knstrn,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-110614-1,ENSDARG00000074708,armc3,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-030826-1,ENSDARG00000075621,birc5a,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-081022-9,ENSDARG00000075800,calml4a,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-030131-7003,ENSDARG00000076590,atad2,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-040426-1687,ENSDARG00000077045,scg5,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-081104-457,ENSDARG00000077928,ccdc173,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-990415-25,ENSDARG00000078069,rrm2,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-060810-13,ENSDARG00000078433,spc25,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-030131-9652,ENSDARG00000078654,tpx2,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-120206-1,ENSDARG00000078898,pcdh7a,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-050208-34,ENSDARG00000086327,srrm4,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-010320-1,ENSDARG00000087554,cdk1,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-061013-378,ENSDARG00000088140,hsd17b7,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-110411-185,ENSDARG00000089109,bcl2b,Lush et al. Supplement 11,Hair cell genes
+,ENSDARG00000089149,gpx2,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-030131-9771,ENSDARG00000091150,mki67,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-040426-1810,ENSDARG00000091756,insm1a,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-060526-265,ENSDARG00000092460,kifl,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-081022-199,ENSDARG00000093804,sst6,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-060815-1,ENSDARG00000094426,her4.2,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-030131-8290,ENSDARG00000096389,sox4a,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-121214-339,ENSDARG00000096616,si:ch211-255p10.3,Lush et al. Supplement 11,Hair cell genes
+,ENSDARG00000097176,BX927308.2,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-131121-432,ENSDARG00000097415,lrrc53,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-131127-468,ENSDARG00000097665,si:ch211-235m3.10,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-131127-543,ENSDARG00000097691,pclaf,Lush et al. Supplement 11,Hair cell genes
+,ENSDARG00000099194,CABZ01058261.1,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-041212-9,ENSDARG00000099279,ift27,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-041201-1,ENSDARG00000099564,atoh1b,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-160114-52,ENSDARG00000099903,si:ch211-193l2.10,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-070112-292,ENSDARG00000100244,ebf3a,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-031118-197,ENSDARG00000101037,asf1ba,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-030404-1,ENSDARG00000101362,mibp,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-131127-514,ENSDARG00000101455,si:ch211-284k5.2,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-051030-48,ENSDARG00000101618,ube2c,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-040711-4,ENSDARG00000102123,phtf2,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-020419-24,ENSDARG00000102798,mcm2,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-030721-4,ENSDARG00000102824,pcdh10b,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-040628-1,ENSDARG00000102995,rbm24a,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-030804-7,ENSDARG00000103002,nptna,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-160113-73,ENSDARG00000103264,si:dkey-25g12.4,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-060526-175,ENSDARG00000103848,apba1a,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-001212-8,ENSDARG00000104139,atp1a3b,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-030131-2159,ENSDARG00000104431,slc1a3a,Lush et al. Supplement 11,Hair cell genes
+ZDB-GENE-000201-9,ENSDARG00000012896,anos1a,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-000208-17,ENSDARG00000103979,calr3a,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-000627-2,ENSDARG00000041609,adarb1a,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-000920-1,ENSDARG00000036912,edn1,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-001020-1,ENSDARG00000070955,hmx3a,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-001020-1,ENSDARG00000115051,hmx3a,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-010126-2,ENSDARG00000098511,ntrk2b,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-010614-1,ENSDARG00000041959,cxcr4b,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-010718-1,ENSDARG00000034424,atp1b2b,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-010718-1,ENSDARG00000113354,atp1b2b,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-011010-3,ENSDARG00000053493,aldh1a2,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-011010-3,ENSDARG00000113122,aldh1a2,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-011119-1,ENSDARG00000015472,gpc4,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-011207-1,ENSDARG00000077467,sox10,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-011212-5,ENSDARG00000015524,prps1a,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-020123-2,ENSDARG00000036548,s1pr2,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-020125-3,ENSDARG00000070173,gria2a,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-020125-3,ENSDARG00000110508,gria2a,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-020125-3,ENSDARG00000116006,gria2a,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-020320-5,ENSDARG00000098359,il17rd,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-020418-2,ENSDARG00000021669,sec61a1,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-020419-27,ENSDARG00000101180,mcm7,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-020419-32,ENSDARG00000015427,hdac1,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-020423-2,ENSDARG00000037153,atp6ap1b,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-020507-3,ENSDARG00000027397,vangl2,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-020806-5,ENSDARG00000004111,esr1,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-020806-5,ENSDARG00000112357,esr1,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-021029-1,ENSDARG00000043976,etf1b,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-021029-1,ENSDARG00000109757,etf1b,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-021217-3,ENSDARG00000012763,arl13b,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-030116-2,ENSDARG00000016454,esr2a,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-030131-1033,ENSDARG00000079388,agrn,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-030131-1033,ENSDARG00000110127,agrn,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-030131-1531,ENSDARG00000069090,atp6v0d1,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-030131-1531,ENSDARG00000115876,atp6v0d1,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-030131-1736,ENSDARG00000068755,exosc8,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-030131-2193,ENSDARG00000002445,prdm1a,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-030131-2415,ENSDARG00000103747,cav1,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-030131-2416,ENSDARG00000017320,f11r.1,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-030131-2416,ENSDARG00000113415,f11r.1,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-030131-2656,ENSDARG00000039392,wnk1b,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-030131-3161,ENSDARG00000017180,npc1,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-030131-3232,ENSDARG00000008384,hdac6,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-030131-3665,ENSDARG00000061391,grhl1,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-030131-4022,ENSDARG00000039196,greb1l,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-030131-4027,ENSDARG00000039020,fbxo5,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-030131-433,ENSDARG00000003920,setb,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-030131-4449,ENSDARG00000101631,etfa,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-030131-4482,ENSDARG00000039989,snrnp48,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-030131-4482,ENSDARG00000112516,snrnp48,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-030131-5143,ENSDARG00000067639,prpf4,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-030131-5143,ENSDARG00000114653,prpf4,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-030131-5143,ENSDARG00000114457,prpf4,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-030131-574,ENSDARG00000027234,ift88,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-030131-574,ENSDARG00000113909,ift88,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-030131-5911,ENSDARG00000020334,ptpn11a,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-030131-6378,ENSDARG00000099742,heatr1,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-030131-6760,ENSDARG00000041869,tnfrsf19,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-030131-7050,ENSDARG00000014717,dync1h1,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-030131-7145,ENSDARG00000079011,col17a1b,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-030131-7349,ENSDARG00000025428,socs3a,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-030131-7696,ENSDARG00000074271,get1,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-030131-7696,ENSDARG00000110353,get1,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-030131-823,ENSDARG00000090454,gnb1a,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-030131-9180,ENSDARG00000025011,synj1,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-030131-9180,ENSDARG00000111319,synj1,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-030131-9180,ENSDARG00000110664,synj1,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-030131-9242,ENSDARG00000038428,sulf1,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-030131-9710,ENSDARG00000068401,yap1,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-030131-9710,ENSDARG00000112952,yap1,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-030131-9770,ENSDARG00000061923,amotl2a,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-030131-9814,ENSDARG00000070081,rspo3,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-030318-1,ENSDARG00000037116,cxcl12a,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-030318-2,ENSDARG00000003845,chm,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-030404-2,ENSDARG00000102184,mib1,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-030505-1,ENSDARG00000104566,foxi1,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-030616-135,ENSDARG00000102773,cacna1da,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-030616-3,ENSDARG00000098257,pcdh15a,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-030616-360,ENSDARG00000024017,mdga2a,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-030618-1,ENSDARG00000041502,tgfb1a,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-030710-1,ENSDARG00000044601,rtn4a,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-030710-1,ENSDARG00000112237,rtn4a,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-030710-2,ENSDARG00000104347,rtn4b,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-030715-1,ENSDARG00000030932,fgf10a,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-030715-1,ENSDARG00000116867,fgf10a,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-030717-3,ENSDARG00000011618,slc26a2,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-030820-1,ENSDARG00000037020,kif1b,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-030912-3,ENSDARG00000003938,rpa1,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-030925-29,ENSDARG00000012684,atp2b1a,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-031007-6,ENSDARG00000091293,dmxl2,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-031030-2,ENSDARG00000092115,eif4a1a,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-031112-7,ENSDARG00000058868,apc,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-031114-4,ENSDARG00000012030,dnaaf1,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-031116-61,ENSDARG00000058179,ackr3b,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-031116-61,ENSDARG00000113530,ackr3b,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-031118-121,ENSDARG00000026294,erbb2,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-031118-121,ENSDARG00000112475,erbb2,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-040310-1,ENSDARG00000090035,rtn4r,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-040310-4,ENSDARG00000052012,rtn4rl2a,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-040426-1146,ENSDARG00000010300,traf3ip1,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-040426-1279,ENSDARG00000031388,dctn2,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-040426-1371,ENSDARG00000102381,slc44a4,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-040426-1494,ENSDARG00000012747,rer1,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-040426-1663,ENSDARG00000102820,cib2,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-040426-1810,ENSDARG00000091756,insm1a,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-040426-1835,ENSDARG00000101716,bace1,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-040426-1943,ENSDARG00000079110,cluap1,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-040426-2079,ENSDARG00000060921,pla2g6,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-040426-2079,ENSDARG00000114917,pla2g6,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-040426-2209,ENSDARG00000040534,epcam,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-040426-2209,ENSDARG00000110073,epcam,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-040426-2284,ENSDARG00000036044,rps20,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-040426-2768,ENSDARG00000016691,cd9b,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-040426-2797,ENSDARG00000037488,canx,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-040426-768,ENSDARG00000038432,actr10,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-040426-847,ENSDARG00000037514,hdac3,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-040426-847,ENSDARG00000110316,hdac3,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-040513-7,ENSDARG00000094454,cdh23,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-040513-7,ENSDARG00000007561,cdh23,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-040526-1,ENSDARG00000000943,dzip1,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-040526-1,ENSDARG00000113867,dzip1,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-040625-176,ENSDARG00000075297,trnt1,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-040625-176,ENSDARG00000116975,trnt1,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-040625-74,ENSDARG00000045658,msrb3,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-040715-4,ENSDARG00000102657,lman2la,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-040718-149,ENSDARG00000007891,meox1,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-040718-149,ENSDARG00000115382,meox1,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-040718-194,ENSDARG00000018270,olfm1a,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-040718-328,ENSDARG00000017740,sec63,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-040718-420,ENSDARG00000102890,clrn1,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-040808-19,ENSDARG00000102452,eif3ha,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-040831-4,ENSDARG00000043559,gle1,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-040912-137,ENSDARG00000042747,coasy,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-040912-72,ENSDARG00000040910,ildr1b,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-041014-352,ENSDARG00000007869,ehd3,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-041014-357,ENSDARG00000054137,adgrg6,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-041114-32,ENSDARG00000010596,slc7a6os,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-041124-3,ENSDARG00000056648,ext2,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-041221-2,ENSDARG00000044048,prnpb,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-041221-2,ENSDARG00000115858,prnpb,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-041221-3,ENSDARG00000003705,prnprs3,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-050107-1,ENSDARG00000036993,erbb3b,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-050107-1,ENSDARG00000110287,erbb3b,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-050119-3,ENSDARG00000101120,kif3b,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-050119-8,ENSDARG00000013649,casr,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-050127-1,ENSDARG00000045413,gcm2,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-050302-113,ENSDARG00000104314,nrg1,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-050327-84,ENSDARG00000087782,rnf152,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-050327-93,ENSDARG00000012397,eya4,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-050327-93,ENSDARG00000117039,eya4,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-050417-179,ENSDARG00000020363,snrnp25,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-050417-71,ENSDARG00000087538,kif3a,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-050417-71,ENSDARG00000109880,kif3a,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-050417-71,ENSDARG00000117005,kif3a,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-050518-2,ENSDARG00000006921,lrp5,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-050808-1,ENSDARG00000038991,nsfb,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-050808-1,ENSDARG00000109915,nsfb,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-050913-35,ENSDARG00000042128,pacsin1b,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-051113-124,ENSDARG00000053744,dcdc2b,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-051113-60,ENSDARG00000019231,sptan1,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-051120-180,ENSDARG00000018325,taf5,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-051120-99,ENSDARG00000042561,lpar2b,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-060110-1,ENSDARG00000007356,fgf20a,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-060110-1,ENSDARG00000114219,fgf20a,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-060119-1,ENSDARG00000099390,lama2,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-060125-1,ENSDARG00000103953,med12,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-060125-1,ENSDARG00000116469,med12,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-060125-1,ENSDARG00000109815,med12,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-060312-33,ENSDARG00000054264,cog4,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-060503-342,ENSDARG00000061752,ripor2,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-060503-342,ENSDARG00000111158,ripor2,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-060503-416,ENSDARG00000057728,slc17a8,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-060503-416,ENSDARG00000109791,slc17a8,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-060512-226,ENSDARG00000103937,ndrg4,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-060526-262,ENSDARG00000030311,tmc2b,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-060531-130,ENSDARG00000067537,pcsk5a,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-060707-1,ENSDARG00000037794,nptx2a,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-060810-148,ENSDARG00000069269,wdr35,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-060929-268,ENSDARG00000071004,abhd12,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-061013-722,ENSDARG00000036106,rgs18,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-061025-1,ENSDARG00000020621,ap1b1,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-061110-61,ENSDARG00000078106,ocrl,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-061110-61,ENSDARG00000117019,ocrl,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-061110-61,ENSDARG00000115715,ocrl,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-061207-9,ENSDARG00000069423,tmie,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-061215-37,ENSDARG00000071699,ids,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-070117-1989,ENSDARG00000062053,kifbp,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-070117-1989,ENSDARG00000115423,kifbp,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-070117-2066,ENSDARG00000038024,flr,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-070606-2,ENSDARG00000089223,ngfrb,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-070606-2,ENSDARG00000115390,ngfrb,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-070705-262,ENSDARG00000062579,kremen1,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-070912-141,ENSDARG00000098936,kif5aa,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-070912-179,ENSDARG00000075211,chd7,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-071120-5,ENSDARG00000087131,ifnlr1,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-071206-1,ENSDARG00000079779,radil,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-080102-3,ENSDARG00000011240,ift46,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-080108-5,ENSDARG00000099093,dock1,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-080110-7,ENSDARG00000078970,il7r,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-080204-14,ENSDARG00000076420,dkk2,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-080220-48,ENSDARG00000078717,itga8,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-080506-2,ENSDARG00000070954,hmx2,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-080506-2,ENSDARG00000115364,hmx2,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-080707-1,ENSDARG00000078187,slc12a5b,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-081104-298,ENSDARG00000061265,lmln,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-090122-1,ENSDARG00000021895,disc1,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-090303-6,ENSDARG00000062531,mapk8ip3,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-091020-11,ENSDARG00000091006,cobl,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-100308-4,ENSDARG00000010556,mmp25b,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-100519-4,ENSDARG00000077004,aldh1l1,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-100519-4,ENSDARG00000114342,aldh1l1,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-100727-4,ENSDARG00000096533,rltgr,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-110215-2,ENSDARG00000024560,slc4a1b,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-120817-1,ENSDARG00000102180,shroom3,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-120926-3,ENSDARG00000090830,tmem132e,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-131024-2,ENSDARG00000099199,itchb,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-160629-1,ENSDARG00000115463,tomt,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-980526-114,ENSDARG00000004232,dlb,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-980526-143,ENSDARG00000021032,foxd3,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-980526-178,ENSDARG00000101540,fgf3,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-980526-255,ENSDARG00000011027,fgfr1a,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-980526-283,ENSDARG00000042826,egr2b,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-980526-29,ENSDARG00000010791,dla,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-980526-307,ENSDARG00000055305,ret,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-980526-365,ENSDARG00000036254,hoxa13b,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-980526-397,ENSDARG00000055158,prox1a,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-980526-476,ENSDARG00000098952,gata4,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-980526-514,ENSDARG00000046019,snai1b,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-980526-68,ENSDARG00000022712,stat3,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-980526-87,ENSDARG00000102464,wnt5b,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-990415-108,ENSDARG00000056027,hoxb8a,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-990415-131,ENSDARG00000052866,htt,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-990415-17,ENSDARG00000055294,atoh1a,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-990415-171,ENSDARG00000018693,cdh2,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-990415-171,ENSDARG00000117201,cdh2,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-990415-172,ENSDARG00000019566,neurod1,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-990415-174,ENSDARG00000056130,neurog1,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-990415-47,ENSDARG00000020219,dld,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-990415-5,ENSDARG00000100312,hoxa13a,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-990415-54,ENSDARG00000039701,emx2,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-990415-88,ENSDARG00000057026,ran,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-990603-9,ENSDARG00000037238,smad5,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-990630-12,ENSDARG00000000472,cntn2,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-990630-12,ENSDARG00000110222,cntn2,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-990712-18,ENSDARG00000014259,eya1,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-990712-18,ENSDARG00000116267,eya1,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-990714-26,ENSDARG00000031894,lef1,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-990715-2,ENSDARG00000017369,sema3d,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-991207-1,ENSDARG00000015002,cdh4,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-991207-1,ENSDARG00000110870,cdh4,Zfin Reference TAO:0000034,Lateral line system
+ZDB-GENE-991207-1,ENSDARG00000110803,cdh4,Zfin Reference TAO:0000034,Lateral line system
