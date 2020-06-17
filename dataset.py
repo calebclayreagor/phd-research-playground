@@ -1,11 +1,14 @@
 import os, sklearn, scprep, magic, tqdm
+import matplotlib        as mpl
 import matplotlib.pyplot as plt
 import pandas            as pd
 import numpy             as np
 import scipy             as sp
+import gseapy            as gp
 
 from scipy.sparse            import csr_matrix
-from scipy.stats             import pearsonr
+from scipy.interpolate       import UnivariateSpline
+from mpl_toolkits.axes_grid1 import make_axes_locatable
 from scprep.filter           import filter_rare_genes, filter_library_size
 from scprep.normalize        import library_size_normalize
 from scprep.transform        import log
@@ -14,6 +17,7 @@ from tqdm                    import tqdm
 from sklearn.metrics.cluster import adjusted_mutual_info_score as ami
 from sklearn.cluster         import SpectralClustering
 from sklearn.metrics         import silhouette_score
+from gseapy.parser           import Biomart
 
 # from bblocks.py
 from bblocks                 import bayesian_blocks
@@ -28,7 +32,7 @@ class dataset:
         self.normalized            = None
         self.imputed               = None
         self.binned                = None
-        self.correlated            = None
+        self.plot_data             = None
         self.pseudotimes           = None
         self.clusters              = None
         self.gene_similarities     = None
@@ -37,11 +41,13 @@ class dataset:
         self.gene_cluster_n_vals   = None
         self.gene_module_labels    = None
         self.n_gene_modules        = None
-        self.correlations          = None
-
+        self.module_axes           = None
+        self.genes_1d              = None
+        self.pathway_ea            = None
 #         self.pca_embedding = None
 #         self.umap_embedding = None
 #         self.tsne_embedding = None
+
 
 
     def raw_counts_from_sparse_matrix(
@@ -49,7 +55,7 @@ class dataset:
         """
         parameters:
         * cell_names: 1D array-like of cell barcodes or identifiers
-        * gene_names: 1D array-like of gene names or identifiers
+        * gene_names: 1D array-like of ensembl gene identifiers
         * data, indices, indptr: column indices for row i are stored in
           indices[indptr[i]:indptr[i+1]] and their corresponding values are
           stored in data[indptr[i]:indptr[i+1]]
@@ -68,6 +74,7 @@ class dataset:
                                 dtype=dtype).toarray(),
                             index=cell_names,
                             columns=gene_names)
+
 
 
     def preprocess_raw_counts(self, library_size_cutoff=0):
@@ -122,7 +129,8 @@ class dataset:
                                 genes=genes)
 
 
-    def bin_data(self, in_pt, pt_bin, normalize=True, data='raw_counts', genes=[]):
+
+    def bin_data(self, in_pt, pt_bin, data='raw_counts', genes=[]):
         """
         perform binning of indicated data and genes:
         * bin in pseudotime if in_pt == True
@@ -134,8 +142,6 @@ class dataset:
           (default all)
         * in_pt: True/False, whether or not to bin data in pseudotime
         * pt_bin: float, bin width in pseudotime if in_pt == True
-        * normalize: True/False, whether or not to scale expression to [0,1],
-          optional (default True)
 
         attributes:
         * dataset.binned: pd.DataFrame, cells (binned in pt) x genes (binned in
@@ -156,15 +162,18 @@ class dataset:
 
         if in_pt:
 
-            # in pseudotime
+            # in pseudotime (more pythonic way?)
             self.binned = pd.DataFrame(columns=X.columns)
 
-            bins = np.vstack((np.arange(self.pseudotimes.min(), self.pseudotimes.max()-pt_bin, pt_bin),
-                              np.arange(pt_bin, self.pseudotimes.max(), pt_bin))).T
+            bins = np.vstack((np.arange(self.pseudotimes.min(),
+                              self.pseudotimes.max()-pt_bin, pt_bin),
+                              np.arange(pt_bin, self.pseudotimes.max(),
+                              pt_bin))).T
 
             for i in bins:
 
-                idxs = self.pseudotimes[(self.pseudotimes > i[0]) & (self.pseudotimes < i[1])].index
+                idxs = self.pseudotimes[(self.pseudotimes > i[0])&
+                                        (self.pseudotimes < i[1])].index
 
                 if idxs.shape[0] > 0:
 
@@ -185,11 +194,9 @@ class dataset:
 
         self.binned = self.binned.loc[:,self.binned.nunique(axis=0)>1]
 
-        if normalize:
-            self.binned /= self.binned.max(axis=0)
 
 
-    def find_gene_similarities(self, n_runs=5, save=False, fname=''):
+    def find_gene_similarities(self, n_runs=5):
         """
         this function compiles a pairwise gene similarities matrix
         from the binned data, where similarity is defined as the
@@ -197,11 +204,7 @@ class dataset:
 
         parameters:
         * n_runs: int, number of independent runs performed to find mean ami
-          for each pairwise comparison, optional, (default 5)
-        * save: True/False, whether or not to save the similarities matrix
-          to a .npy file, optional (default False)
-        * fname: string, path/filename for saved array if save == True,
-          optional
+          for each pairwise comparison, optional (default 5)
 
         attributes:
         * dataset.gene_similarities: np array, binned genes x binned genes
@@ -225,22 +228,23 @@ class dataset:
         self.gene_similarities = np.mean(self.gene_similarities,axis=0)
         self.gene_similarities = np.clip(self.gene_similarities,0,1)
 
-        if save:
-            with open(fname, 'wb') as f:
-                np.save(f, self.gene_similarities)
 
 
-    def cluster_genes(self, min_clusters=2, max_clusters=10, n_components=10):
+    def cluster_genes(
+        self, min_clusters=2, max_clusters=20, n_components=10, plot_silhouette=True):
         """
-        this function performs spectral clustering over a range of
-        n_clusters to assign genes to a gene module, choosing the
-        optimal number of modules by maximizing the silhouette score.
+        this function performs spectral clustering over a range of n_clusters
+        to assign genes to a gene module, choosing the optimal number of
+        modules by maximizing the silhouette score.
 
         parameters:
-        * min_clusters: int, minimum number of clusters
-        * max_clusters: int, maximum number of clusters
+        * min_clusters: int, minimum number of clusters, optional (default 2)
+        * max_clusters: int, maximum number of clusters, optional (default 10)
         * n_components: int, number of components used in kmeans clustering
-          of decomposed affinity matrix during spectral clustering
+          of decomposed affinity matrix during spectral clustering, optional
+          (default 20)
+        * plot_silhouette: True/False, plot the silhouette score vs n_clusters,
+          optional (default True)
 
         attributes:
         * dataset.gene_module_labels: 1D array of labels assigning genes
@@ -281,62 +285,222 @@ class dataset:
         self.gene_module_labels = self.gene_module_labels[:,self.n_gene_modules]
         self.n_gene_modules += 2
 
+        if plot_silhouette:
 
-    def plot_silhouette_scores(self):
+            plt.figure()
+            plt.plot(self.gene_cluster_n_vals,
+                    self.silhouette_scores,
+                    c='tab:blue', marker='.')
+
+            ax = plt.gca()
+            l,r = ax.get_xlim()
+            b,t = ax.get_ylim()
+
+            plt.vlines(self.n_gene_modules, b, t,
+                       color='k', linestyle='dotted')
+
+            ax.set_xlabel('clusters')
+            ax.set_ylabel('silhouette score')
+            plt.xticks(self.gene_cluster_n_vals[::2])
+            ax.set_ylim(b,t)  # reset after vline
+            ax.set_aspect(abs((r-l)/(b-t))*0.33)
+            plt.tight_layout()
+
+
+
+    def plot_modules(self, smoothing=0.05, data='normalized'):
         """
-        generate a plot to compare silhouette scores across n_clusters
+        prepare the gene module data and plot the results:
+        1. orient (flip) trajectories so that all genes within a
+           module positively correlate with each other
+        2. smooth trajectories using a sliding window
+        3. scale expression values to between 0 and 1
+        4. take the average trajectory of genes in a module and
+           fit a univariate spline to the average
+        5. find the standard deviation at several points along
+           the average trajectory
+        6. plot the fitted spline and errors to visualize the
+           trajectory of the gene module
 
-        """
-
-        plt.figure()
-        plt.plot(self.gene_cluster_n_vals,
-                 self.silhouette_scores,
-                 c='tab:blue', marker='o')
-
-        ax = plt.gca()
-        l,r = ax.get_xlim()
-        b,t = ax.get_ylim()
-
-        plt.vlines(self.n_gene_modules, b, t,
-                   color='k', linestyle='dotted')
-
-        ax.set_xlabel('Clusters')
-        ax.set_ylabel('Silhouette Score')
-        plt.xticks(self.gene_cluster_n_vals[::2])
-        ax.set_ylim(b,t)  # reset after vline
-        ax.set_aspect(abs((r-l)/(b-t))*0.33)
-        plt.tight_layout()
-
-
-    def correlate_genes_in_modules(self):
-        """
-        orient (flip) trajectories so that all genes within a module
-        positively correlate with each other (assumes normalization
-        of expression to between [0,1] during binning)
+        parameters:
+        * data: one of ['raw_counts','normalized' (default),
+          'imputed'], optional
+        * smoothing: float, the width (in pseudotime units) of
+          the sliding window used for smoothing gene trajectories,
+          optional (default 0.05)
 
         attributes:
-        * dataset.correlated: pd.DataFrame, same structure as dataset.binned
-        * dataset.correlations: 1D binary array corresponding to binned genes,
-          indicating whether gene is positively or negatively correlated with
-          module
+        * dataset.plot_data: pd.DataFrame, cells x binned genes,
+          containing smoothed/scaled expression values
+        * dataset.module_axes: list, contains plots' axes objects
 
         """
 
-        self.correlated = self.binned.copy()
-        self.correlations = np.ones(self.gene_module_labels.shape)
+        if data == 'raw_counts':
+            X = self.raw_counts
+        elif data == 'normalized':
+            X = self.normalized
+        elif data == 'imputed':
+            X = self.imputed
 
-        for i in self.correlated.columns:
+        self.plot_data = X[self.binned.columns].copy()
 
-            gene_module = self.gene_module_labels[np.where(
-                                self.clustered_gene_names==i)][0]
+        for i in sorted(np.unique(self.gene_module_labels)):
 
-            ref_gene = self.clustered_gene_names[np.where(
-                                self.gene_module_labels==gene_module)][0]
+            genes = np.where(self.gene_module_labels==i)[0]
+            cells = np.arange(self.plot_data.shape[0])
 
-            corr = pearsonr(self.correlated[i],self.binned[ref_gene])
+            # correlate trajectories
+            pcorr = np.corrcoef(self.plot_data.iloc[:,genes].T)
+            for j in np.arange(genes.shape[0]):
+                if pcorr[0,j] < 0:
+                    self.plot_data.iloc[:,genes[j]] *= -1
 
-            if corr[0] < 0:
+            # smooth trajectories
+            for cell in cells:
+                w = [x for x in cells if abs(self.pseudotimes.iloc[x] -
+                     self.pseudotimes.iloc[cell]) < smoothing/2]
+                self.plot_data.iloc[cell,genes] = self.plot_data.iloc[w,genes].mean(axis=0)
 
-                self.correlated[i] = -self.correlated[i] + 1
+            # scale trajectories
+            self.plot_data.iloc[:,genes] = (self.plot_data.iloc[:,genes] -           \
+                                            self.plot_data.iloc[:,genes].min())/     \
+                                           (self.plot_data.iloc[:,genes].max() -     \
+                                            self.plot_data.iloc[:,genes].min())
 
-                self.correlations[np.where(self.clustered_gene_names==i)] = -1
+            # fit spline
+            x = self.pseudotimes
+            y = self.plot_data.iloc[:,genes].mean(axis=1)
+            x_spline = np.linspace(x.min(), x.max(), 200)
+            spl = UnivariateSpline(x, y)
+            y_spline = spl(x_spline)
+
+            # find std at several points along trajectory
+            stds = self.plot_data.iloc[:,genes].std(axis=1)
+            x_std = np.linspace(self.pseudotimes.min(), self.pseudotimes.max(), 5)
+            y_ = np.array([y_spline[np.argmin(abs(x_spline-x))] for x in x_std])
+            y_std = np.array([stds.loc[abs(self.pseudotimes-x).idxmin()] for x in x_std])
+
+            # plot
+            plt.figure()
+
+            plt.plot(x_spline, y_spline, c='k')
+            plt.scatter(x_std, y_+y_std, c='r', marker='.')
+            plt.scatter(x_std, y_+y_std, c='r', marker='_')
+            plt.scatter(x_std, y_-y_std, c='r', marker='.')
+            plt.scatter(x_std, y_-y_std, c='r', marker='_')
+
+            ax = plt.gca()
+            l,r = ax.get_xlim()
+            b,t = ax.get_ylim()
+
+            ax.set_xlabel('pseudotime')
+            ax.set_ylabel('expression (AU)')
+            plt.title('module'+str(int(i)))
+            ax.set_aspect(abs((r-l)/(b-t))*0.25)
+            plt.tight_layout()
+
+            if i == 0:
+                self.module_axes = [ax]
+            else:
+                self.module_axes.append(ax)
+
+
+
+    def order_genes_pt(self, method='max'):
+        """
+        this function finds a 1d projection for each gene trajectory
+        using predefined criteria (described below).
+
+        parameters:
+        * method: string, method to use for projecting genes to 1d,
+          optional:
+          * 'max': pseudotime of trajectory maximum expression (default)
+          * 'median': pseudotime of trajectory median expression
+
+        attributes:
+        * dataset.genes_1d: 1d array of gene 1d projections
+
+        """
+
+        if method == 'max':
+            self.genes_1d = self.pseudotimes[self.plot_data.idxmax()]
+
+        elif method == 'median':
+            self.genes_1d = self.pseudotimes[abs(self.plot_data-0.5).idxmin()]
+
+
+
+    def pathway_ea_in_pt(self, pathways, pt_bin=0.1, plot=True):
+        """
+        ...
+
+        """
+
+        bins = np.vstack((np.arange(self.pseudotimes.min(),
+                          self.pseudotimes.max()-pt_bin, pt_bin),
+                          np.arange(pt_bin, self.pseudotimes.max(),
+                          pt_bin))).T
+
+        self.pathway_ea = pd.DataFrame(0, index=pathways, columns=
+                                       [np.mean(x) for x in bins])
+
+        bm = Biomart()
+        background = bm.query(dataset='drerio_gene_ensembl',
+                              attributes=['external_gene_name'],
+                              filters={'ensembl_gene_id':
+                              list(self.clustered_gene_names)})
+
+        for i in tqdm(bins):
+            gene_ids = self.clustered_gene_names[np.where((self.genes_1d>i[0])&
+                                                          (self.genes_1d<i[1]))]
+            if gene_ids.shape[0]>0:
+                gene_names = bm.query(dataset='drerio_gene_ensembl',
+                                      attributes=['external_gene_name'],
+                                      filters={'ensembl_gene_id':list(gene_ids)})
+            else:
+                gene_names = pd.DataFrame()
+
+            # enrichment analysis
+            if gene_names.shape[0]>0:
+
+                enr = gp.enrichr(gene_list=list(gene_names['external_gene_name']),
+                                 background=list(background['external_gene_name']),
+                                 organism='Fish', gene_sets='KEGG_2019',
+                                 outdir=None, cutoff=1, no_plot=True)
+                # update results
+                if enr.res2d['Term'].isin(pathways).any():
+                    res = enr.res2d.loc[np.where(enr.res2d['Term'].isin(pathways))[0],
+                                                            ['Term','Combined Score']]
+                    res.set_index('Term', inplace=True)
+                    self.pathway_ea.loc[res.index,np.mean(i)] = res['Combined Score']
+
+        self.pathway_ea.clip(lower=0, inplace=True)
+
+        if plot:
+            plt.figure()
+            im = plt.imshow(self.pathway_ea, norm=mpl.colors.LogNorm(),
+                            cmap='binary', aspect='equal', origin='lower')
+            ax = plt.gca()
+            ax.yaxis.tick_right()
+            ax.grid(True, color='k')
+            ax.set_xlabel('pseudotime')
+            ax.set_xticks(np.arange(self.pathway_ea.shape[1]+1)-0.5)
+            ax.set_yticks(np.arange(self.pathway_ea.shape[0])-0.5)
+            ax.set_xticklabels([round(x,2) for x in
+                                np.arange(self.pseudotimes.min(),
+                                self.pseudotimes.max(), pt_bin)])
+            ax.set_yticklabels(self.pathway_ea.index, va='bottom')
+
+            divider = make_axes_locatable(ax)
+            cax = divider.append_axes('left', size='5%', pad=0.05)
+            cbar = plt.colorbar(im, cax=cax)
+            cbar.set_label('combined score')
+            cbar.ax.yaxis.set_ticks_position('left')
+            cbar.ax.yaxis.set_label_position('left')
+
+            plt.tight_layout()
+
+
+
+### ADD COMMENTS FOR PATHWAY ENRICHMENT FUNCTION
