@@ -1,11 +1,15 @@
-import os, sklearn, scprep, magic, tqdm
+import os
+import tqdm
+import sklearn
+import scprep
+import magic
 import matplotlib        as mpl
-import matplotlib.pyplot as plt
 import pandas            as pd
 import numpy             as np
 import scipy             as sp
 import gseapy            as gp
 
+from matplotlib              import pyplot as plt
 from scipy.sparse            import csr_matrix
 from scipy.interpolate       import UnivariateSpline
 from mpl_toolkits.axes_grid1 import make_axes_locatable
@@ -44,6 +48,7 @@ class dataset:
         self.module_axes           = None
         self.genes_1d              = None
         self.pathway_ea            = None
+        self.enrichment_axes       = None
 #         self.pca_embedding = None
 #         self.umap_embedding = None
 #         self.tsne_embedding = None
@@ -72,6 +77,7 @@ class dataset:
                                 (data,indices,indptr),
                                 shape=shape,
                                 dtype=dtype).toarray(),
+                            dtype=np.int64,
                             index=cell_names,
                             columns=gene_names)
 
@@ -108,7 +114,7 @@ class dataset:
 
     def impute_from_normalized(self, genes='all_genes'):
         """
-        impute missing expression from normalized matrix
+        impute missing expression from normalized data matrix
         (performed via MAGIC data diffusion)
 
         parameters:
@@ -199,15 +205,15 @@ class dataset:
     def find_gene_similarities(self, n_runs=5):
         """
         this function compiles a pairwise gene similarities matrix
-        from the binned data, where similarity is defined as the
-        adjusted mutual information score (mean of n_runs).
+        using the previously binned data, where similarity is defined
+        as the adjusted mutual information score (mean of n_runs).
 
         parameters:
         * n_runs: int, number of independent runs performed to find mean ami
           for each pairwise comparison, optional (default 5)
 
         attributes:
-        * dataset.gene_similarities: np array, binned genes x binned genes
+        * dataset.gene_similarities: pd.DataFrame, binned genes x binned genes
           (mean of n runs)
 
         """
@@ -227,15 +233,18 @@ class dataset:
 
         self.gene_similarities = np.mean(self.gene_similarities,axis=0)
         self.gene_similarities = np.clip(self.gene_similarities,0,1)
+        self.gene_similarities = pd.DataFrame(self.gene_similarities,
+                                              index=self.binned.columns,
+                                              columns=self.binned.columns)
 
 
 
     def cluster_genes(
         self, min_clusters=2, max_clusters=20, n_components=10, plot_silhouette=True):
         """
-        this function performs spectral clustering over a range of n_clusters
-        to assign genes to a gene module, choosing the optimal number of
-        modules by maximizing the silhouette score.
+        this function performs spectral clustering (using the previously computed
+        similarity matrix) over a range of n_clusters to assign genes to a gene
+        module, choosing the optimal number of modules by maximizing the silhouette score.
 
         parameters:
         * min_clusters: int, minimum number of clusters, optional (default 2)
@@ -410,7 +419,7 @@ class dataset:
     def order_genes_pt(self, method='max'):
         """
         this function finds a 1d projection for each gene trajectory
-        using predefined criteria (described below).
+        (in plot_data) using predefined criteria.
 
         parameters:
         * method: string, method to use for projecting genes to 1d,
@@ -423,17 +432,31 @@ class dataset:
 
         """
 
+        self.genes_1d = pd.DataFrame(index=self.plot_data.columns, columns=['pt'])
+
         if method == 'max':
-            self.genes_1d = self.pseudotimes[self.plot_data.idxmax()]
+            self.genes_1d['pt'] = self.pseudotimes[self.plot_data.idxmax()].values
 
         elif method == 'median':
-            self.genes_1d = self.pseudotimes[abs(self.plot_data-0.5).idxmin()]
+            self.genes_1d['pt'] = self.pseudotimes[abs(self.plot_data-0.5).idxmin()].values
 
 
 
     def pathway_ea_in_pt(self, pathways, pt_bin=0.1, plot=True):
         """
-        ...
+        this function uses the previously computed gene trajectory pseudotime
+        projections to perform GO enrichment analysis on KEGG pathways using
+        bins of specified width.
+
+        paramters:
+        * pathways: list of strings, names of KEGG pathways for analysis
+        * pt_bin: float, bin width in pseudotime, optional (default 0.1)
+        * plot: True/False, generate plot for results, optional (default True)
+
+        attributes:
+        * dataset.pathway_ea: pd.DataFrame, pathways x bins matrix of combined
+          scores
+        * dataset.enrichment_axes: plot axis
 
         """
 
@@ -452,8 +475,8 @@ class dataset:
                               list(self.clustered_gene_names)})
 
         for i in tqdm(bins):
-            gene_ids = self.clustered_gene_names[np.where((self.genes_1d>i[0])&
-                                                          (self.genes_1d<i[1]))]
+            gene_ids = self.clustered_gene_names[np.where((self.genes_1d['pt']>i[0])&
+                                                          (self.genes_1d['pt']<i[1]))]
             if gene_ids.shape[0]>0:
                 gene_names = bm.query(dataset='drerio_gene_ensembl',
                                       attributes=['external_gene_name'],
@@ -501,6 +524,4 @@ class dataset:
 
             plt.tight_layout()
 
-
-
-### ADD COMMENTS FOR PATHWAY ENRICHMENT FUNCTION
+            self.enrichment_axes = ax
