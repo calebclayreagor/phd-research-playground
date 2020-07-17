@@ -13,7 +13,8 @@ from matplotlib              import pyplot as plt
 from scipy.sparse            import csr_matrix
 from scipy.interpolate       import UnivariateSpline
 from mpl_toolkits.axes_grid1 import make_axes_locatable
-from scprep.filter           import filter_rare_genes, filter_library_size
+from scprep.filter           import filter_rare_genes
+from scprep.filter           import filter_library_size
 from scprep.normalize        import library_size_normalize
 from scprep.transform        import log
 from magic                   import MAGIC
@@ -21,7 +22,10 @@ from tqdm                    import tqdm
 from sklearn.metrics.cluster import adjusted_mutual_info_score as ami
 from sklearn.cluster         import SpectralClustering
 from sklearn.metrics         import silhouette_score
+from sklearn.decomposition   import PCA
+from sklearn.manifold        import TSNE
 from gseapy.parser           import Biomart
+from cycler                  import cycler
 
 # from bblocks.py
 from bblocks                 import bayesian_blocks
@@ -49,9 +53,10 @@ class dataset:
         self.genes_1d              = None
         self.pathway_ea            = None
         self.enrichment_axes       = None
-#         self.pca_embedding = None
-#         self.umap_embedding = None
-#         self.tsne_embedding = None
+        self.pca_embedding        = None
+#        self.umap_embedding       = None
+        self.tsne_embedding       = None
+        self.plot_axes            = None
 
 
 
@@ -525,3 +530,130 @@ class dataset:
             plt.tight_layout()
 
             self.enrichment_axes = ax
+
+
+
+    def embed_pca(self, data='raw_counts', genes=[], n_components=20):
+        """
+        dimensionsionality reduction using principal components analysis
+
+        parameters:
+        * data: one of ['raw_counts' (default),'normalized','imputed'], optional
+        * genes: 1D array-like of gene names or identifiers to bin, optional
+          (default all)
+        * n_components: int, number of components to keep, optional (default 20)
+
+        attributes:
+        * dataset.pca_embedding: pd.DataFrame, cells x components embedding
+
+        """
+
+        if data == 'raw_counts':
+            X = self.raw_counts
+        elif data == 'normalized':
+            X = self.normalized
+        elif data == 'imputed':
+            X = self.imputed
+
+        if len(list(genes)) > 0:
+            X = X[[g for g in genes if g in X.columns]]
+
+        self.pca_embedding = pd.DataFrame(PCA(n_components=n_components).fit_transform(X), index=X.index)
+
+
+
+    def embed_tsne(self, data='pca', genes=[]):
+        """
+        dimensionsionality reduction using t-stochastic neighbor embedding
+
+        parameters:
+        * data: one of ['pca' (default),'raw_counts','normalized','imputed'],
+          optional
+        * genes: 1D array-like of gene names or identifiers to bin, optional
+          (default all)
+
+        attributes:
+        * dataset.tsne_embedding: pd.DataFrame, cells x components embedding
+
+        """
+
+        if data == 'pca':
+            X = self.pca_embedding
+        elif data == 'raw_counts':
+            X = self.raw_counts
+        elif data == 'normalized':
+            X = self.normalized
+        elif data == 'imputed':
+            X = self.imputed
+
+        if len(list(genes)) > 0:
+            X = X[[g for g in genes if g in X.columns]]
+
+        self.tsne_embedding = pd.DataFrame(TSNE().fit_transform(X), index=X.index)
+
+
+
+    def plot_embedding(self, which, plot_clusters=[], labels=[], ar=1, legend=True):
+        """
+        ... not finished
+
+        """
+
+        if which == 'pca':
+            X = self.pca_embedding
+            ax_labels = ['PC1','PC2']
+        elif which == 'tsne':
+            X = self.tsne_embedding
+            ax_labels = ['tSNE1','tSNE2']
+
+        if len(list(plot_clusters)) == 0:
+            plot_clusters = self.clusters.unique()
+
+        if len(list(labels)) == 0:
+            labels = plot_clusters
+
+        plt.figure()
+        cmap = plt.cm.rainbow
+        N = len(plot_clusters)
+        c = cycler('color', cmap(np.linspace(0,1,N)))
+        plt.rcParams["axes.prop_cycle"] = c
+
+        for c in plot_clusters:
+            x = np.where(self.clusters==c)[0]
+            plt.scatter(X.iloc[x,0], X.iloc[x,1], edgecolor='k')
+
+        ax = plt.gca()
+        l,r = ax.get_xlim()
+        b,t = ax.get_ylim()
+        ax.axis('off')
+
+        ax.set_aspect(abs((r-l)/(b-t))*ar)
+
+        if legend:
+            ax.legend(labels, frameon=False, markerscale=2)
+
+        if ar > 0.5:
+            ax_ar = 0.5
+        else:
+            ax_ar = 1
+
+        plt.annotate(s='', xy=(0,ax_ar*0.4), xytext=(ax_ar*0.4*ar,0),
+                     xycoords='axes fraction', arrowprops=dict(arrowstyle='<->',
+                     connectionstyle='angle, rad=0, angleA=0, angleB=-90',
+                     color='k'))
+
+        plt.text(s=ax_labels[0], x=ax_ar*0.18*ar, y=-0.025/ar,
+                 va='center', ha='center', color='k', transform= ax.transAxes)
+
+        plt.text(s=ax_labels[1], x=-0.025, y=ax_ar*0.18,
+                 rotation=90, va='center', ha='center',
+                 color='k', transform=ax.transAxes)
+
+        self.plot_axes = ax
+
+
+
+#    def gaussian_mixture
+
+
+#
