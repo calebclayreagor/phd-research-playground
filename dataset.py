@@ -30,6 +30,16 @@ from cycler                  import cycler
 # from bblocks.py
 from bblocks                 import bayesian_blocks
 
+# R interface via rpy2
+from rpy2 import robjects
+import rpy2.robjects.numpy2ri
+from rpy2.robjects import Formula
+robjects.numpy2ri.activate()
+from rpy2.robjects.packages import importr
+base = importr("base")
+dollar = base.__dict__["$"]
+deseq = importr('DESeq2')
+
 
 class dataset:
 
@@ -57,6 +67,7 @@ class dataset:
 #        self.umap_embedding       = None
         self.tsne_embedding       = None
         self.plot_axes            = None
+        self.deg                  = None
 
 
 
@@ -593,16 +604,27 @@ class dataset:
 
 
 
-    def plot_embedding(self, which, plot_clusters=[], labels=[], ar=1, legend=True):
+    def plot_embedding(self, data, plot_clusters=[], labels=[], ar=1, legend=True):
         """
-        ... not finished
+        plot designated clusters in reduced dimensions
+
+        parameters:
+        * data: one of ['pca','tsne'], which embedding to plot
+        * plot_clusters: list of clusters to plot, optional (default all)
+        * labels: list of labels for plotted clusters, optional (one label
+          for each cluster in plot_clusters, else one label for every cluster)
+        * ar: aspect ratio, optional (default 1)
+        * legend: True/False, show legend, optional (default True)
+
+        attributes:
+        * dataset.plot_axes: plot axis
 
         """
 
-        if which == 'pca':
+        if data == 'pca':
             X = self.pca_embedding
             ax_labels = ['PC1','PC2']
-        elif which == 'tsne':
+        elif data == 'tsne':
             X = self.tsne_embedding
             ax_labels = ['tSNE1','tSNE2']
 
@@ -613,7 +635,7 @@ class dataset:
             labels = plot_clusters
 
         plt.figure()
-        cmap = plt.cm.rainbow
+        cmap = plt.cm.jet
         N = len(plot_clusters)
         c = cycler('color', cmap(np.linspace(0,1,N)))
         plt.rcParams["axes.prop_cycle"] = c
@@ -630,7 +652,7 @@ class dataset:
         ax.set_aspect(abs((r-l)/(b-t))*ar)
 
         if legend:
-            ax.legend(labels, frameon=False, markerscale=2)
+            ax.legend(labels, frameon=False, markerscale=1.25)
 
         if ar > 0.5:
             ax_ar = 0.5
@@ -650,6 +672,36 @@ class dataset:
                  color='k', transform=ax.transAxes)
 
         self.plot_axes = ax
+
+
+
+    def diff_exp2(self, method='deseq2', clusters=[], plot=True, plot_genes=[]):
+        """
+        two group differential expression analysis
+
+        ...
+
+        """
+
+        if method == 'deseq2':
+
+            x = self.clusters.isin(clusters)
+
+            dds = deseq.DESeqDataSetFromMatrix(design=Formula('~ polarity'),
+                    countData=self.raw_counts.loc[x,:].values.T, colData=
+                    robjects.DataFrame({'polarity': robjects.StrVector(
+                    self.clusters[x].astype(str).values).factor()}))
+
+            dds = deseq.DESeq(dds)
+            ds_res = deseq.results(dds)
+
+            self.deg = pd.DataFrame(index=self.raw_counts.columns)
+            self.deg['P.Value'] = dollar(ds_res,'pvalue')
+            self.deg['adj.P.Val'] = dollar(ds_res,'padj')
+            self.deg['logFC'] = dollar(ds_res,'log2FoldChange')
+            self.deg.sort_values('logFC', ascending=False, inplace=True)
+            self.deg.dropna(how='all', inplace=True)
+
 
 
 
