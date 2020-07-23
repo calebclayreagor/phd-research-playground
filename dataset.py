@@ -1,4 +1,5 @@
 import os
+import math
 import tqdm
 import sklearn
 import scprep
@@ -10,6 +11,7 @@ import scipy             as sp
 import gseapy            as gp
 
 from matplotlib              import pyplot as plt
+from matplotlib.ticker       import MaxNLocator
 from scipy.sparse            import csr_matrix
 from scipy.interpolate       import UnivariateSpline
 from mpl_toolkits.axes_grid1 import make_axes_locatable
@@ -63,11 +65,11 @@ class dataset:
         self.genes_1d              = None
         self.pathway_ea            = None
         self.enrichment_axes       = None
-        self.pca_embedding        = None
+        self.pca_embedding         = None
 #        self.umap_embedding       = None
-        self.tsne_embedding       = None
-        self.plot_axes            = None
-        self.deg                  = None
+        self.tsne_embedding        = None
+        self.embedding_axes        = None
+        self.deg                   = None
 
 
 
@@ -671,11 +673,11 @@ class dataset:
                  rotation=90, va='center', ha='center',
                  color='k', transform=ax.transAxes)
 
-        self.plot_axes = ax
+        self.embedding_axes = ax
 
 
 
-    def diff_exp2(self, method='deseq2', clusters=[], plot=True, plot_genes=[]):
+    def diff_exp2(self, method='deseq2', clusters=[]):
         """
         two group differential expression analysis
 
@@ -701,6 +703,47 @@ class dataset:
             self.deg['logFC'] = dollar(ds_res,'log2FoldChange')
             self.deg.sort_values('logFC', ascending=False, inplace=True)
             self.deg.dropna(how='all', inplace=True)
+
+
+
+    def plot_violin(
+            self, clusters=[], cluster_labels=[], gene=[], gene_label=[], ar=1):
+        """
+        ...
+
+        """
+
+        plt.figure(dpi=100)
+        ax = plt.gca()
+        l,r = ax.get_xlim()
+        b,t = ax.get_ylim()
+
+        data = [self.raw_counts.loc[self.clusters==clusters[0], gene],
+                self.raw_counts.loc[self.clusters==clusters[1], gene]]
+
+        v = ax.violinplot(data, showmeans=False,
+                          showmedians=False,
+                          showextrema=False)
+
+        ax.scatter(np.random.normal(1, 0.1, data[0].shape[0]),
+                   data[0] + np.random.uniform(-0.05*(t-b), 0.05*(t-b), data[0].shape[0]), c='k')
+
+        ax.scatter(np.random.normal(2, 0.1, data[1].shape[0]),
+                   data[1] + np.random.uniform(-0.05*(t-b), 0.05*(t-b), data[1].shape[0]), c='k')
+
+        yl,yh = ax.get_ylim()
+        ax.plot([1,2], [yh,yh], c='k')
+        ax.text(1.5, yh+0.05*(yh-yl), ha='center', va='center',
+                s='p='+str(round(self.deg.loc[gene,'P.Value'],5)))
+        ax.set_ylim(yl,yh+0.1*(yh-yl))
+        ax.title.set_text(gene_label)
+        plt.xticks([1,2])
+        ax.set_xticklabels(cluster_labels)
+        ax.set_aspect(abs((r-l)/(b-t))*ar)
+        ax.yaxis.set_major_locator(MaxNLocator(integer=True))
+        ax.set_ylabel('transcripts')
+
+
 
 
 
