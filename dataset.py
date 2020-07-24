@@ -70,6 +70,7 @@ class dataset:
         self.tsne_embedding        = None
         self.embedding_axes        = None
         self.deg                   = None
+        self.gene_ax               = None
 
 
 
@@ -745,7 +746,72 @@ class dataset:
 
 
 
+    def plot_gene(self, gene, title, smoothing=0.05, data='normalized'):
+        """
+        prepare the trajectory data and plot the results:
+        1. smooth trajectory using a sliding window
+        2. scale expression values to between 0 and 1
+        3. fit a univariate spline to the trajectory
+        4. plot the fitted spline and selected data
 
+        parameters:
+        * gene: string, gene identifier corresponding to a data column
+        * title: string, title for plot corresponding to given identifier
+        * data: one of ['raw_counts','normalized' (default), 'imputed'],
+          optional
+        * smoothing: float, the width (in pseudotime units) of the sliding
+          window used for smoothing the gene trajectory, optional (default
+          0.05)
+
+        attributes:
+        * dataset.gene_ax: axis object for generated plot
+
+        """
+
+        if data == 'raw_counts':
+            X = self.raw_counts[gene].copy()
+            X_ = self.raw_counts[gene].copy()
+        elif data == 'normalized':
+            X = self.normalized[gene].copy()
+            X_ = self.normalized[gene].copy()
+        elif data == 'imputed':
+            X = self.imputed[gene].copy()
+            X_ = self.imputed[gene].copy()
+
+        cells = np.arange(X.shape[0])
+
+        # smooth trajectory
+        for cell in cells:
+            w = [x for x in cells if abs(self.pseudotimes.iloc[x] -
+                 self.pseudotimes.iloc[cell]) < smoothing/2]
+            X.iloc[cell] = X.iloc[w].mean()
+
+        # scale trajectory
+        X = (X - X.min())/(X.max() - X.min())
+        X_ = (X_ - X_.min())/(X_.max() - X_.min())
+
+        # fit spline
+        x = self.pseudotimes
+        x_spline = np.linspace(x.min(), x.max(), 200)
+        spl = UnivariateSpline(x, X.values)
+        y_spline = spl(x_spline)
+
+        # plot
+        plt.figure()
+
+        plt.plot(x_spline, y_spline, c='k')
+        plt.scatter(x, X_.values, c='r', marker='.')
+
+        ax = plt.gca()
+        l,r = ax.get_xlim()
+        b,t = ax.get_ylim()
+
+        ax.set_xlabel('pseudotime')
+        ax.set_ylabel('expression (AU)')
+        plt.title(title)
+        ax.set_aspect(abs((r-l)/(b-t))*0.25)
+        plt.tight_layout()
+        self.gene_ax = ax
 
 
 #    def gaussian_mixture
