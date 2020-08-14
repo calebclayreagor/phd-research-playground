@@ -27,13 +27,14 @@ from PIL                 import ImageFont
 class idataset:
 
     def __init__(self, frames_directory, date, exper_id,
-                    times_directory, masks_directory):
+                    times_directory, masks_directory, results_directory):
 
         self.directory           = frames_directory
         self.date                = date
         self.exper_id            = exper_id
         self.tdirectory          = times_directory
         self.mdirectory          = masks_directory
+        self.rdirectory          = results_directory
         self.frames              = None
         self.n_frames            = None
         self.max_intensities     = None
@@ -43,7 +44,7 @@ class idataset:
         self.n_particles         = None
         self.masks_linked        = None
         self.colors              = None
-        self.intensities         = None
+        self.avg_intensities     = None
 
         self.get_frames()
         self.get_timepoints()
@@ -72,14 +73,13 @@ class idataset:
                             cont = False
 
             # find max intensity at each depth
-            # note: this is slow, can we optimize?
             self.n_frames = len(self.frames)
             self.max_intensities = np.zeros((len(self.frames[0]),))
-            for z in range(len(self.frames[0])):
-                for i in range(self.n_frames):
-                    frameMaxIntensity = np.array(self.frames[i][z]).max()
-                    if frameMaxIntensity > self.max_intensities[z]:
-                        self.max_intensities[z] = frameMaxIntensity
+            for i in range(self.n_frames):
+                frameMaxIntensities = np.array(self.frames[i]).max(axis=1)
+                frameMaxIntensities = frameMaxIntensities.max(axis=1)
+                idx = (frameMaxIntensities > self.max_intensities).nonzero()
+                self.max_intensities[idx] = frameMaxIntensities[idx]
 
             print("Loaded timelapse:")
             print(f"t = {self.n_frames}")
@@ -338,30 +338,67 @@ class idataset:
 
 
 
-    def get_fluoresence_for(self,): # GET AVG FLUORESCENCE FROM MASKS/FRAMES
-        """ ... """
+    def cell_per_pixel_intensities(self):
+        """ apply masks to frames to compute cells' per pixel intensities
+
+        attributes:
+        * idataset.avg_intensities: np array, n_frames x n_particles """
+
+        self.avg_intensities = np.empty((self.n_frames, self.n_particles))
+        self.avg_intensities[:] = np.nan
+        for i in range(self.n_frames):
+            frame = np.array(self.frames[i])
+            mask = self.masks_linked[i]
+            mask = np.dstack(mask).astype(int)
+            mask = np.rollaxis(mask, -1)
+
+            cells = np.arange(self.n_particles)
+            cells = cells[np.isin(cells+1, mask)]
+
+            sums = np.bincount(mask.ravel(), frame.ravel())
+            counts = np.bincount(mask.ravel())
+            idx = cells[np.isin(cells+1, mask)]+1
+            avg = sums[idx]/counts[idx]
+            self.avg_intensities[i,cells] = avg
+        print('Calculated average intensities per pixel.')
 
 
-    def plot_fluorescence(self, cells, vline=None): # PLOT FLUORESCENT TIMECOURSES
-        """ ... """
 
-        self.intensities = np.zeros((self.n_frames, self.n_particles))
+    def plot_intensities(self, cells, vline=None):
+        """ return a scatter plot of cells' per pixel intensities """
 
-        for j in range(len(cells)):
-            for i in range(self.n_frames):
-                frame = np.array(self.frames[i])
-                mask = self.masks_linked[i]
-                mask = np.dstack(mask).astype(int)
-                mask = np.rollaxis(mask, -1)
-                idx = (mask==cells[j]).nonzero()
-                mean_intensity[i,j] = frame[idx].sum(axis=None)
-                if frame[idx].shape[0] > 0:
-                    mean_intensity[i,j] /= frame[idx].shape[0]
-                mean_intensity[mean_intensity==0] = np.nan
+        cells  = [x-1 for x in cells]
+        plt.figure()
+        for i in cells:
+            plt.scatter(self.timepoints, self.avg_intensities[:,i],
+                        color=hsv_to_rgb(self.colors[i,:]), marker='.')
+        ax = plt.gca()
+        l,r = ax.get_xlim()
+        b,t = ax.get_ylim()
 
-            plt.scatter(self.timepoints,mean_intensity[:,j])
+        if vline != None:
+            plt.vlines(vline, b, t, color='k',
+                        linestyles='dashed')
+            ax.set_ylim(b,t)
 
-plt.show()
+        ax.set_xlabel('time (m)')
+        ax.set_ylabel('fluor./pix. (AU)')
+        ax.set_aspect(abs((r-l)/(b-t))*0.25)
+        plt.tight_layout()
 
 
-#
+
+    def save_intensities_to_csv(self, precursor, daughter, cutoff=None):
+        """ save precursor and daughter cells' per pixel intensities to csv """
+
+        precursor -= 1; daughter -= 1; results = pd.DataFrame()
+        results['Timepoints (min)'] = self.timepoints
+        results['Precursor'] = self.avg_intensities[:, precursor]
+        results['Daughter'] = self.avg_intensities[:, daughter]
+        results.set_index('Timepoints (min)', drop=True, inplace=True)
+
+        if cutoff:
+            results = results[results.index < cutoff]
+
+        results.to_csv(f"{self.rdirectory}{self.date}_{self.exper_id}.csv")
+        print('Successfully saved intensities to csv file in results_directory.')
