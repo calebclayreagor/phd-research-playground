@@ -1,2 +1,2 @@
 # hudspeth-lab
-Working directory for ongoing lab work
+Working repository for ongoing lab work
