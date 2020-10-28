@@ -746,7 +746,7 @@ class dataset:
 
 
 
-    def plot_gene(self, gene, title, smoothing=0.05, data='normalized'):
+    def plot_gene(self, gene, title, smoothing=0.05, data='normalized', ax_=None):
         """
         prepare the trajectory data and plot the results:
         1. smooth trajectory using a sliding window
@@ -762,9 +762,10 @@ class dataset:
         * smoothing: float, the width (in pseudotime units) of the sliding
           window used for smoothing the gene trajectory, optional (default
           0.05)
+        * ax_: axes object to plot on, optional (default None)
 
         attributes:
-        * dataset.gene_ax: axis object for generated plot
+        * dataset.gene_ax: axis object for generated plot, if ax_ is None
 
         """
 
@@ -797,21 +798,27 @@ class dataset:
         y_spline = spl(x_spline)
 
         # plot
-        plt.figure()
+        if ax_ is None:
+            plt.figure()
+            plt.plot(x_spline, y_spline, c='k')
+            plt.scatter(x, X_.values, c='r', marker='.')
+            ax = plt.gca()
+        else:
+            ax = ax_
+            ax.plot(x_spline, y_spline, c='k')
+            ax.scatter(x, X_.values, c='r', marker='.')
 
-        plt.plot(x_spline, y_spline, c='k')
-        plt.scatter(x, X_.values, c='r', marker='.')
-
-        ax = plt.gca()
         l,r = ax.get_xlim()
         b,t = ax.get_ylim()
 
         ax.set_xlabel('pseudotime')
         ax.set_ylabel('expression (AU)')
-        plt.title(title)
+        ax.set_title(title)
         ax.set_aspect(abs((r-l)/(b-t))*0.25)
-        plt.tight_layout()
-        self.gene_ax = ax
+
+        if ax_ is None:
+            plt.tight_layout()
+            self.gene_ax = ax
 
 
 #    def gaussian_mixture
