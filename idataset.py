@@ -2,18 +2,22 @@ import matplotlib        as mpl
 import numpy             as np
 import pandas            as pd
 import trackpy           as tp
+import IPython.display   as Disp
 
 import os
 import tqdm
 import pims
 import skimage
+import cv2
 import h5py
 import PIL
 import cellpose
 
+from ipywidgets          import widgets
 from matplotlib          import pyplot as plt
 from matplotlib.colors   import hsv_to_rgb
 from matplotlib.colors   import rgb_to_hsv
+from matplotlib.path     import Path
 from cellpose.models     import Cellpose
 from skimage.measure     import label
 from skimage.measure     import regionprops
@@ -37,14 +41,17 @@ class idataset:
         self.rdirectory          = results_directory
         self.frames              = None
         self.n_frames            = None
-        self.max_intensities     = None
+        self.ninety_nine         = None
+        self.one                 = None
         self.timepoints          = None
         self.masks_cellpose      = None
         self.tracking            = None
         self.n_particles         = None
         self.masks_linked        = None
         self.colors              = None
+        self.masks_manual        = None #
         self.avg_intensities     = None
+        self.mm_avg_intensities  = None #
 
         self.get_frames()
         self.get_timepoints()
@@ -57,13 +64,13 @@ class idataset:
         attributes:
         * idataset.frames: list of pims stacks
         * idataset.n_frames: int, number of frames
-        * idataset.max_intensities: 1D np array, max pixel
-          intensity at each depth through the timelapse """
+        * idataset.ninety_nine & self.one: 1D np arrays, pixel
+          intensity quantiles at each depth through the timelapse """
 
         try:
             folders, self.frames = os.listdir(self.directory), []
             for folder in folders:
-                if self.date in folder and self.exper_id in folder:
+                if self.date in folder and folder.endswith(self.exper_id):
                     wd, cont, t = self.directory + folder, True, 1
                     while cont:
                         filename = wd + '/' + folder + '_w1_t' + str(t) + '.tif'
@@ -72,14 +79,16 @@ class idataset:
                         else:
                             cont = False
 
-            # find max intensity at each depth
+            # find 1st and 99th quantiles at each depth
             self.n_frames = len(self.frames)
-            self.max_intensities = np.zeros((len(self.frames[0]),))
+            self.ninety_nine = np.zeros((len(self.frames[0]),))
+            self.one = np.ones((len(self.frames[0]),)) * 10000
             for i in range(self.n_frames):
-                frameMaxIntensities = np.array(self.frames[i]).max(axis=1)
-                frameMaxIntensities = frameMaxIntensities.max(axis=1)
-                idx = (frameMaxIntensities > self.max_intensities).nonzero()
-                self.max_intensities[idx] = frameMaxIntensities[idx]
+                frameq = np.quantile(np.array(self.frames[i]), [0.99,0.01], axis=(1,2))
+                idx_99 = (frameq[0,:].T > self.ninety_nine).nonzero()
+                idx_01 = (frameq[1,:].T < self.one).nonzero()
+                self.ninety_nine[idx_99] = frameq[0,idx_99]
+                self.one[idx_01] = frameq[1,idx_01]
 
             print("Loaded timelapse:")
             print(f"t = {self.n_frames}")
@@ -127,12 +136,22 @@ class idataset:
 
 
 
-    def show_frames_at_depth(self, z):
+    def show_frames_at_depth(self, z='maxProj'):
         """ return scrollable frames at given depth """
 
-        frames_list, size, border, intensity = [], 200, 20, self.max_intensities[z]
+        frames_list, size, border = [], 200, 20
         for i in range(self.n_frames):
-            frame = self.frames[i][z]  # generate the timestamp as a square array (size x size)
+
+            if z == 'maxProj': # NEED TO FIX THIS
+                frame = np.array(self.frames[i]).max(axis=0)
+                intensity = max(self.max_intensities)
+            else:
+                frame = self.frames[i][z]
+                frame = np.clip(frame, self.one[z], self.ninety_nine[z])
+                frame -= self.one[z]
+                intensity = self.ninety_nine[z] - self.one[z]
+
+            # generate the timestamp as a square array (size x size)
             timestamp = self.text_stamp("{:03d}m".format(self.timepoints[i]), size, intensity)
 
             # select the indices where text exists -> frame corner
@@ -151,7 +170,8 @@ class idataset:
 
         for i in range(self.n_frames):
             self.frames[i] = self.frames[i][zmin:zmax+1]
-        self.max_intensities = self.max_intensities[zmin:zmax+1]
+        self.ninety_nine = self.ninety_nine[zmin:zmax+1]
+        self.one = self.one[zmin:zmax+1]
 
         print("Cropped timelapse:")
         print(f"t = {self.n_frames}")
@@ -237,23 +257,24 @@ class idataset:
                     feature['mask_cp'] = img[int(y+0.5), int(x+0.5)]
                     features = features.append([feature,])
 
-            # link features via Trackpy
-            tracking = tp.link(features, memory=memory_z,
-                                search_range=searchRange_z)
-            tracking = tp.filter_stubs(tracking,
-                            threshold=threshold_z)
-            tracking.reset_index(drop=True, inplace=True)
-
-            # link masks using particles identified by Trackpy
-            p = tracking['particle'].unique(); m = np.argsort(p) + 1
-            particle_to_mask = {p[i] : m[i] for i in range(m.shape[0])}
-            tracking['mask'] = tracking['particle'].map(particle_to_mask)
             masks_z = [np.zeros(mask[0].shape) for i in range(len(mask))]
-            for idx in tracking.index:
-                f = tracking.loc[idx,'frame']
-                m_cp = tracking.loc[idx,'mask_cp']
-                m_z = tracking.loc[idx,'mask']
-                masks_z[f][mask[f]==m_cp] = m_z
+            if features.shape[0] > 0:
+                # link features via Trackpy
+                tracking = tp.link(features, memory=memory_z,
+                                   search_range=searchRange_z)
+                tracking = tp.filter_stubs(tracking,
+                                        threshold=threshold_z)
+                tracking.reset_index(drop=True, inplace=True)
+
+                # link masks using particles identified by Trackpy
+                p = tracking['particle'].unique(); m = np.argsort(p) + 1
+                particle_to_mask = {p[i] : m[i] for i in range(m.shape[0])}
+                tracking['mask'] = tracking['particle'].map(particle_to_mask)
+                for idx in tracking.index:
+                    f = tracking.loc[idx,'frame']
+                    m_cp = tracking.loc[idx,'mask_cp']
+                    m_z = tracking.loc[idx,'mask']
+                    masks_z[f][mask[f]==m_cp] = m_z
             masks_link_z.append(masks_z)
 
 
@@ -282,6 +303,9 @@ class idataset:
         self.tracking['mask'] = self.tracking['particle'].map(particle_to_mask)
         self.masks_linked = [[np.zeros(img.shape[1:]) for _ in range(img.shape[0])]
                                                       for _ in range(self.n_frames)]
+        # list of empty arrays for later manual masking
+        self.masks_manual = [[np.zeros(img.shape[1:]) for _ in range(img.shape[0])]
+                                                      for _ in range(self.n_frames)]
         for idx in self.tracking.index:
             f = self.tracking.loc[idx,'frame']
             m_cp = self.tracking.loc[idx,'mask_cp']
@@ -301,32 +325,36 @@ class idataset:
         frames_list, size, border, spacing = [], 200, 20, 25
         for i in range(self.n_frames):
             frame = self.frames[i][z]
+            frame = np.clip(frame, self.one[z], self.ninety_nine[z])
+            frame -= self.one[z]
             mask = self.masks_linked[i][z]
 
             # add masks from segmentation over top of cells
             HSV = np.zeros((frame.shape[0], frame.shape[1], 3))
-            HSV[:,:,2] = frame/self.max_intensities[z]  # [0,1]
+            intensity = self.ninety_nine[z] - self.one[z]
+            HSV[:,:,2] = frame/intensity  # [0,1]
             for n in range(int(self.tracking['mask'].max())):
                 ipix = (mask==n+1).nonzero()
                 HSV[ipix[0],ipix[1],0] = self.colors[n,0]
                 HSV[ipix[0],ipix[1],1] = 1.0
 
-                # add mask labels along the bottom
-                label = self.text_stamp(f"{n+1}", 50, 1.0)
+                if n in range(9):
+                    # add mask labels along the bottom
+                    label = self.text_stamp(f"{n+1}", 50, 1.0)
 
-                # select the indices where text exists in label -> bottom
-                idxs = np.stack(list(label.nonzero()), axis=0).T
-                idxs_frame = idxs.copy()
-                idxs_frame[:,0] += frame.shape[0] - label.shape[0] - border
-                idxs_frame[:,1] += border*(n+1) + spacing*n
-                HSV[idxs_frame[:,0], idxs_frame[:,1], 0] = self.colors[n,0]
-                HSV[idxs_frame[:,0], idxs_frame[:,1], 1] = 1.0
-                HSV[idxs_frame[:,0], idxs_frame[:,1], 2] = 0.8
+                    # select the indices where text exists in label -> bottom
+                    idxs = np.stack(list(label.nonzero()), axis=0).T
+                    idxs_frame = idxs.copy()
+                    idxs_frame[:,0] += frame.shape[0] - label.shape[0] - border
+                    idxs_frame[:,1] += border*(n+1) + spacing*n
+                    HSV[idxs_frame[:,0], idxs_frame[:,1], 0] = self.colors[n,0]
+                    HSV[idxs_frame[:,0], idxs_frame[:,1], 1] = 1.0
+                    HSV[idxs_frame[:,0], idxs_frame[:,1], 2] = 0.8
 
-            frame = (hsv_to_rgb(HSV) * self.max_intensities[z]).astype(int)
+            frame = (hsv_to_rgb(HSV) * intensity).astype(int)
 
             # add timestamp: select the indices where text exists in label -> add to frame lower right corner
-            timestamp = self.text_stamp("{:03d}m".format(self.timepoints[i]), size, self.max_intensities[z])
+            timestamp = self.text_stamp("{:03d}m".format(self.timepoints[i]), size, intensity)
             idxs = np.stack(list(timestamp.nonzero()), axis=0).T
             idxs_frame = idxs.copy()
             idxs_frame[:,0] += frame.shape[0] - timestamp.shape[0] - border
@@ -338,67 +366,190 @@ class idataset:
 
 
 
-    def cell_per_pixel_intensities(self):
+    def draw_masks_manually(self, z, t):
+        """ use matplotlib to manually select regions as masks """
+
+        # points in polygon path
+        def poly_img(img, pts):
+            pts = np.array(pts, np.int32)
+            pts = pts.reshape((-1,1,2))
+            cv2.polylines(img, [pts], True, intensity, 3)
+            return img
+
+        # select new point -> display image + polygon
+        def onclick(event):
+            selected_points.append([round(event.xdata), round(event.ydata)])
+            if len(selected_points)>1:
+                fig; img.set_data(poly_img(frame.copy(), selected_points))
+
+        # end drawing and update manual masks
+        def disconnect_mpl(_):
+            fig.canvas.mpl_disconnect(ka); plt.close(fig); Disp.clear_output()
+            mask_path = Path(selected_points)
+            x = np.indices(frame.shape)
+            x = np.array([x[1,...].ravel(), x[0,...].ravel()]).T
+            mask_coords = x[mask_path.contains_points(x), :]
+            self.masks_manual[t][z][mask_coords[:,1],mask_coords[:,0]] = 1
+
+        # prepare image for display
+        t = np.where(self.timepoints == t)[0][0]
+        frame, size, border = self.frames[t][z], 200, 20
+        frame = np.clip(frame, self.one[z], self.ninety_nine[z])
+        frame -= self.one[z]
+        intensity = self.ninety_nine[z] - self.one[z]
+
+        # generate the timestamp as a square array (size x size)
+        timestamp = self.text_stamp("{:03d}m".format(self.timepoints[t]), size, intensity)
+
+        # select the indices where text exists in stamp -> frame corner
+        idxs = np.stack(list(timestamp.nonzero()), axis=0).T; idxs_frame = idxs.copy()
+        idxs_frame[:,0] += frame.shape[0] - timestamp.shape[0] - border
+        idxs_frame[:,1] += frame.shape[1] - timestamp.shape[1] - border
+        frame[idxs_frame[:,0], idxs_frame[:,1]] = timestamp[idxs[:,0], idxs[:,1]]
+
+        # perform manual masking
+        selected_points = []; fig, ax = plt.subplots(dpi=150)
+        img = ax.imshow(frame.copy(), cmap='gray')
+        ka = fig.canvas.mpl_connect('button_press_event', onclick)
+        disconnect_button = widgets.Button(description="Done")
+        Disp.display(disconnect_button)
+        disconnect_button.on_click(disconnect_mpl)
+
+
+
+    def save_manual_masks(self,):
+        """ save manual masks to hdf5 file """
+
+        h5f = h5py.File(f"{self.mdirectory}{self.date}_{self.exper_id}_manual.h5", 'w')
+        h5f.create_dataset('manual_masks', data=self.masks_manual); h5f.close()
+        print('Successfully saved manual masks to hdf5 file.')
+
+
+
+    def load_manual_masks(self,):
+        """ load manual masks from hdf5 file """
+
+        h5f = h5py.File(f"{self.mdirectory}{self.date}_{self.exper_id}_manual.h5",'r')
+        self.masks_manual = h5f['manual_masks'][:]; h5f.close()
+        print('Successfully loaded manual masks from hdf5 file.')
+
+
+
+    def cell_per_pixel_intensities(self, combine=None):
         """ apply masks to frames to compute cells' per pixel intensities
 
+        parameters:
+        * combine: list of cell numbers for combined analysis, optional
+
         attributes:
-        * idataset.avg_intensities: np array, n_frames x n_particles """
+        * idataset.avg_intensities: np array, n_frames x n_particles
+          (additional column in last position if combined is not None)
+        * idataset.mm_avg_intensities: np array, n_frames x 1, intensities
+          from manual masks """
 
-        self.avg_intensities = np.empty((self.n_frames, self.n_particles))
-        self.avg_intensities[:] = np.nan
-        for i in range(self.n_frames):
-            frame = np.array(self.frames[i])
-            mask = self.masks_linked[i]
-            mask = np.dstack(mask).astype(int)
-            mask = np.rollaxis(mask, -1)
+        if combine is None:
+            self.avg_intensities = np.empty((self.n_frames, self.n_particles))
+            self.mm_avg_intensities = np.empty((self.n_frames, 1))
+            self.avg_intensities[:] = np.nan
+            self.mm_avg_intensities[:] = np.nan
+            for i in range(self.n_frames):
+                frame = np.array(self.frames[i])
+                mask = self.masks_linked[i]
+                mask = np.dstack(mask).astype(int)
+                mask = np.rollaxis(mask, -1)
+                mmask = self.masks_manual[i]
+                mmask = np.dstack(mmask).astype(int)
+                mmask = np.rollaxis(mmask, -1)
 
-            cells = np.arange(self.n_particles)
-            cells = cells[np.isin(cells+1, mask)]
+                cells = np.arange(self.n_particles)
+                cells = cells[np.isin(cells+1, mask)]
 
-            sums = np.bincount(mask.ravel(), frame.ravel())
-            counts = np.bincount(mask.ravel())
-            idx = cells[np.isin(cells+1, mask)]+1
-            avg = sums[idx]/counts[idx]
-            self.avg_intensities[i,cells] = avg
+                sums = np.bincount(mask.ravel(), frame.ravel())
+                counts = np.bincount(mask.ravel())
+                idx = cells[np.isin(cells+1, mask)]+1 # same as cells + 1, right?
+                avg = sums[idx]/counts[idx]
+                self.avg_intensities[i,cells] = avg
+                self.mm_avg_intensities[i] = frame[np.nonzero(mmask)].sum()/mmask.sum()
+
+        else:
+            self.avg_intensities = np.empty((self.n_frames, self.n_particles+1))
+            self.mm_avg_intensities = np.empty((self.n_frames, 1))
+            self.avg_intensities[:] = np.nan; combine = np.array(combine)
+            self.mm_avg_intensities[:] = np.nan
+            for i in range(self.n_frames):
+                frame = np.array(self.frames[i])
+                mask = self.masks_linked[i]
+                mask = np.dstack(mask).astype(int)
+                mask = np.rollaxis(mask, -1)
+                mmask = self.masks_manual[i]
+                mmask = np.dstack(mmask).astype(int)
+                mmask = np.rollaxis(mmask, -1)
+
+                cells = np.arange(self.n_particles)
+                cells = cells[np.isin(cells+1, mask)]
+
+                sums = np.bincount(mask.ravel(), frame.ravel())
+                counts = np.bincount(mask.ravel())
+                idx = cells[np.isin(cells+1, mask)]+1 # same as cells + 1, right?
+                avg = sums[idx]/counts[idx]
+                self.avg_intensities[i,cells] = avg
+                self.mm_avg_intensities[i] = frame[np.nonzero(mmask)].sum()/mmask.sum()
+
+                cells_c = combine[np.isin(combine, mask)]-1
+                if cells_c.shape[0]>0:
+                    idx_c = cells_c[np.isin(cells_c+1, mask)]+1
+                    avg_c = sums[idx_c].sum()/counts[idx_c].sum()
+                    self.avg_intensities[i,-1] = avg_c
+
         print('Calculated average intensities per pixel.')
 
 
 
-    def plot_intensities(self, cells, vline=None):
-        """ return a scatter plot of cells' per pixel intensities """
+    def plot_intensities(self, cells, normalize_by=None):
+        """ return a scatter plot of cells' average intensities,
+            denoting intensities from manual masks with stars """
 
-        cells  = [x-1 for x in cells]
-        plt.figure()
+        plt.figure(); cells  = [x-1 for x in cells]
+        colors = np.append(self.colors, [[0,0,0]], axis=0)
         for i in cells:
-            plt.scatter(self.timepoints, self.avg_intensities[:,i],
-                        color=hsv_to_rgb(self.colors[i,:]), marker='.')
+
+            if normalize_by is not None:
+                normalize_by = [x-1 for x in normalize_by]
+                m = np.nanmean(self.avg_intensities[:,normalize_by], axis=1)
+                y = self.avg_intensities[:,i]/m
+                y_mm = np.squeeze(self.mm_avg_intensities)/m
+
+            else:
+                y = self.avg_intensities[:,i]
+                y_mm = self.mm_avg_intensities
+
+            plt.scatter(self.timepoints, y, marker='.',
+                        color=hsv_to_rgb(colors[i,:]))
+
+        plt.scatter(self.timepoints, y_mm, marker='*',color='k')
+
         ax = plt.gca()
         l,r = ax.get_xlim()
         b,t = ax.get_ylim()
-
-        if vline != None:
-            plt.vlines(vline, b, t, color='k',
-                        linestyles='dashed')
-            ax.set_ylim(b,t)
-
         ax.set_xlabel('time (m)')
-        ax.set_ylabel('fluor./pix. (AU)')
+        ax.set_ylabel('norm. fluor. (AU)')
         ax.set_aspect(abs((r-l)/(b-t))*0.25)
         plt.tight_layout()
 
 
 
-    def save_intensities_to_csv(self, precursor, daughter, cutoff=None):
-        """ save precursor and daughter cells' per pixel intensities to csv """
+    def save_intensities_to_csv(self, cell, normalize_by):
+        """ save precursor and daughter cells' per pixel intensities to csv,
+            combining automated and manual segmentation results """
 
-        precursor -= 1; daughter -= 1; results = pd.DataFrame()
-        results['Timepoints (min)'] = self.timepoints
-        results['Precursor'] = self.avg_intensities[:, precursor]
-        results['Daughter'] = self.avg_intensities[:, daughter]
+        cell -= 1; normalize_by = [x-1 for x in normalize_by]
+        results = pd.DataFrame(); results['Timepoints (min)'] = self.timepoints
+        results['Intensity/pixel (AU)'] = self.avg_intensities[:, cell]
+        manual_idx = np.where(~np.isnan(self.mm_avg_intensities))
+        results.loc[manual_idx[0],'Intensity/pixel (AU)'] = self.mm_avg_intensities[manual_idx]
+        m = np.nanmean(self.avg_intensities[:,normalize_by], axis=1)
+        results['Normalized (AU)'] = results['Intensity/pixel (AU)']/m
         results.set_index('Timepoints (min)', drop=True, inplace=True)
-
-        if cutoff:
-            results = results[results.index < cutoff]
 
         results.to_csv(f"{self.rdirectory}{self.date}_{self.exper_id}.csv")
         print('Successfully saved intensities to csv file in results_directory.')
