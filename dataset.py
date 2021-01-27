@@ -41,6 +41,7 @@ from rpy2.robjects.packages import importr
 base = importr("base")
 dollar = base.__dict__["$"]
 deseq = importr('DESeq2')
+tradeseq = importr('tradeSeq')
 
 
 class dataset:

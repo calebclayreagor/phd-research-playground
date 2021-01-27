@@ -1,0 +1,28 @@
+global_settings:
+    model_dir: 'inputs'
+    output_dir: 'inputs'
+    do_simulations: True
+    do_post_processing: True
+    modeltype: 'hill'
+
+jobs:
+    - name: 'linear_1'
+      model_definition: 'linear_1/model.txt'
+      interaction_strengths: 'linear_1/strengths.txt'
+      model_initial_conditions: 'linear_1/ics.txt'
+      simulation_time: 25
+      num_cells: 300
+      do_parallel: True
+      sample_pars: True
+      sample_std: 0.5
+      identical_pars: False
+
+post_processing:
+    GenSamples:
+        - sample_size: 300
+          nDatasets: 10
+
+    Dropouts:
+        - dropout: True
+          drop_cutoff: 0.7
+          drop_prob: 0.7

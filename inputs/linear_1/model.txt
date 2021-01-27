@@ -1,0 +1,66 @@
+Gene	Rule
+g0	(g0 or g6)
+g1	(g0 and g6)
+g2	(g1 and g6)
+g3	(g2 and g6)
+g4	(g3 and g6)
+g5	(g4 and g6)
+g6	not (g5 or g7)
+g7	not (g6)
+g8	(g7 or g8)
+g9	g8
+g10	(g9 or g10)
+g11	(g10 or g11)
+g12	g11
+g13	(g12 or g13)
+g14	(g13 or g14)
+g15	not (g8)
+g16	not (g11)
+g17	g11
+g18	g12
+g19	not (g6)
+g20	g11
+g21	g8
+g22	g11
+g23	not (g4)
+g24	g0
+g25	not (g12)
+g26	not (g8)
+g27	not (g5)
+g28	g0
+g29	not (g12)
+g30	g1
+g31	g10
+g32	not (g4)
+g33	not (g2)
+g34	not (g0)
+g35	not (g3)
+g36	g14
+g37	not (g12)
+g38	not (g14)
+g39	g2
+g40	g9
+g41	g13
+g42	not (g4)
+g43	not (g6)
+g44	not (g10)
+g45	g2
+g46	g14
+g47	g12
+g48	g7
+g49	not (g3)
+g50	g6
+g51	not (g13)
+g52	not (g14)
+g53	not (g10)
+g54	g5
+g55	g8
+g56	g1
+g57	not (g10)
+g58	not (g3)
+g59	g10
+g60	g0
+g61	not (g7)
+g62	not (g11)
+g63	not (g6)
+g64	not (g2)

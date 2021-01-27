@@ -1,0 +1,65 @@
+input_settings:
+    input_dir: 'inputs'
+    dataset_dir: 'linear_1'
+    datasets:
+        - name: 'linear_1-300-1-70-0.7'
+          exprData: 'ExpressionData.csv'
+          cellData: 'PseudoTime.csv'
+          trueEdges: 'refNetwork.csv'
+        - name: 'linear_1-300-2-70-0.7'
+          exprData: 'ExpressionData.csv'
+          cellData: 'PseudoTime.csv'
+          trueEdges: 'refNetwork.csv'
+        - name: 'linear_1-300-3-70-0.7'
+          exprData: 'ExpressionData.csv'
+          cellData: 'PseudoTime.csv'
+          trueEdges: 'refNetwork.csv'
+        - name: 'linear_1-300-4-70-0.7'
+          exprData: 'ExpressionData.csv'
+          cellData: 'PseudoTime.csv'
+          trueEdges: 'refNetwork.csv'
+        - name: 'linear_1-300-5-70-0.7'
+          exprData: 'ExpressionData.csv'
+          cellData: 'PseudoTime.csv'
+          trueEdges: 'refNetwork.csv'
+        - name: 'linear_1-300-6-70-0.7'
+          exprData: 'ExpressionData.csv'
+          cellData: 'PseudoTime.csv'
+          trueEdges: 'refNetwork.csv'
+        - name: 'linear_1-300-7-70-0.7'
+          exprData: 'ExpressionData.csv'
+          cellData: 'PseudoTime.csv'
+          trueEdges: 'refNetwork.csv'
+        - name: 'linear_1-300-8-70-0.7'
+          exprData: 'ExpressionData.csv'
+          cellData: 'PseudoTime.csv'
+          trueEdges: 'refNetwork.csv'
+        - name: 'linear_1-300-9-70-0.7'
+          exprData: 'ExpressionData.csv'
+          cellData: 'PseudoTime.csv'
+          trueEdges: 'refNetwork.csv'
+        - name: 'linear_1-300-10-70-0.7'
+          exprData: 'ExpressionData.csv'
+          cellData: 'PseudoTime.csv'
+          trueEdges: 'refNetwork.csv'
+    algorithms:
+        - name: 'SINCERITIES'
+          params:
+              should_run: [True]
+              nBins: [10]
+        - name: 'PPCOR'
+          params:
+              should_run: [True]
+              pVal: [0.01]
+        - name: 'GRNBOOST2'
+          params:
+              should_run: [True]
+        - name: 'GENIE3'
+          params:
+              should_run: [True]
+        - name: 'PIDC'
+          params:
+              should_run: [True]
+output_settings:
+    output_dir: 'outputs'
+    output_prefix: 'linear_1' 
