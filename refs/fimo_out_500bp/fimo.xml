@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Begin document body -->
+<fimo version="5.1.1" release="Wed Feb 12 17:20:50 2020 -0800">
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation=  xmlns:fimo="http://noble.gs.washington.edu/schema/fimo"
+>
+<command-line>fimo diffextfs_motifs.meme promoters500bp_biomart.txt</command-line>
+<settings>
+<setting name="output directory">fimo_out</setting>
+<setting name="MEME file name">diffextfs_motifs.meme</setting>
+<setting name="sequence file name">promoters500bp_biomart.txt</setting>
+<setting name="background file name">--nrdb--</setting>
+<setting name="allow clobber">true</setting>
+<setting name="compute q-values">true</setting>
+<setting name="parse genomic coord.">false</setting>
+<setting name="text only">false</setting>
+<setting name="scan both strands">true</setting>
+<setting name="output threshold">0.0001</setting>
+<setting name="threshold type">p-value</setting>
+<setting name="max stored scores">100000</setting>
+<setting name="pseudocount">0.1</setting>
+<setting name="verbosity">2</setting>
+</settings>
+<sequence-data num-sequences="63" num-residues="31500" />
+<alphabet name="DNA" like="dna">
+<letter id="A" symbol="A" complement="T" name="Adenine" colour="CC0000"/>
+<letter id="C" symbol="C" complement="G" name="Cytosine" colour="0000CC"/>
+<letter id="G" symbol="G" complement="C" name="Guanine" colour="FFB300"/>
+<letter id="T" symbol="T" aliases="U" complement="A" name="Thymine" colour="008000"/>
+<letter id="N" symbol="N" aliases="X." equals="ACGT" name="Any base"/>
+<letter id="V" symbol="V" equals="ACG" name="Not T"/>
+<letter id="H" symbol="H" equals="ACT" name="Not G"/>
+<letter id="D" symbol="D" equals="AGT" name="Not C"/>
+<letter id="B" symbol="B" equals="CGT" name="Not A"/>
+<letter id="M" symbol="M" equals="AC" name="Amino"/>
+<letter id="R" symbol="R" equals="AG" name="Purine"/>
+<letter id="W" symbol="W" equals="AT" name="Weak"/>
+<letter id="S" symbol="S" equals="CG" name="Strong"/>
+<letter id="Y" symbol="Y" equals="CT" name="Pyrimidine"/>
+<letter id="K" symbol="K" equals="GT" name="Keto"/>
+</alphabet>
+<motif name="ENSDARG00000001785" alt="(irx2a)_(Mus_musculus)_(DBD_0.98)_(M00386_2.00)" width="9" best-possible-match="ATTACATGA"/>
+<motif name="ENSDARG00000002445" alt="(prdm1a)_(Homo_sapiens)_(DBD_0.98)_(M4545_1.02)" width="15" best-possible-match="AGAAAGTGAAAGTGA"/>
+<motif name="ENSDARG00000002937" alt="(meis1a)_(Mus_musculus)_(DBD_0.96)_(M00488_2.00)" width="9" best-possible-match="TTGACAGGT"/>
+<motif name="ENSDARG00000004588" alt="(sox4a)_(Homo_sapiens)_(DBD_1.00)_(M01026_2.00)" width="8" best-possible-match="AACAAAGG"/>
+<motif name="ENSDARG00000004757" alt="(ybx1)_(Nematostella_vectensis)_(DBD_0.82)_(M01207_2.00)" width="8" best-possible-match="GAAGATAG"/>
+<motif name="ENSDARG00000005559" alt="(pou4f1)_(Caenorhabditis_elegans)_(DBD_0.83)_(M1229_1.02)" width="8" best-possible-match="ATATGCAT"/>
+<motif name="ENSDARG00000008131" alt="(sox1b)_(Mus_musculus)_(DBD_0.96)_(M00208_2.00)" width="9" best-possible-match="ATTGTTTTT"/>
+<motif name="ENSDARG00000009094" alt="(gata2b)_(Mus_musculus)_(DBD_0.96)_(M00166_2.00)" width="10" best-possible-match="TAGAGATAAG"/>
+<motif name="ENSDARG00000012656" alt="(atf6)_(Homo_sapiens)_(DBD_0.69)_(M04018_2.00)" width="12" best-possible-match="GATGACGTGGCA"/>
+<motif name="ENSDARG00000014463" alt="(usf1l)_(Mus_musculus)_(DBD_0.80)_(M0197_1.02)" width="11" best-possible-match="TATCACGTGGG"/>
+<motif name="ENSDARG00000014626" alt="(dlx3b)_(Mus_musculus)_(DBD_1.00)_(M00387_2.00)" width="9" best-possible-match="ATAATTGCC"/>
+<motif name="ENSDARG00000015355" alt="(fosl1a)_(Homo_sapiens)_(DBD_0.79)_(M04035_2.00)" width="10" best-possible-match="ATGACGTCAT"/>
+<motif name="ENSDARG00000015793" alt="(creb3l1)_(Monodelphis_domestica)_(DBD_0.78)_(M01143_2.00)" width="8" best-possible-match="TACGTGGC"/>
+<motif name="ENSDARG00000016858" alt="(smad7)_(Mus_musculus)_(NA)_(PB0060.1)" width="17" best-possible-match="CAAATCCAGACATCAGA"/>
+<motif name="ENSDARG00000018757" alt="(klf5l)_(Mus_musculus)_(DBD_0.88)_(M00134_2.00)" width="10" best-possible-match="GCCACGCCCA"/>
+<motif name="ENSDARG00000019335" alt="(hes6)_(Homo_sapiens)_(NA)_(MA1493.1)" width="10" best-possible-match="GGCACGTGTT"/>
+<motif name="ENSDARG00000019810" alt="(nfe2l3)_(Drosophila_melanogaster)_(DBD_0.50)_(M03656_2.00)" width="16" best-possible-match="GTCATCATGACGTCAT"/>
+<motif name="ENSDARG00000020746" alt="(gfi1aa)_(Homo_sapiens)_(DBD_0.96)_(M00238_2.00)" width="9" best-possible-match="AAATCAGAG"/>
+<motif name="ENSDARG00000026473" alt="(six1b)_(Mus_musculus)_(DBD_0.98)_(M00512_2.00)" width="10" best-possible-match="ATGATACCCC"/>
+<motif name="ENSDARG00000028335" alt="(hmga1a)_(Mus_musculus)_(DBD_0.72)_(M00751_2.00)" width="10" best-possible-match="GCGCAATAAA"/>
+<motif name="ENSDARG00000031664" alt="(sox21a)_(Mus_musculus)_(DBD_0.90)_(M00827_2.00)" width="8" best-possible-match="ATTGTTTT"/>
+<motif name="ENSDARG00000031683" alt="(fosab)_(Homo_sapiens)_(DBD_0.92)_(M08069_2.00)" width="11" best-possible-match="TGTGACTCATT"/>
+<motif name="ENSDARG00000032317" alt="(tox)_(Mus_musculus)_(NA)_(Artegiani_et_al_2015)" width="10" best-possible-match="GGCGGGGGCG"/>
+<motif name="ENSDARG00000034293" alt="(hif1ab)_(Homo_sapiens)_(NA)_(MA1106.1)" width="10" best-possible-match="GTACGTGCCC"/>
+<motif name="ENSDARG00000034785" alt="(dachb)_(Homo_sapiens)_(NA)_(UN0306.1)" width="10" best-possible-match="AACAGCTGTT"/>
+<motif name="ENSDARG00000034956" alt="(myclb)_(NA)_(NA)_(M1927_1.02)" width="8" best-possible-match="GCCACGTG"/>
+<motif name="ENSDARG00000035508" alt="(barhl1a)_(Mus_musculus)_(DBD_1.0)_(M00433_2.00)" width="9" best-possible-match="CTAATTGGT"/>
+<motif name="ENSDARG00000035622" alt="(xbp1)_(Mus_musculus)_(DBD_0.77)_(M00757_2.00)" width="10" best-possible-match="GATGACGTGT"/>
+<motif name="ENSDARG00000037030" alt="(casz1)_(Homo_sapiens)_(NA)_(Liu_et_al_2020)" width="8" best-possible-match="AGCAGCTG"/>
+<motif name="ENSDARG00000037397" alt="(ssrp1a)_(Neurospora_crassa)_(DBD_0.43)_(M02490_2.00)" width="10" best-possible-match="AAATTCCCAT"/>
+<motif name="ENSDARG00000037421" alt="(egr1)_(Mus_musculus)_(DBD_0.97)_(M00375_2.00)" width="9" best-possible-match="GCCCACGCA"/>
+<motif name="ENSDARG00000037639" alt="(nkx3)_(Mus_musculus)_(DBD_1.00)_(M00506_2.00)" width="9" best-possible-match="TTAAGTGGT"/>
+<motif name="ENSDARG00000038792" alt="(klf17)_(Homo_sapiens)_(DBD_0.93)_(M04455_2.00)" width="11" best-possible-match="CACCACGCCCA"/>
+<motif name="ENSDARG00000039117" alt="(tefa)_(Homo_sapiens)_(DBD_0.81)_(M02850_2.00)" width="12" best-possible-match="TATTATGTAATA"/>
+<motif name="ENSDARG00000040764" alt="(id1)_(Mus_musculus)_(NA)_(M0189_1.02)" width="8" best-possible-match="GCACGTGA"/>
+<motif name="ENSDARG00000042667" alt="(klf2a)_(Homo_sapiens)_(DBD_0.93)_(M04455_2.00)" width="11" best-possible-match="CACCACGCCCA"/>
+<motif name="ENSDARG00000042824" alt="(nfe2l2a)_(Homo_sapiens)_(DBD_0.73)_(M08789_2.00)" width="14" best-possible-match="ATGACTCAGCAGTT"/>
+<motif name="ENSDARG00000043531" alt="(jun)_(Mus_musculus)_(DBD_0.95)_(M00995_2.00)" width="9" best-possible-match="ATGACGCAA"/>
+<motif name="ENSDARG00000044375" alt="(zgc:158291)_(Caenorhabditis_elegans)_(NA)_(M1229_1.02)" width="8" best-possible-match="ATATGCAT"/>
+<motif name="ENSDARG00000053301" alt="(insm1b)_(Homo_sapiens)_(NA)_(MA0155.1)" width="12" best-possible-match="TGTCAGGGGGCG"/>
+<motif name="ENSDARG00000053569" alt="(sox3)_(Mus_musculus)_(DBD_0.96)_(M00208_2.00)" width="9" best-possible-match="ATTGTTTTT"/>
+<motif name="ENSDARG00000054560" alt="(her15)_(Homo_sapiens)_(NA)_(MA0821.1)" width="12" best-possible-match="CGGCACGTGCCA"/>
+<motif name="ENSDARG00000054562" alt="(her15)_(Homo_sapiens)_(NA)_(MA0821.1)" width="12" best-possible-match="CGGCACGTGCCA"/>
+<motif name="ENSDARG00000055283" alt="(id2a)_(Mus_musculus)_(NA)_(M0189_1.02)" width="8" best-possible-match="GCACGTGA"/>
+<motif name="ENSDARG00000055294" alt="(atoh1a)_(Homo_sapiens)_(DBD_0.90)_(M04169_2.00)" width="10" best-possible-match="AACATATGTC"/>
+<motif name="ENSDARG00000056729" alt="(her4)_(Homo_sapiens)_(NA)_(MA0821.1)" width="12" best-possible-match="CGGCACGTGCCA"/>
+<motif name="ENSDARG00000056732" alt="(her4)_(Homo_sapiens)_(NA)_(MA0821.1)" width="12" best-possible-match="CGGCACGTGCCA"/>
+<motif name="ENSDARG00000059337" alt="(tgif1)_(Mus_musculus)_(DBD_0.85)_(M00521_2.00)" width="10" best-possible-match="ATTGACAGGT"/>
+<motif name="ENSDARG00000059836" alt="(ddit3)_(Mus_musculus)_(NA)_(UN0251.1)" width="15" best-possible-match="AGATGATGTAATCTT"/>
+<motif name="ENSDARG00000063438" alt="(srebf2)_(Mus_musculus)_(DBD_0.74)_(M00754_2.00)" width="10" best-possible-match="ATCACGCGAT"/>
+<motif name="ENSDARG00000070538" alt="(hey1)_(Homo_sapiens)_(DBD_0.98)_(M02793_2.00)" width="10" best-possible-match="GACACGTGCC"/>
+<motif name="ENSDARG00000070922" alt="(cnbpb)_(Homo_sapiens)_(NA)_(Lee_et_al_2017)" width="8" best-possible-match="AAATGAGA"/>
+<motif name="ENSDARG00000071560" alt="(dlx4b)_(Mus_musculus)_(DBD_0.90)_(M00409_2.00)" width="8" best-possible-match="ATAATTGC"/>
+<motif name="ENSDARG00000074030" alt="(myt1a)_(Mus_musculus)_(NA)_(Mall_et_al_2017)" width="12" best-possible-match="AAAGTTAACTTT"/>
+<motif name="ENSDARG00000074378" alt="(junba)_(Mus_musculus)_(DBD_0.88)_(M00760_2.00)" width="8" best-possible-match="TGACTCAT"/>
+<motif name="ENSDARG00000077982" alt="(elf3)_(Mus_musculus)_(DBD_0.93)_(M00156_2.00)" width="10" best-possible-match="ACCCGGAAGT"/>
+<motif name="ENSDARG00000091756" alt="(insm1a)_(Homo_sapiens)_(NA)_(MA0155.1)" width="12" best-possible-match="TGTCAGGGGGCG"/>
+<motif name="ENSDARG00000095743" alt="(sox11b)_(Mus_musculus)_(DBD_0.99)_(M00210_2.00)" width="9" best-possible-match="ATTGTTTTC"/>
+<motif name="ENSDARG00000099564" alt="(atoh1b)_(Mus_musculus)_(DBD_0.81)_(M01754_2.00)" width="10" best-possible-match="AACATATGGC"/>
+<motif name="ENSDARG00000100244" alt="(ebf3a)_(Mus_musculus)_(DBD_0.94)_(M09045_2.00)" width="13" best-possible-match="AGTCCCTGGGGAC"/>
+<motif name="ENSDARG00000101919" alt="(foxj1a)_(Mus_musculus)_(DBD_0.95)_(M00161_2.00)" width="12" best-possible-match="AATAAACAAACA"/>
+<motif name="ENSDARG00000103791" alt="(nme2)_(Homo_sapiens)_(NA)_(Yadav_et_al_2014)" width="12" best-possible-match="GGCTGAGGTGGC"/>
+<motif name="ENSDARG00000104773" alt="(junbb)_(Homo_sapiens)_(DBD_0.84)_(M08070_2.00)" width="11" best-possible-match="GGATGACTCAT"/>
+<background source="--nrdb--">
+<value letter="A">0.275</value>
+<value letter="C">0.225</value>
+<value letter="G">0.225</value>
+<value letter="T">0.275</value>
+</background>
+<cisml-file>cisml.xml</cisml-file>
+</fimo>
